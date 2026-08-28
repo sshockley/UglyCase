@@ -1,6 +1,6 @@
 v: 2
-timestamp: '2026-08-28T16:10:23.275067'
-uid: 00fe2532-3573-41c5-8ca4-7f3edcf5963b
+timestamp: '2026-08-28T17:26:10.865457'
+uid: a546aef2-51a7-4fbe-99bb-c49c63842e79
 objects:
 - name: Parameters
   id: 2132
@@ -129,7 +129,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 95.0 mm
+          value: 97.0 mm
         Alias:
           type: STRING
           value: Height
@@ -2272,16 +2272,47 @@ objects:
       paths:
         .:
           type: STRING
-          value: -- HEX INTAKE VENTS --
+          value: LidRecessDrop
+      group: Base
+    B80:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 3.5 mm
+        Alias:
+          type: STRING
+          value: LidRecessDrop
+      group: Base
+    C80:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: mm
+      group: Base
+    D80:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Recess of the pad on the lid
       group: Base
     A81:
       kind: Primitive
       paths:
         .:
           type: STRING
+          value: -- HEX INTAKE VENTS --
+      group: Base
+    A82:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
           value: HexF
       group: Base
-    B81:
+    B82:
       kind: Primitive
       paths:
         .:
@@ -2290,37 +2321,6 @@ objects:
         Alias:
           type: STRING
           value: HexF
-      group: Base
-    C81:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: mm
-      group: Base
-    D81:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: hex cell across flats
-      group: Base
-    A82:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: HexWeb
-      group: Base
-    B82:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 2.25 mm
-        Alias:
-          type: STRING
-          value: HexWeb
       group: Base
     C82:
       kind: Primitive
@@ -2334,24 +2334,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: material between hex cells
+          value: hex cell across flats
       group: Base
     A83:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: HexY0
+          value: HexWeb
       group: Base
     B83:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 52.0 mm
+          value: 2.25 mm
         Alias:
           type: STRING
-          value: HexY0
+          value: HexWeb
       group: Base
     C83:
       kind: Primitive
@@ -2365,24 +2365,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: hex field, low-Y
+          value: material between hex cells
       group: Base
     A84:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: HexZ0
+          value: HexY0
       group: Base
     B84:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 38.0 mm
+          value: 52.0 mm
         Alias:
           type: STRING
-          value: HexZ0
+          value: HexY0
       group: Base
     C84:
       kind: Primitive
@@ -2396,24 +2396,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: hex field, low-Z
+          value: hex field, low-Y
       group: Base
     A85:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: HexY1
+          value: HexZ0
       group: Base
     B85:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 162.0 mm
+          value: 38.0 mm
         Alias:
           type: STRING
-          value: HexY1
+          value: HexZ0
       group: Base
     C85:
       kind: Primitive
@@ -2427,24 +2427,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: hex field, high-Y
+          value: hex field, low-Z
       group: Base
     A86:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: HexZ1
+          value: HexY1
       group: Base
     B86:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 85.5 mm
+          value: 162.0 mm
         Alias:
           type: STRING
-          value: HexZ1
+          value: HexY1
       group: Base
     C86:
       kind: Primitive
@@ -2458,23 +2458,54 @@ objects:
       paths:
         .:
           type: STRING
-          value: hex field, high-Z
+          value: hex field, high-Y
       group: Base
     A87:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: -- REFERENCE GEOMETRY PLACEMENT --
+          value: HexZ1
+      group: Base
+    B87:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 85.5 mm
+        Alias:
+          type: STRING
+          value: HexZ1
+      group: Base
+    C87:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: mm
+      group: Base
+    D87:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: hex field, high-Z
       group: Base
     A88:
       kind: Primitive
       paths:
         .:
           type: STRING
+          value: -- REFERENCE GEOMETRY PLACEMENT --
+      group: Base
+    A89:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
           value: BoardOffX
       group: Base
-    B88:
+    B89:
       kind: Primitive
       paths:
         .:
@@ -2483,37 +2514,6 @@ objects:
         Alias:
           type: STRING
           value: BoardOffX
-      group: Base
-    C88:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: mm
-      group: Base
-    D88:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: board assembly origin offset, X
-      group: Base
-    A89:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: BoardOffY
-      group: Base
-    B89:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 52.0 mm
-        Alias:
-          type: STRING
-          value: BoardOffY
       group: Base
     C89:
       kind: Primitive
@@ -2527,24 +2527,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: board assembly origin offset, Y
+          value: board assembly origin offset, X
       group: Base
     A90:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: BoardOffZ
+          value: BoardOffY
       group: Base
     B90:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 10.0 mm
+          value: 52.0 mm
         Alias:
           type: STRING
-          value: BoardOffZ
+          value: BoardOffY
       group: Base
     C90:
       kind: Primitive
@@ -2558,24 +2558,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: board assembly origin offset, Z
+          value: board assembly origin offset, Y
       group: Base
     A91:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: PsuOffX
+          value: BoardOffZ
       group: Base
     B91:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 3.0 mm
+          value: 10.0 mm
         Alias:
           type: STRING
-          value: PsuOffX
+          value: BoardOffZ
       group: Base
     C91:
       kind: Primitive
@@ -2589,24 +2589,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: PSU assembly origin offset, X
+          value: board assembly origin offset, Z
       group: Base
     A92:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: PsuOffY
+          value: PsuOffX
       group: Base
     B92:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 5.5 mm
+          value: 3.0 mm
         Alias:
           type: STRING
-          value: PsuOffY
+          value: PsuOffX
       group: Base
     C92:
       kind: Primitive
@@ -2620,24 +2620,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: PSU assembly origin offset, Y
+          value: PSU assembly origin offset, X
       group: Base
     A93:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: PsuOffZ
+          value: PsuOffY
       group: Base
     B93:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 3.0 mm
+          value: 5.5 mm
         Alias:
           type: STRING
-          value: PsuOffZ
+          value: PsuOffY
       group: Base
     C93:
       kind: Primitive
@@ -2651,23 +2651,54 @@ objects:
       paths:
         .:
           type: STRING
-          value: PSU assembly origin offset, Z
+          value: PSU assembly origin offset, Y
       group: Base
     A94:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: -- END-WALL OPENINGS --
+          value: PsuOffZ
+      group: Base
+    B94:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 3.0 mm
+        Alias:
+          type: STRING
+          value: PsuOffZ
+      group: Base
+    C94:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: mm
+      group: Base
+    D94:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: PSU assembly origin offset, Z
       group: Base
     A95:
       kind: Primitive
       paths:
         .:
           type: STRING
+          value: -- END-WALL OPENINGS --
+      group: Base
+    A96:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
           value: PsuFanBoreD
       group: Base
-    B95:
+    B96:
       kind: Primitive
       paths:
         .:
@@ -2676,37 +2707,6 @@ objects:
         Alias:
           type: STRING
           value: PsuFanBoreD
-      group: Base
-    C95:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: mm
-      group: Base
-    D95:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: PSU fan bore (round, so screw lands survive)
-      group: Base
-    A96:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: PsuFanCY
-      group: Base
-    B96:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 25.75 mm
-        Alias:
-          type: STRING
-          value: PsuFanCY
       group: Base
     C96:
       kind: Primitive
@@ -2720,24 +2720,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: PSU fan bore centre, Y
+          value: PSU fan bore (round, so screw lands survive)
       group: Base
     A97:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: PsuFanCZ
+          value: PsuFanCY
       group: Base
     B97:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 55.0 mm
+          value: 25.75 mm
         Alias:
           type: STRING
-          value: PsuFanCZ
+          value: PsuFanCY
       group: Base
     C97:
       kind: Primitive
@@ -2751,24 +2751,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: PSU fan bore centre, Z
+          value: PSU fan bore centre, Y
       group: Base
     A98:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: PsuScrewD
+          value: PsuFanCZ
       group: Base
     B98:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 3.8 mm
+          value: 55.0 mm
         Alias:
           type: STRING
-          value: PsuScrewD
+          value: PsuFanCZ
       group: Base
     C98:
       kind: Primitive
@@ -2782,24 +2782,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: PSU face screw clearance diameter
+          value: PSU fan bore centre, Z
       group: Base
     A99:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: IecY0
+          value: PsuScrewD
       group: Base
     B99:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 7.3 mm
+          value: 3.8 mm
         Alias:
           type: STRING
-          value: IecY0
+          value: PsuScrewD
       group: Base
     C99:
       kind: Primitive
@@ -2813,24 +2813,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: IEC opening, low-Y
+          value: PSU face screw clearance diameter
       group: Base
     A100:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: IecY1
+          value: IecY0
       group: Base
     B100:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 39.3 mm
+          value: 7.3 mm
         Alias:
           type: STRING
-          value: IecY1
+          value: IecY0
       group: Base
     C100:
       kind: Primitive
@@ -2844,24 +2844,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: IEC opening, high-Y
+          value: IEC opening, low-Y
       group: Base
     A101:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: IecZ0
+          value: IecY1
       group: Base
     B101:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 4.75 mm
+          value: 39.3 mm
         Alias:
           type: STRING
-          value: IecZ0
+          value: IecY1
       group: Base
     C101:
       kind: Primitive
@@ -2875,24 +2875,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: IEC opening, low-Z
+          value: IEC opening, high-Y
       group: Base
     A102:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: IecZ1
+          value: IecZ0
       group: Base
     B102:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 32.0 mm
+          value: 4.75 mm
         Alias:
           type: STRING
-          value: IecZ1
+          value: IecZ0
       group: Base
     C102:
       kind: Primitive
@@ -2906,24 +2906,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: IEC opening, high-Z
+          value: IEC opening, low-Z
       group: Base
     A103:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: ConnClr
+          value: IecZ1
       group: Base
     B103:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 0.75 mm
+          value: 32.0 mm
         Alias:
           type: STRING
-          value: ConnClr
+          value: IecZ1
       group: Base
     C103:
       kind: Primitive
@@ -2937,24 +2937,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: clearance round each connector
+          value: IEC opening, high-Z
       group: Base
     A104:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: Conn1Y0
+          value: ConnClr
       group: Base
     B104:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 68.0 mm
+          value: 0.75 mm
         Alias:
           type: STRING
-          value: Conn1Y0
+          value: ConnClr
       group: Base
     C104:
       kind: Primitive
@@ -2968,24 +2968,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: connector 1, low-Y
+          value: clearance round each connector
       group: Base
     A105:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: Conn1Y1
+          value: Conn1Y0
       group: Base
     B105:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 83.5 mm
+          value: 68.0 mm
         Alias:
           type: STRING
-          value: Conn1Y1
+          value: Conn1Y0
       group: Base
     C105:
       kind: Primitive
@@ -2999,24 +2999,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: connector 1, high-Y
+          value: connector 1, low-Y
       group: Base
     A106:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: Conn1Z0
+          value: Conn1Y1
       group: Base
     B106:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 11.6 mm
+          value: 83.5 mm
         Alias:
           type: STRING
-          value: Conn1Z0
+          value: Conn1Y1
       group: Base
     C106:
       kind: Primitive
@@ -3030,24 +3030,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: connector 1, low-Z
+          value: connector 1, high-Y
       group: Base
     A107:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: Conn1Z1
+          value: Conn1Z0
       group: Base
     B107:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 25.6 mm
+          value: 11.6 mm
         Alias:
           type: STRING
-          value: Conn1Z1
+          value: Conn1Z0
       group: Base
     C107:
       kind: Primitive
@@ -3061,24 +3061,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: connector 1, high-Z
+          value: connector 1, low-Z
       group: Base
     A108:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: Conn2Y0
+          value: Conn1Z1
       group: Base
     B108:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 89.5 mm
+          value: 25.6 mm
         Alias:
           type: STRING
-          value: Conn2Y0
+          value: Conn1Z1
       group: Base
     C108:
       kind: Primitive
@@ -3092,24 +3092,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: connector 2, low-Y
+          value: connector 1, high-Z
       group: Base
     A109:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: Conn2Y1
+          value: Conn2Y0
       group: Base
     B109:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 104.2 mm
+          value: 89.5 mm
         Alias:
           type: STRING
-          value: Conn2Y1
+          value: Conn2Y0
       group: Base
     C109:
       kind: Primitive
@@ -3123,24 +3123,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: connector 2, high-Y
+          value: connector 2, low-Y
       group: Base
     A110:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: Conn2Z0
+          value: Conn2Y1
       group: Base
     B110:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 11.6 mm
+          value: 104.2 mm
         Alias:
           type: STRING
-          value: Conn2Z0
+          value: Conn2Y1
       group: Base
     C110:
       kind: Primitive
@@ -3154,24 +3154,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: connector 2, low-Z
+          value: connector 2, high-Y
       group: Base
     A111:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: Conn2Z1
+          value: Conn2Z0
       group: Base
     B111:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 27.6 mm
+          value: 11.6 mm
         Alias:
           type: STRING
-          value: Conn2Z1
+          value: Conn2Z0
       group: Base
     C111:
       kind: Primitive
@@ -3185,24 +3185,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: connector 2, high-Z
+          value: connector 2, low-Z
       group: Base
     A112:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: Conn3Y0
+          value: Conn2Z1
       group: Base
     B112:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 107.5 mm
+          value: 27.6 mm
         Alias:
           type: STRING
-          value: Conn3Y0
+          value: Conn2Z1
       group: Base
     C112:
       kind: Primitive
@@ -3216,24 +3216,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: connector 3, low-Y
+          value: connector 2, high-Z
       group: Base
     A113:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: Conn3Y1
+          value: Conn3Y0
       group: Base
     B113:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 124.5 mm
+          value: 107.5 mm
         Alias:
           type: STRING
-          value: Conn3Y1
+          value: Conn3Y0
       group: Base
     C113:
       kind: Primitive
@@ -3247,24 +3247,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: connector 3, high-Y
+          value: connector 3, low-Y
       group: Base
     A114:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: Conn3Z0
+          value: Conn3Y1
       group: Base
     B114:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 11.6 mm
+          value: 124.5 mm
         Alias:
           type: STRING
-          value: Conn3Z0
+          value: Conn3Y1
       group: Base
     C114:
       kind: Primitive
@@ -3278,24 +3278,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: connector 3, low-Z
+          value: connector 3, high-Y
       group: Base
     A115:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: Conn3Z1
+          value: Conn3Z0
       group: Base
     B115:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 18.6 mm
+          value: 11.6 mm
         Alias:
           type: STRING
-          value: Conn3Z1
+          value: Conn3Z0
       group: Base
     C115:
       kind: Primitive
@@ -3309,24 +3309,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: connector 3, high-Z
+          value: connector 3, low-Z
       group: Base
     A116:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: Conn4Y0
+          value: Conn3Z1
       group: Base
     B116:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 127.5 mm
+          value: 18.6 mm
         Alias:
           type: STRING
-          value: Conn4Y0
+          value: Conn3Z1
       group: Base
     C116:
       kind: Primitive
@@ -3340,24 +3340,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: connector 4, low-Y
+          value: connector 3, high-Z
       group: Base
     A117:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: Conn4Y1
+          value: Conn4Y0
       group: Base
     B117:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 143.0 mm
+          value: 127.5 mm
         Alias:
           type: STRING
-          value: Conn4Y1
+          value: Conn4Y0
       group: Base
     C117:
       kind: Primitive
@@ -3371,24 +3371,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: connector 4, high-Y
+          value: connector 4, low-Y
       group: Base
     A118:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: Conn4Z0
+          value: Conn4Y1
       group: Base
     B118:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 11.6 mm
+          value: 143.0 mm
         Alias:
           type: STRING
-          value: Conn4Z0
+          value: Conn4Y1
       group: Base
     C118:
       kind: Primitive
@@ -3402,24 +3402,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: connector 4, low-Z
+          value: connector 4, high-Y
       group: Base
     A119:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: Conn4Z1
+          value: Conn4Z0
       group: Base
     B119:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 27.6 mm
+          value: 11.6 mm
         Alias:
           type: STRING
-          value: Conn4Z1
+          value: Conn4Z0
       group: Base
     C119:
       kind: Primitive
@@ -3433,24 +3433,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: connector 4, high-Z
+          value: connector 4, low-Z
       group: Base
     A120:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: BtnY
+          value: Conn4Z1
       group: Base
     B120:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 151.5 mm
+          value: 27.6 mm
         Alias:
           type: STRING
-          value: BtnY
+          value: Conn4Z1
       group: Base
     C120:
       kind: Primitive
@@ -3464,24 +3464,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: both buttons, Y
+          value: connector 4, high-Z
       group: Base
     A121:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: Btn1Z
+          value: BtnY
       group: Base
     B121:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 17.6 mm
+          value: 151.5 mm
         Alias:
           type: STRING
-          value: Btn1Z
+          value: BtnY
       group: Base
     C121:
       kind: Primitive
@@ -3495,24 +3495,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: lower button, Z
+          value: both buttons, Y
       group: Base
     A122:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: Btn2Z
+          value: Btn1Z
       group: Base
     B122:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 30.6 mm
+          value: 17.6 mm
         Alias:
           type: STRING
-          value: Btn2Z
+          value: Btn1Z
       group: Base
     C122:
       kind: Primitive
@@ -3526,24 +3526,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: upper button, Z
+          value: lower button, Z
       group: Base
     A123:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: BtnD
+          value: Btn2Z
       group: Base
     B123:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 5.0 mm
+          value: 30.6 mm
         Alias:
           type: STRING
-          value: BtnD
+          value: Btn2Z
       group: Base
     C123:
       kind: Primitive
@@ -3557,24 +3557,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: button shaft diameter
+          value: upper button, Z
       group: Base
     A124:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: BtnClr
+          value: BtnD
       group: Base
     B124:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 1.0 mm
+          value: 5.0 mm
         Alias:
           type: STRING
-          value: BtnClr
+          value: BtnD
       group: Base
     C124:
       kind: Primitive
@@ -3588,23 +3588,54 @@ objects:
       paths:
         .:
           type: STRING
-          value: clearance round each button
+          value: button shaft diameter
       group: Base
     A125:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: -- PSU FACE SCREWS --
+          value: BtnClr
+      group: Base
+    B125:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 1.0 mm
+        Alias:
+          type: STRING
+          value: BtnClr
+      group: Base
+    C125:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: mm
+      group: Base
+    D125:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: clearance round each button
       group: Base
     A126:
       kind: Primitive
       paths:
         .:
           type: STRING
+          value: -- PSU FACE SCREWS --
+      group: Base
+    A127:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
           value: PsuScrew1Y
       group: Base
-    B126:
+    B127:
       kind: Primitive
       paths:
         .:
@@ -3613,37 +3644,6 @@ objects:
         Alias:
           type: STRING
           value: PsuScrew1Y
-      group: Base
-    C126:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: mm
-      group: Base
-    D126:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: PSU face screw 1, Y
-      group: Base
-    A127:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: PsuScrew1Z
-      group: Base
-    B127:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 79.8 mm
-        Alias:
-          type: STRING
-          value: PsuScrew1Z
       group: Base
     C127:
       kind: Primitive
@@ -3657,24 +3657,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: PSU face screw 1, Z
+          value: PSU face screw 1, Y
       group: Base
     A128:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: PsuScrew2Y
+          value: PsuScrew1Z
       group: Base
     B128:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 41.75 mm
+          value: 79.8 mm
         Alias:
           type: STRING
-          value: PsuScrew2Y
+          value: PsuScrew1Z
       group: Base
     C128:
       kind: Primitive
@@ -3688,24 +3688,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: PSU face screw 2, Y
+          value: PSU face screw 1, Z
       group: Base
     A129:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: PsuScrew2Z
+          value: PsuScrew2Y
       group: Base
     B129:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 79.1 mm
+          value: 41.75 mm
         Alias:
           type: STRING
-          value: PsuScrew2Z
+          value: PsuScrew2Y
       group: Base
     C129:
       kind: Primitive
@@ -3719,24 +3719,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: PSU face screw 2, Z
+          value: PSU face screw 2, Y
       group: Base
     A130:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: PsuScrew3Y
+          value: PsuScrew2Z
       group: Base
     B130:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 43.1 mm
+          value: 79.1 mm
         Alias:
           type: STRING
-          value: PsuScrew3Y
+          value: PsuScrew2Z
       group: Base
     C130:
       kind: Primitive
@@ -3750,24 +3750,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: PSU face screw 3, Y
+          value: PSU face screw 2, Z
       group: Base
     A131:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: PsuScrew3Z
+          value: PsuScrew3Y
       group: Base
     B131:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 18.3 mm
+          value: 43.1 mm
         Alias:
           type: STRING
-          value: PsuScrew3Z
+          value: PsuScrew3Y
       group: Base
     C131:
       kind: Primitive
@@ -3781,24 +3781,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: PSU face screw 3, Z
+          value: PSU face screw 3, Y
       group: Base
     A132:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: PsuScrew4Y
+          value: PsuScrew3Z
       group: Base
     B132:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 42.0 mm
+          value: 18.3 mm
         Alias:
           type: STRING
-          value: PsuScrew4Y
+          value: PsuScrew3Z
       group: Base
     C132:
       kind: Primitive
@@ -3812,24 +3812,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: PSU face screw 4, Y
+          value: PSU face screw 3, Z
       group: Base
     A133:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: PsuScrew4Z
+          value: PsuScrew4Y
       group: Base
     B133:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 7.5 mm
+          value: 42.0 mm
         Alias:
           type: STRING
-          value: PsuScrew4Z
+          value: PsuScrew4Y
       group: Base
     C133:
       kind: Primitive
@@ -3843,23 +3843,54 @@ objects:
       paths:
         .:
           type: STRING
-          value: PSU face screw 4, Z
+          value: PSU face screw 4, Y
       group: Base
     A134:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: -- STAGGERED SPLIT --
+          value: PsuScrew4Z
+      group: Base
+    B134:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 7.5 mm
+        Alias:
+          type: STRING
+          value: PsuScrew4Z
+      group: Base
+    C134:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: mm
+      group: Base
+    D134:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: PSU face screw 4, Z
       group: Base
     A135:
       kind: Primitive
       paths:
         .:
           type: STRING
+          value: -- STAGGERED SPLIT --
+      group: Base
+    A136:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
           value: TraySplitX
       group: Base
-    B135:
+    B136:
       kind: Primitive
       paths:
         .:
@@ -3868,37 +3899,6 @@ objects:
         Alias:
           type: STRING
           value: TraySplitX
-      group: Base
-    C135:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: mm
-      group: Base
-    D135:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: tray cut plane
-      group: Base
-    A136:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: LidSplitX
-      group: Base
-    B136:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 158.0 mm
-        Alias:
-          type: STRING
-          value: LidSplitX
       group: Base
     C136:
       kind: Primitive
@@ -3912,24 +3912,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: lid cut plane
+          value: tray cut plane
       group: Base
     A137:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: SeamX1
+          value: LidSplitX
       group: Base
     B137:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 30.0 mm
+          value: 158.0 mm
         Alias:
           type: STRING
-          value: SeamX1
+          value: LidSplitX
       group: Base
     C137:
       kind: Primitive
@@ -3943,24 +3943,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: seam station 1
+          value: lid cut plane
       group: Base
     A138:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: SeamX2
+          value: SeamX1
       group: Base
     B138:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 125.0 mm
+          value: 30.0 mm
         Alias:
           type: STRING
-          value: SeamX2
+          value: SeamX1
       group: Base
     C138:
       kind: Primitive
@@ -3974,24 +3974,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: seam station 2
+          value: seam station 1
       group: Base
     A139:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: SeamX3
+          value: SeamX2
       group: Base
     B139:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 170.0 mm
+          value: 125.0 mm
         Alias:
           type: STRING
-          value: SeamX3
+          value: SeamX2
       group: Base
     C139:
       kind: Primitive
@@ -4005,24 +4005,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: seam station 3
+          value: seam station 2
       group: Base
     A140:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: SeamX4
+          value: SeamX3
       group: Base
     B140:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 205.0 mm
+          value: 170.0 mm
         Alias:
           type: STRING
-          value: SeamX4
+          value: SeamX3
       group: Base
     C140:
       kind: Primitive
@@ -4036,24 +4036,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: seam station 4
+          value: seam station 3
       group: Base
     A141:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: SeamX5
+          value: SeamX4
       group: Base
     B141:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 300.0 mm
+          value: 205.0 mm
         Alias:
           type: STRING
-          value: SeamX5
+          value: SeamX4
       group: Base
     C141:
       kind: Primitive
@@ -4067,24 +4067,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: seam station 5
+          value: seam station 4
       group: Base
     A142:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: SeamEndY1
+          value: SeamX5
       group: Base
     B142:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 45.0 mm
+          value: 300.0 mm
         Alias:
           type: STRING
-          value: SeamEndY1
+          value: SeamX5
       group: Base
     C142:
       kind: Primitive
@@ -4098,24 +4098,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: end station 1
+          value: seam station 5
       group: Base
     A143:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: SeamEndY2
+          value: SeamEndY1
       group: Base
     B143:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 135.0 mm
+          value: 45.0 mm
         Alias:
           type: STRING
-          value: SeamEndY2
+          value: SeamEndY1
       group: Base
     C143:
       kind: Primitive
@@ -4129,24 +4129,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: end station 2
+          value: end station 1
       group: Base
     A144:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: BossOvalL
+          value: SeamEndY2
       group: Base
     B144:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 20.0 mm
+          value: 135.0 mm
         Alias:
           type: STRING
-          value: BossOvalL
+          value: SeamEndY2
       group: Base
     C144:
       kind: Primitive
@@ -4160,24 +4160,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: oval boss length along the wall
+          value: end station 2
       group: Base
     A145:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: BossOvalD
+          value: BossOvalL
       group: Base
     B145:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 8.0 mm
+          value: 20.0 mm
         Alias:
           type: STRING
-          value: BossOvalD
+          value: BossOvalL
       group: Base
     C145:
       kind: Primitive
@@ -4191,14 +4191,14 @@ objects:
       paths:
         .:
           type: STRING
-          value: oval boss depth into the cavity
+          value: oval boss length along the wall
       group: Base
     A146:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: BossRoundD
+          value: BossOvalD
       group: Base
     B146:
       kind: Primitive
@@ -4208,7 +4208,7 @@ objects:
           value: 8.0 mm
         Alias:
           type: STRING
-          value: BossRoundD
+          value: BossOvalD
       group: Base
     C146:
       kind: Primitive
@@ -4222,24 +4222,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: round boss dia; same offset as ovals so screws line up
+          value: oval boss depth into the cavity
       group: Base
     A147:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: GussetDrop
+          value: BossRoundD
       group: Base
     B147:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 6.5 mm
+          value: 8.0 mm
         Alias:
           type: STRING
-          value: GussetDrop
+          value: BossRoundD
       group: Base
     C147:
       kind: Primitive
@@ -4253,23 +4253,54 @@ objects:
       paths:
         .:
           type: STRING
-          value: 45 deg gusset drop = boss reach past the cavity face
+          value: round boss dia; same offset as ovals so screws line up
       group: Base
     A148:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: -- TRAY SPLICE --
+          value: GussetDrop
+      group: Base
+    B148:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 6.5 mm
+        Alias:
+          type: STRING
+          value: GussetDrop
+      group: Base
+    C148:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: mm
+      group: Base
+    D148:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: 45 deg gusset drop = boss reach past the cavity face
       group: Base
     A149:
       kind: Primitive
       paths:
         .:
           type: STRING
+          value: -- TRAY SPLICE --
+      group: Base
+    A150:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
           value: SpliceScrewD
       group: Base
-    B149:
+    B150:
       kind: Primitive
       paths:
         .:
@@ -4278,37 +4309,6 @@ objects:
         Alias:
           type: STRING
           value: SpliceScrewD
-      group: Base
-    C149:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: mm
-      group: Base
-    D149:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: M3 clearance
-      group: Base
-    A150:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: SplicePilotD
-      group: Base
-    B150:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 4.0 mm
-        Alias:
-          type: STRING
-          value: SplicePilotD
       group: Base
     C150:
       kind: Primitive
@@ -4322,24 +4322,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: insert pilot
+          value: M3 clearance
       group: Base
     A151:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: SplicePilotDepth
+          value: SplicePilotD
       group: Base
     B151:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 6.0 mm
+          value: 4.0 mm
         Alias:
           type: STRING
-          value: SplicePilotDepth
+          value: SplicePilotD
       group: Base
     C151:
       kind: Primitive
@@ -4353,24 +4353,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: insert pilot depth
+          value: insert pilot
       group: Base
     A152:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: SpliceCboreD
+          value: SplicePilotDepth
       group: Base
     B152:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 6.2 mm
+          value: 6.0 mm
         Alias:
           type: STRING
-          value: SpliceCboreD
+          value: SplicePilotDepth
       group: Base
     C152:
       kind: Primitive
@@ -4384,24 +4384,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: head counterbore
+          value: insert pilot depth
       group: Base
     A153:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: SpliceCboreDepth
+          value: SpliceCboreD
       group: Base
     B153:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 3.0 mm
+          value: 6.2 mm
         Alias:
           type: STRING
-          value: SpliceCboreDepth
+          value: SpliceCboreD
       group: Base
     C153:
       kind: Primitive
@@ -4415,24 +4415,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: counterbore depth
+          value: head counterbore
       group: Base
     A154:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: SpliceBandW
+          value: SpliceCboreDepth
       group: Base
     B154:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 10.0 mm
+          value: 3.0 mm
         Alias:
           type: STRING
-          value: SpliceBandW
+          value: SpliceCboreDepth
       group: Base
     C154:
       kind: Primitive
@@ -4446,52 +4446,52 @@ objects:
       paths:
         .:
           type: STRING
-          value: solid floor band across the cut
+          value: counterbore depth
       group: Base
     A155:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: -- SHELL --
+          value: SpliceBandW
       group: Base
-    A156:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: OuterX0
-      group: Base
-    B156:
+    B155:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 0.0 mm
+          value: 10.0 mm
         Alias:
           type: STRING
-          value: OuterX0
+          value: SpliceBandW
       group: Base
-    C156:
+    C155:
       kind: Primitive
       paths:
         .:
           type: STRING
           value: mm
       group: Base
-    D156:
+    D155:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: outer profile origin, X (kept as a handle; 0 in v20)
+          value: solid floor band across the cut
+      group: Base
+    A156:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: -- SHELL --
       group: Base
     A157:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: OuterY0
+          value: OuterX0
       group: Base
     B157:
       kind: Primitive
@@ -4501,7 +4501,7 @@ objects:
           value: 0.0 mm
         Alias:
           type: STRING
-          value: OuterY0
+          value: OuterX0
       group: Base
     C157:
       kind: Primitive
@@ -4515,24 +4515,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: outer profile origin, Y
+          value: outer profile origin, X (kept as a handle; 0 in v20)
       group: Base
     A158:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: Floor
+          value: OuterY0
       group: Base
     B158:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 1.0 mm
+          value: 0.0 mm
         Alias:
           type: STRING
-          value: Floor
+          value: OuterY0
       group: Base
     C158:
       kind: Primitive
@@ -4546,23 +4546,54 @@ objects:
       paths:
         .:
           type: STRING
-          value: floor thickness; decoupled from Wall
+          value: outer profile origin, Y
       group: Base
     A159:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: -- LID LOCATOR TABS --
+          value: Floor
+      group: Base
+    B159:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 1.0 mm
+        Alias:
+          type: STRING
+          value: Floor
+      group: Base
+    C159:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: mm
+      group: Base
+    D159:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: floor thickness; decoupled from Wall
       group: Base
     A160:
       kind: Primitive
       paths:
         .:
           type: STRING
+          value: -- LID LOCATOR TABS --
+      group: Base
+    A161:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
           value: TabT
       group: Base
-    B160:
+    B161:
       kind: Primitive
       paths:
         .:
@@ -4571,37 +4602,6 @@ objects:
         Alias:
           type: STRING
           value: TabT
-      group: Base
-    C160:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: mm
-      group: Base
-    D160:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: locator tab thickness
-      group: Base
-    A161:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: TabD
-      group: Base
-    B161:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 5.0 mm
-        Alias:
-          type: STRING
-          value: TabD
       group: Base
     C161:
       kind: Primitive
@@ -4615,24 +4615,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: locator tab engagement depth below the seam
+          value: locator tab thickness
       group: Base
     A162:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: TabL
+          value: TabD
       group: Base
     B162:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 20.0 mm
+          value: 5.0 mm
         Alias:
           type: STRING
-          value: TabL
+          value: TabD
       group: Base
     C162:
       kind: Primitive
@@ -4646,24 +4646,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: locator tab length along the wall
+          value: locator tab engagement depth below the seam
       group: Base
     A163:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: TabClr
+          value: TabL
       group: Base
     B163:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 0.2 mm
+          value: 20.0 mm
         Alias:
           type: STRING
-          value: TabClr
+          value: TabL
       group: Base
     C163:
       kind: Primitive
@@ -4677,24 +4677,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: locator tab clearance to the cavity face
+          value: locator tab length along the wall
       group: Base
     A164:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: TabChf
+          value: TabClr
       group: Base
     B164:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 0.6 mm
+          value: 0.2 mm
         Alias:
           type: STRING
-          value: TabChf
+          value: TabClr
       group: Base
     C164:
       kind: Primitive
@@ -4708,23 +4708,54 @@ objects:
       paths:
         .:
           type: STRING
-          value: lead-in chamfer on the tab's outboard bottom edge
+          value: locator tab clearance to the cavity face
       group: Base
     A165:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: -- SPLICE --
+          value: TabChf
+      group: Base
+    B165:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 0.6 mm
+        Alias:
+          type: STRING
+          value: TabChf
+      group: Base
+    C165:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: mm
+      group: Base
+    D165:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: lead-in chamfer on the tab's outboard bottom edge
       group: Base
     A166:
       kind: Primitive
       paths:
         .:
           type: STRING
+          value: -- SPLICE --
+      group: Base
+    A167:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
           value: SpliceBossD
       group: Base
-    B166:
+    B167:
       kind: Primitive
       paths:
         .:
@@ -4733,37 +4764,6 @@ objects:
         Alias:
           type: STRING
           value: SpliceBossD
-      group: Base
-    C166:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: mm
-      group: Base
-    D166:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: splice boss diameter
-      group: Base
-    A167:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: SpliceBossL
-      group: Base
-    B167:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 20.0 mm
-        Alias:
-          type: STRING
-          value: SpliceBossL
       group: Base
     C167:
       kind: Primitive
@@ -4777,24 +4777,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: splice boss length, straddling the cut plane
+          value: splice boss diameter
       group: Base
     A168:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: SpliceBossInset
+          value: SpliceBossL
       group: Base
     B168:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 1.0 mm
+          value: 20.0 mm
         Alias:
           type: STRING
-          value: SpliceBossInset
+          value: SpliceBossL
       group: Base
     C168:
       kind: Primitive
@@ -4808,24 +4808,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: boss centre offset from the inner face it hugs
+          value: splice boss length, straddling the cut plane
       group: Base
     A169:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: SpliceBossShift
+          value: SpliceBossInset
       group: Base
     B169:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 35.0 mm
+          value: 1.0 mm
         Alias:
           type: STRING
-          value: SpliceBossShift
+          value: SpliceBossInset
       group: Base
     C169:
       kind: Primitive
@@ -4839,24 +4839,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: shift boss from corner
+          value: boss centre offset from the inner face it hugs
       group: Base
     A170:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: SpliceBossZ
+          value: SpliceBossShift
       group: Base
     B170:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 55.0 mm
+          value: 35.0 mm
         Alias:
           type: STRING
-          value: SpliceBossZ
+          value: SpliceBossShift
       group: Base
     C170:
       kind: Primitive
@@ -4870,24 +4870,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: high-Y splice boss centre height
+          value: shift boss from corner
       group: Base
     A171:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: SpliceGusA
+          value: SpliceBossZ
       group: Base
     B171:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 5.0 mm
+          value: 55.0 mm
         Alias:
           type: STRING
-          value: SpliceGusA
+          value: SpliceBossZ
       group: Base
     C171:
       kind: Primitive
@@ -4901,24 +4901,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: floor splice gusset, 45 deg run
+          value: high-Y splice boss centre height
       group: Base
     A172:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: SpliceGusB
+          value: SpliceGusA
       group: Base
     B172:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 8.0 mm
+          value: 5.0 mm
         Alias:
           type: STRING
-          value: SpliceGusB
+          value: SpliceGusA
       group: Base
     C172:
       kind: Primitive
@@ -4932,24 +4932,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: wall splice gusset, 45 deg run
+          value: floor splice gusset, 45 deg run
       group: Base
     A173:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: SpliceClearOver
+          value: SpliceGusB
       group: Base
     B173:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 0.5 mm
+          value: 8.0 mm
         Alias:
           type: STRING
-          value: SpliceClearOver
+          value: SpliceGusB
       group: Base
     C173:
       kind: Primitive
@@ -4963,23 +4963,54 @@ objects:
       paths:
         .:
           type: STRING
-          value: clearance hole over-depth past the cut plane
+          value: wall splice gusset, 45 deg run
       group: Base
     A174:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: -- HEATSINK WINDOW --
+          value: SpliceClearOver
+      group: Base
+    B174:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 0.5 mm
+        Alias:
+          type: STRING
+          value: SpliceClearOver
+      group: Base
+    C174:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: mm
+      group: Base
+    D174:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: clearance hole over-depth past the cut plane
       group: Base
     A175:
       kind: Primitive
       paths:
         .:
           type: STRING
+          value: -- HEATSINK WINDOW --
+      group: Base
+    A176:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
           value: CutX1
       group: Base
-    B175:
+    B176:
       kind: Primitive
       paths:
         .:
@@ -4989,35 +5020,35 @@ objects:
           type: STRING
           value: CutX1
       group: Base
-    C175:
+    C176:
       kind: Primitive
       paths:
         .:
           type: STRING
           value: mm
       group: Base
-    D175:
+    D176:
       kind: Primitive
       paths:
         .:
           type: STRING
           value: single window, high-X (CutX0 is the low-X edge)
       group: Base
-    A176:
+    A177:
       kind: Primitive
       paths:
         .:
           type: STRING
           value: -- Switch hole --
       group: Base
-    A177:
+    A178:
       kind: Primitive
       paths:
         .:
           type: STRING
           value: SwitchDiameter
       group: Base
-    B177:
+    B178:
       kind: Primitive
       paths:
         .:
@@ -5027,21 +5058,21 @@ objects:
           type: STRING
           value: SwitchDiameter
       group: Base
-    D177:
+    D178:
       kind: Primitive
       paths:
         .:
           type: STRING
           value: front panel switch diameter
       group: Base
-    A178:
+    A179:
       kind: Primitive
       paths:
         .:
           type: STRING
           value: SwitchToBottom
       group: Base
-    B178:
+    B179:
       kind: Primitive
       paths:
         .:
@@ -5051,28 +5082,28 @@ objects:
           type: STRING
           value: SwitchToBottom
       group: Base
-    D178:
+    D179:
       kind: Primitive
       paths:
         .:
           type: STRING
           value: switch to bottom of case
       group: Base
-    A179:
+    A180:
       kind: Primitive
       paths:
         .:
           type: STRING
           value: -- PS SUPPORT --
       group: Base
-    A180:
+    A181:
       kind: Primitive
       paths:
         .:
           type: STRING
           value: PsSuppLenPadding
       group: Base
-    B180:
+    B181:
       kind: Primitive
       paths:
         .:
@@ -5082,21 +5113,21 @@ objects:
           type: STRING
           value: PsSuppLenPadding
       group: Base
-    D180:
+    D181:
       kind: Primitive
       paths:
         .:
           type: STRING
           value: Extra width past the end of the power supply
       group: Base
-    A181:
+    A182:
       kind: Primitive
       paths:
         .:
           type: STRING
           value: PsSuppWidth
       group: Base
-    B181:
+    B182:
       kind: Primitive
       paths:
         .:
@@ -5106,21 +5137,21 @@ objects:
           type: STRING
           value: PsSuppWidth
       group: Base
-    D181:
+    D182:
       kind: Primitive
       paths:
         .:
           type: STRING
           value: PS Support width
       group: Base
-    A182:
+    A183:
       kind: Primitive
       paths:
         .:
           type: STRING
           value: PsSuppHeight
       group: Base
-    B182:
+    B183:
       kind: Primitive
       paths:
         .:
@@ -5130,7 +5161,7 @@ objects:
           type: STRING
           value: PsSuppHeight
       group: Base
-    D182:
+    D183:
       kind: Primitive
       paths:
         .:
@@ -6281,7 +6312,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 400.4073028714239 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -6334,7 +6365,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 258.9073028714239 mm
       group: Size
 - name: Sk_TrayCavity
   id: 2147
@@ -8775,7 +8806,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 400.4073028714239 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -8828,7 +8859,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 258.9073028714239 mm
       group: Size
 - name: Sk_BoardPilots
   id: 2156
@@ -9563,7 +9594,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 400.4073028714239 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -9616,7 +9647,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 258.9073028714239 mm
       group: Size
 - name: Sk_HeatsinkWindows
   id: 2159
@@ -11383,7 +11414,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 400.4073028714239 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -11436,7 +11467,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 258.9073028714239 mm
       group: Size
 - name: DP_BossBase
   id: 2166
@@ -11487,7 +11518,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 400.4073028714239 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -11540,7 +11571,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 258.9073028714239 mm
       group: Size
 - name: Sk_ClosureBosses
   id: 2167
@@ -24121,7 +24152,7 @@ objects:
       paths:
         .:
           type: STRING
-          value: <PartDesign::Fillet>
+          value: <PartDesign::Pocket>
           freecad_type: PartDesign.Feature
       group: Base
 - name: Origin001
@@ -24292,7 +24323,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 400.4073028714239 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -24345,7 +24376,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 258.9073028714239 mm
       group: Size
 - name: Sk_LidOuter
   id: 2188
@@ -25140,7 +25171,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 3.0 mm
+          value: 5.0 mm
           expression: Parameters.Height - Parameters.SplitZ
       group: Side1
     Length2:
@@ -25288,7 +25319,7 @@ objects:
           value: 0.0 mm
         Base.z:
           type: QUANTITY
-          value: 95.0 mm
+          value: 97.0 mm
           expression: Parameters.Height
         Rotation.Angle:
           type: QUANTITY
@@ -25315,7 +25346,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 400.4073028714239 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -25342,7 +25373,7 @@ objects:
           value: 0.0 mm
         Base.z:
           type: QUANTITY
-          value: 95.0 mm
+          value: 97.0 mm
         Rotation.Angle:
           type: QUANTITY
           value: 0.0 deg
@@ -25368,7 +25399,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 258.9073028714239 mm
       group: Size
 - name: Sk_Fan120
   id: 2193
@@ -25424,7 +25455,7 @@ objects:
             value: DistanceX
           Value:
             type: FLOAT
-            value: 251.5
+            value: 199.1
           First:
             type: INT
             value: -1
@@ -25451,7 +25482,7 @@ objects:
             value: true
           .:
             type: 'NULL'
-            expression: Parameters.FanCX
+            expression: Parameters.FanCX - Parameters.FanPitch / 2
       - kind: Constraint
         paths:
           Type:
@@ -25459,7 +25490,7 @@ objects:
             value: DistanceY
           Value:
             type: FLOAT
-            value: 90.25
+            value: 37.85
           First:
             type: INT
             value: -1
@@ -25486,7 +25517,7 @@ objects:
             value: true
           .:
             type: 'NULL'
-            expression: Parameters.FanCY
+            expression: Parameters.FanCY - Parameters.FanPitch / 2
       - kind: Constraint
         paths:
           Type:
@@ -25494,7 +25525,7 @@ objects:
             value: Diameter
           Value:
             type: FLOAT
-            value: 116.0
+            value: 5.0
           First:
             type: INT
             value: 0
@@ -25521,7 +25552,7 @@ objects:
             value: true
           .:
             type: 'NULL'
-            expression: Parameters.FanBore
+            expression: Parameters.FanScrewD
       - kind: Constraint
         paths:
           Type:
@@ -25564,7 +25595,7 @@ objects:
             value: DistanceY
           Value:
             type: FLOAT
-            value: 37.85
+            value: 142.65
           First:
             type: INT
             value: -1
@@ -25591,7 +25622,7 @@ objects:
             value: true
           .:
             type: 'NULL'
-            expression: Parameters.FanCY - Parameters.FanPitch / 2
+            expression: Parameters.FanCY + Parameters.FanPitch / 2
       - kind: Constraint
         paths:
           Type:
@@ -25634,7 +25665,7 @@ objects:
             value: DistanceX
           Value:
             type: FLOAT
-            value: 199.1
+            value: 303.9
           First:
             type: INT
             value: -1
@@ -25661,7 +25692,7 @@ objects:
             value: true
           .:
             type: 'NULL'
-            expression: Parameters.FanCX - Parameters.FanPitch / 2
+            expression: Parameters.FanCX + Parameters.FanPitch / 2
       - kind: Constraint
         paths:
           Type:
@@ -25669,7 +25700,7 @@ objects:
             value: DistanceY
           Value:
             type: FLOAT
-            value: 142.65
+            value: 37.85
           First:
             type: INT
             value: -1
@@ -25696,7 +25727,7 @@ objects:
             value: true
           .:
             type: 'NULL'
-            expression: Parameters.FanCY + Parameters.FanPitch / 2
+            expression: Parameters.FanCY - Parameters.FanPitch / 2
       - kind: Constraint
         paths:
           Type:
@@ -25774,111 +25805,6 @@ objects:
             value: DistanceY
           Value:
             type: FLOAT
-            value: 37.85
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 3
-          SecondPos:
-            type: INT
-            value: 3
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.FanCY - Parameters.FanPitch / 2
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Diameter
-          Value:
-            type: FLOAT
-            value: 5.0
-          First:
-            type: INT
-            value: 3
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.FanScrewD
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceX
-          Value:
-            type: FLOAT
-            value: 303.9
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 4
-          SecondPos:
-            type: INT
-            value: 3
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.FanCX + Parameters.FanPitch / 2
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceY
-          Value:
-            type: FLOAT
             value: 142.65
           First:
             type: INT
@@ -25888,7 +25814,7 @@ objects:
             value: 1
           Second:
             type: INT
-            value: 4
+            value: 3
           SecondPos:
             type: INT
             value: 3
@@ -25917,7 +25843,7 @@ objects:
             value: 5.0
           First:
             type: INT
-            value: 4
+            value: 3
           FirstPos:
             type: INT
             value: 0
@@ -25948,7 +25874,7 @@ objects:
       paths:
         .:
           type: STRING
-          value: Sk_Fan120
+          value: Sk_FanMount
       group: Base
     MakeInternals:
       kind: Primitive
@@ -25982,7 +25908,7 @@ objects:
           value: 0.0 mm
         Base.z:
           type: QUANTITY
-          value: 95.0 mm
+          value: 93.5 mm
         Rotation.Angle:
           type: QUANTITY
           value: 0.0 deg
@@ -27560,7 +27486,7 @@ objects:
           value: 0.0 mm
         Base.z:
           type: QUANTITY
-          value: 95.0 mm
+          value: 97.0 mm
         Rotation.Angle:
           type: QUANTITY
           value: 0.0 deg
@@ -27611,7 +27537,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 4.0 mm
+          value: 6.0 mm
           expression: Parameters.Height - Parameters.SplitZ + 1 mm
       group: Side1
     Length2:
@@ -29301,7 +29227,7 @@ objects:
           value: 0.0 mm
         Base.z:
           type: QUANTITY
-          value: 95.0 mm
+          value: 97.0 mm
         Rotation.Angle:
           type: QUANTITY
           value: 0.0 deg
@@ -41956,7 +41882,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 236.51193318708138 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -42009,7 +41935,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 148.01193318708138 mm
       group: Size
 - name: DP_TrimYStart
   id: 2243
@@ -42061,7 +41987,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 387.29838706449675 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -42114,7 +42040,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.000000000000014 mm
+          value: 157.29838706449684 mm
       group: Size
 - name: Sk_BossGusTrimY
   id: 2244
@@ -43950,7 +43876,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 387.29838706449675 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -44003,7 +43929,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.000000000000014 mm
+          value: 157.29838706449684 mm
       group: Size
 - name: Sk_BossGusTrimXlo
   id: 2249
@@ -45399,7 +45325,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 236.51193318708138 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -45452,7 +45378,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 148.01193318708138 mm
       group: Size
 - name: DP_SpliceEnd
   id: 2258
@@ -45503,7 +45429,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 236.51193318708138 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -45556,7 +45482,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 148.01193318708138 mm
       group: Size
 - name: Sk_SpliceBosses
   id: 2260
@@ -46662,7 +46588,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 400.4073028714239 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -46715,7 +46641,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 258.9073028714239 mm
       group: Size
 - name: DP_SpliceGusBLo
   id: 2266
@@ -46766,7 +46692,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 400.4073028714239 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -46819,7 +46745,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 258.9073028714239 mm
       group: Size
 - name: DP_SpliceGusBHi
   id: 2267
@@ -46870,7 +46796,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 400.4073028714239 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -46923,7 +46849,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 258.9073028714239 mm
       group: Size
 - name: Sk_SpliceCbores
   id: 2271
@@ -48370,7 +48296,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 237.16764910756717 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -48423,7 +48349,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 153.66764910756717 mm
       group: Size
 - name: DP_TabTrimY
   id: 2278
@@ -48474,7 +48400,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 388.15045564753814 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -48527,7 +48453,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.000000000000014 mm
+          value: 163.15045564753817 mm
       group: Size
 - name: Sk_TabChamferY
   id: 2279
@@ -50354,7 +50280,7 @@ objects:
             value: DistanceY
           Value:
             type: FLOAT
-            value: 47.5
+            value: 48.5
           First:
             type: INT
             value: -1
@@ -50719,1091 +50645,6 @@ objects:
         .:
           type: QUANTITY
           value: 12.5 mm
-      group: Hole
-    ThreadDirection:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Right
-      group: Hole
-    ThreadFit:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: '-'
-      group: Hole
-    ThreadSize:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: '---'
-      group: Hole
-    ThreadType:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: None
-      group: Hole
-    Threaded:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Hole
-    UpToFace:
-      kind: Primitive
-      paths:
-        .:
-          type: 'NULL'
-      group: Side1
-    UpToFace2:
-      kind: Primitive
-      paths:
-        .:
-          type: 'NULL'
-      group: Side2
-    UseCustomThreadClearance:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Hole
-- name: Hole001
-  id: 2293
-  type_id: PartDesign::Hole
-  properties:
-    AllowMultiFace:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: true
-      group: SketchBased
-    BaseProfileType:
-      kind: Primitive
-      paths:
-        .:
-          type: INT
-          value: 7
-      group: Hole
-    CustomThreadClearance:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 0.0 mm
-      group: Hole
-    Depth:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 4.0 mm
-          expression: Parameters.Height - Parameters.SplitZ + 1 mm
-      group: Hole
-    DepthType:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Dimension
-      group: Hole
-    Diameter:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 5.0 mm
-          expression: Parameters.FanScrewD
-      group: Hole
-    DrillForDepth:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Hole
-    DrillPoint:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Flat
-      group: Hole
-    DrillPointAngle:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 118.0 deg
-      group: Hole
-    FuzzyTolerance:
-      kind: Primitive
-      paths:
-        .:
-          type: FLOAT
-          value: -1.0
-      group: Part Design
-    HoleCutCountersinkAngle:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 130.0 deg
-          expression: Parameters.FanScrewHeadAngle
-      group: Hole
-    HoleCutCustomValues:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Hole
-    HoleCutDepth:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 1.56 mm
-          expression: Parameters.FanScrewHeadDepth
-      group: Hole
-    HoleCutDiameter:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 6.7 mm
-          expression: Parameters.FanScrewHeadD
-      group: Hole
-    HoleCutType:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Countersink
-      group: Hole
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: FanMount1
-      group: Base
-    Midplane:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: SketchBased
-    ModelThread:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Hole
-    Profile:
-      kind: List
-      paths: {}
-      items:
-      - kind: Unknown
-        paths:
-          .:
-            type: STRING
-            value: <Sketcher::SketchObject>
-            freecad_type: Sketcher.SketchObject
-      - kind: List
-        paths: {}
-        items:
-        - kind: Primitive
-          paths:
-            .:
-              type: STRING
-              value: Edge5
-      group: SketchBased
-    Refine:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: true
-      group: Part Design
-    Reversed:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: SketchBased
-    Suppressed:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Base
-    Tapered:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Hole
-    TaperedAngle:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 90.0 deg
-      group: Hole
-    ThreadClass:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: None
-      group: Hole
-    ThreadDepth:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 4.0 mm
-      group: Hole
-    ThreadDepthType:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Hole Depth
-      group: Hole
-    ThreadDiameter:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 5.0 mm
-      group: Hole
-    ThreadDirection:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Right
-      group: Hole
-    ThreadFit:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: '-'
-      group: Hole
-    ThreadSize:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: '---'
-      group: Hole
-    ThreadType:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: None
-      group: Hole
-    Threaded:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Hole
-    UpToFace:
-      kind: Primitive
-      paths:
-        .:
-          type: 'NULL'
-      group: Side1
-    UpToFace2:
-      kind: Primitive
-      paths:
-        .:
-          type: 'NULL'
-      group: Side2
-    UseCustomThreadClearance:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Hole
-- name: Hole002
-  id: 2294
-  type_id: PartDesign::Hole
-  properties:
-    AllowMultiFace:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: true
-      group: SketchBased
-    BaseProfileType:
-      kind: Primitive
-      paths:
-        .:
-          type: INT
-          value: 7
-      group: Hole
-    CustomThreadClearance:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 0.0 mm
-      group: Hole
-    Depth:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 4.0 mm
-          expression: Parameters.Height - Parameters.SplitZ + 1 mm
-      group: Hole
-    DepthType:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Dimension
-      group: Hole
-    Diameter:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 5.0 mm
-          expression: Parameters.FanScrewD
-      group: Hole
-    DrillForDepth:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Hole
-    DrillPoint:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Angled
-      group: Hole
-    DrillPointAngle:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 118.0 deg
-      group: Hole
-    FuzzyTolerance:
-      kind: Primitive
-      paths:
-        .:
-          type: FLOAT
-          value: -1.0
-      group: Part Design
-    HoleCutCountersinkAngle:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 130.0 deg
-          expression: Parameters.FanScrewHeadAngle
-      group: Hole
-    HoleCutCustomValues:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Hole
-    HoleCutDepth:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 1.56 mm
-          expression: Parameters.FanScrewHeadDepth
-      group: Hole
-    HoleCutDiameter:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 6.7 mm
-          expression: Parameters.FanScrewHeadD
-      group: Hole
-    HoleCutType:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Countersink
-      group: Hole
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: FanMount2
-      group: Base
-    Midplane:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: SketchBased
-    ModelThread:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Hole
-    Profile:
-      kind: List
-      paths: {}
-      items:
-      - kind: Unknown
-        paths:
-          .:
-            type: STRING
-            value: <Sketcher::SketchObject>
-            freecad_type: Sketcher.SketchObject
-      - kind: List
-        paths: {}
-        items:
-        - kind: Primitive
-          paths:
-            .:
-              type: STRING
-              value: Edge4
-      group: SketchBased
-    Refine:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: true
-      group: Part Design
-    Reversed:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: SketchBased
-    Suppressed:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Base
-    Tapered:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Hole
-    TaperedAngle:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 90.0 deg
-      group: Hole
-    ThreadClass:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: None
-      group: Hole
-    ThreadDepth:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 4.0 mm
-      group: Hole
-    ThreadDepthType:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Hole Depth
-      group: Hole
-    ThreadDiameter:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 5.0 mm
-      group: Hole
-    ThreadDirection:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Right
-      group: Hole
-    ThreadFit:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: '-'
-      group: Hole
-    ThreadSize:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: '---'
-      group: Hole
-    ThreadType:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: None
-      group: Hole
-    Threaded:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Hole
-    UpToFace:
-      kind: Primitive
-      paths:
-        .:
-          type: 'NULL'
-      group: Side1
-    UpToFace2:
-      kind: Primitive
-      paths:
-        .:
-          type: 'NULL'
-      group: Side2
-    UseCustomThreadClearance:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Hole
-- name: Hole003
-  id: 2295
-  type_id: PartDesign::Hole
-  properties:
-    AllowMultiFace:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: true
-      group: SketchBased
-    BaseProfileType:
-      kind: Primitive
-      paths:
-        .:
-          type: INT
-          value: 7
-      group: Hole
-    CustomThreadClearance:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 0.0 mm
-      group: Hole
-    Depth:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 4.0 mm
-          expression: Parameters.Height - Parameters.SplitZ + 1 mm
-      group: Hole
-    DepthType:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Dimension
-      group: Hole
-    Diameter:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 5.0 mm
-          expression: Parameters.FanScrewD
-      group: Hole
-    DrillForDepth:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Hole
-    DrillPoint:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Angled
-      group: Hole
-    DrillPointAngle:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 130.0 deg
-          expression: Parameters.FanScrewHeadAngle
-      group: Hole
-    FuzzyTolerance:
-      kind: Primitive
-      paths:
-        .:
-          type: FLOAT
-          value: -1.0
-      group: Part Design
-    HoleCutCountersinkAngle:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 90.0 deg
-      group: Hole
-    HoleCutCustomValues:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Hole
-    HoleCutDepth:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 1.56 mm
-          expression: Parameters.FanScrewHeadDepth
-      group: Hole
-    HoleCutDiameter:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 6.7 mm
-          expression: Parameters.FanScrewHeadD
-      group: Hole
-    HoleCutType:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Countersink
-      group: Hole
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: FanMount3
-      group: Base
-    Midplane:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: SketchBased
-    ModelThread:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Hole
-    Profile:
-      kind: List
-      paths: {}
-      items:
-      - kind: Unknown
-        paths:
-          .:
-            type: STRING
-            value: <Sketcher::SketchObject>
-            freecad_type: Sketcher.SketchObject
-      - kind: List
-        paths: {}
-        items:
-        - kind: Primitive
-          paths:
-            .:
-              type: STRING
-              value: Edge2
-      group: SketchBased
-    Refine:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: true
-      group: Part Design
-    Reversed:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: SketchBased
-    Suppressed:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Base
-    Tapered:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Hole
-    TaperedAngle:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 90.0 deg
-      group: Hole
-    ThreadClass:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: None
-      group: Hole
-    ThreadDepth:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 4.0 mm
-      group: Hole
-    ThreadDepthType:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Hole Depth
-      group: Hole
-    ThreadDiameter:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 5.0 mm
-      group: Hole
-    ThreadDirection:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Right
-      group: Hole
-    ThreadFit:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: '-'
-      group: Hole
-    ThreadSize:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: '---'
-      group: Hole
-    ThreadType:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: None
-      group: Hole
-    Threaded:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Hole
-    UpToFace:
-      kind: Primitive
-      paths:
-        .:
-          type: 'NULL'
-      group: Side1
-    UpToFace2:
-      kind: Primitive
-      paths:
-        .:
-          type: 'NULL'
-      group: Side2
-    UseCustomThreadClearance:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Hole
-- name: Hole004
-  id: 2296
-  type_id: PartDesign::Hole
-  properties:
-    AllowMultiFace:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: true
-      group: SketchBased
-    BaseProfileType:
-      kind: Primitive
-      paths:
-        .:
-          type: INT
-          value: 7
-      group: Hole
-    CustomThreadClearance:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 0.0 mm
-      group: Hole
-    Depth:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 4.0 mm
-          expression: Parameters.Height - Parameters.SplitZ + 1 mm
-      group: Hole
-    DepthType:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Dimension
-      group: Hole
-    Diameter:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 5.0 mm
-          expression: Parameters.FanScrewD
-      group: Hole
-    DrillForDepth:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Hole
-    DrillPoint:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Angled
-      group: Hole
-    DrillPointAngle:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 130.0 deg
-          expression: Parameters.FanScrewHeadAngle
-      group: Hole
-    FuzzyTolerance:
-      kind: Primitive
-      paths:
-        .:
-          type: FLOAT
-          value: -1.0
-      group: Part Design
-    HoleCutCountersinkAngle:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 130.0 deg
-          expression: Parameters.FanScrewHeadAngle
-      group: Hole
-    HoleCutCustomValues:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Hole
-    HoleCutDepth:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 1.56 mm
-          expression: Parameters.FanScrewHeadDepth
-      group: Hole
-    HoleCutDiameter:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 6.7 mm
-          expression: Parameters.FanScrewHeadD
-      group: Hole
-    HoleCutType:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Countersink
-      group: Hole
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: FanMount4
-      group: Base
-    Midplane:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: SketchBased
-    ModelThread:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Hole
-    Profile:
-      kind: List
-      paths: {}
-      items:
-      - kind: Unknown
-        paths:
-          .:
-            type: STRING
-            value: <Sketcher::SketchObject>
-            freecad_type: Sketcher.SketchObject
-      - kind: List
-        paths: {}
-        items:
-        - kind: Primitive
-          paths:
-            .:
-              type: STRING
-              value: Edge3
-      group: SketchBased
-    Refine:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: true
-      group: Part Design
-    Reversed:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: SketchBased
-    Suppressed:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Base
-    Tapered:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Hole
-    TaperedAngle:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 90.0 deg
-      group: Hole
-    ThreadClass:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: None
-      group: Hole
-    ThreadDepth:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 4.0 mm
-      group: Hole
-    ThreadDepthType:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Hole Depth
-      group: Hole
-    ThreadDiameter:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 5.0 mm
       group: Hole
     ThreadDirection:
       kind: Primitive
@@ -58972,7 +57813,7 @@ objects:
           value: 0.0 mm
         Base.z:
           type: QUANTITY
-          value: 95.0 mm
+          value: 93.5 mm
         Rotation.Angle:
           type: QUANTITY
           value: 0.0 deg
@@ -58986,8 +57827,1449 @@ objects:
           type: FLOAT
           value: 1.0
       group: Base
+- name: Sketch010
+  id: 2393
+  type_id: Sketcher::SketchObject
+  properties:
+    ArcFitTolerance:
+      kind: Primitive
+      paths:
+        .:
+          type: FLOAT
+          value: 1.0e-06
+      group: Sketch
+    AttacherEngine:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Engine Plane
+      group: Attachment
+    AttachmentOffset:
+      kind: Placement
+      paths:
+        Base.x:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.y:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.z:
+          type: QUANTITY
+          value: 0.0 mm
+        Rotation.Angle:
+          type: QUANTITY
+          value: 0.0 deg
+        Rotation.Axis.x:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.y:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.z:
+          type: FLOAT
+          value: 1.0
+      group: Attachment
+    Constraints:
+      kind: List
+      paths: {}
+      items:
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: Coincident
+          Value:
+            type: FLOAT
+            value: 0.0
+          First:
+            type: INT
+            value: 0
+          FirstPos:
+            type: INT
+            value: 2
+          Second:
+            type: INT
+            value: 1
+          SecondPos:
+            type: INT
+            value: 1
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: Coincident
+          Value:
+            type: FLOAT
+            value: 0.0
+          First:
+            type: INT
+            value: 1
+          FirstPos:
+            type: INT
+            value: 2
+          Second:
+            type: INT
+            value: 2
+          SecondPos:
+            type: INT
+            value: 1
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: Coincident
+          Value:
+            type: FLOAT
+            value: 0.0
+          First:
+            type: INT
+            value: 2
+          FirstPos:
+            type: INT
+            value: 2
+          Second:
+            type: INT
+            value: 3
+          SecondPos:
+            type: INT
+            value: 1
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: Coincident
+          Value:
+            type: FLOAT
+            value: 0.0
+          First:
+            type: INT
+            value: 3
+          FirstPos:
+            type: INT
+            value: 2
+          Second:
+            type: INT
+            value: 0
+          SecondPos:
+            type: INT
+            value: 1
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: Vertical
+          Value:
+            type: FLOAT
+            value: 0.0
+          First:
+            type: INT
+            value: 0
+          FirstPos:
+            type: INT
+            value: 0
+          Second:
+            type: INT
+            value: -2000
+          SecondPos:
+            type: INT
+            value: 0
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: Vertical
+          Value:
+            type: FLOAT
+            value: 0.0
+          First:
+            type: INT
+            value: 2
+          FirstPos:
+            type: INT
+            value: 0
+          Second:
+            type: INT
+            value: -2000
+          SecondPos:
+            type: INT
+            value: 0
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: Horizontal
+          Value:
+            type: FLOAT
+            value: 0.0
+          First:
+            type: INT
+            value: 1
+          FirstPos:
+            type: INT
+            value: 0
+          Second:
+            type: INT
+            value: -2000
+          SecondPos:
+            type: INT
+            value: 0
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: Horizontal
+          Value:
+            type: FLOAT
+            value: 0.0
+          First:
+            type: INT
+            value: 3
+          FirstPos:
+            type: INT
+            value: 0
+          Second:
+            type: INT
+            value: -2000
+          SecondPos:
+            type: INT
+            value: 0
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: Distance
+          Value:
+            type: FLOAT
+            value: 9.0
+          First:
+            type: INT
+            value: 0
+          FirstPos:
+            type: INT
+            value: 1
+          Second:
+            type: INT
+            value: -2
+          SecondPos:
+            type: INT
+            value: 0
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+          .:
+            type: 'NULL'
+            expression: Parameters.FanBoreTrimDia / 2
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: Distance
+          Value:
+            type: FLOAT
+            value: 9.0
+          First:
+            type: INT
+            value: 0
+          FirstPos:
+            type: INT
+            value: 2
+          Second:
+            type: INT
+            value: -1
+          SecondPos:
+            type: INT
+            value: 0
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+          .:
+            type: 'NULL'
+            expression: Parameters.FanBoreTrimDia / 2
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: DistanceY
+          Value:
+            type: FLOAT
+            value: 171.5
+          First:
+            type: INT
+            value: -1
+          FirstPos:
+            type: INT
+            value: 1
+          Second:
+            type: INT
+            value: 0
+          SecondPos:
+            type: INT
+            value: 1
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+          .:
+            type: 'NULL'
+            expression: Parameters.Width - Parameters.FanBoreTrimDia / 2
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: DistanceX
+          Value:
+            type: FLOAT
+            value: 313.0
+          First:
+            type: INT
+            value: -1
+          FirstPos:
+            type: INT
+            value: 1
+          Second:
+            type: INT
+            value: 1
+          SecondPos:
+            type: INT
+            value: 2
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+          .:
+            type: 'NULL'
+            expression: Parameters.Length - Parameters.FanBoreTrimDia / 2
+      group: Sketch
+    Label:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Sk_LidBorder
+      group: Base
+    MakeInternals:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Internal Geometry
+    MapMode:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: FlatFace
+      group: Attachment
+    MapReversed:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Attachment
+    Placement:
+      kind: Placement
+      paths:
+        Base.x:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.y:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.z:
+          type: QUANTITY
+          value: 97.0 mm
+        Rotation.Angle:
+          type: QUANTITY
+          value: 0.0 deg
+        Rotation.Axis.x:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.y:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.z:
+          type: FLOAT
+          value: 1.0
+      group: Base
+- name: Pocket005
+  id: 2396
+  type_id: PartDesign::Pocket
+  properties:
+    AllowMultiFace:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: true
+      group: SketchBased
+    AlongSketchNormal:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: true
+      group: Pocket
+    FuzzyTolerance:
+      kind: Primitive
+      paths:
+        .:
+          type: FLOAT
+          value: -1.0
+      group: Part Design
+    Label:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: LidBorderPocket
+      group: Base
+    Length:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 3.5 mm
+          expression: Parameters.Height - Parameters.SplitZ - 1.5 mm
+      group: Side1
+    Length2:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 5.0 mm
+      group: Side2
+    Midplane:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: SketchBased
+    Offset:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 0.0 mm
+      group: Side1
+    Offset2:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 0.0 mm
+      group: Side2
+    Profile:
+      kind: List
+      paths: {}
+      items:
+      - kind: Unknown
+        paths:
+          .:
+            type: STRING
+            value: <Sketcher::SketchObject>
+            freecad_type: Sketcher.SketchObject
+      - kind: List
+        paths: {}
+        items:
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: ''
+      group: SketchBased
+    ReferenceAxis:
+      kind: List
+      paths: {}
+      items:
+      - kind: Unknown
+        paths:
+          .:
+            type: STRING
+            value: <Sketcher::SketchObject>
+            freecad_type: Sketcher.SketchObject
+      - kind: List
+        paths: {}
+        items:
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: N_Axis
+      group: Pocket
+    Refine:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: true
+      group: Part Design
+    Reversed:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: SketchBased
+    SideType:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: One side
+      group: Pocket
+    Suppressed:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Base
+    TaperAngle:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 0.0 deg
+      group: Side1
+    TaperAngle2:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 0.0 deg
+      group: Side2
+    Type:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Length
+      group: Side1
+    Type2:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Length
+      group: Side2
+    UpToFace:
+      kind: Primitive
+      paths:
+        .:
+          type: 'NULL'
+      group: Side1
+    UpToFace2:
+      kind: Primitive
+      paths:
+        .:
+          type: 'NULL'
+      group: Side2
+    UseCustomVector:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Pocket
+- name: Sk_Fan121
+  id: 2399
+  type_id: Sketcher::SketchObject
+  properties:
+    ArcFitTolerance:
+      kind: Primitive
+      paths:
+        .:
+          type: FLOAT
+          value: 1.0e-06
+      group: Sketch
+    AttacherEngine:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Engine Plane
+      group: Attachment
+    AttachmentOffset:
+      kind: Placement
+      paths:
+        Base.x:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.y:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.z:
+          type: QUANTITY
+          value: 0.0 mm
+        Rotation.Angle:
+          type: QUANTITY
+          value: 0.0 deg
+        Rotation.Axis.x:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.y:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.z:
+          type: FLOAT
+          value: 1.0
+      group: Attachment
+    Constraints:
+      kind: List
+      paths: {}
+      items:
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: DistanceX
+          Value:
+            type: FLOAT
+            value: 251.5
+          First:
+            type: INT
+            value: -1
+          FirstPos:
+            type: INT
+            value: 1
+          Second:
+            type: INT
+            value: 0
+          SecondPos:
+            type: INT
+            value: 3
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+          .:
+            type: 'NULL'
+            expression: Parameters.FanCX
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: DistanceY
+          Value:
+            type: FLOAT
+            value: 90.25
+          First:
+            type: INT
+            value: -1
+          FirstPos:
+            type: INT
+            value: 1
+          Second:
+            type: INT
+            value: 0
+          SecondPos:
+            type: INT
+            value: 3
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+          .:
+            type: 'NULL'
+            expression: Parameters.FanCY
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: Diameter
+          Value:
+            type: FLOAT
+            value: 116.0
+          First:
+            type: INT
+            value: 0
+          FirstPos:
+            type: INT
+            value: 0
+          Second:
+            type: INT
+            value: -2000
+          SecondPos:
+            type: INT
+            value: 0
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+          .:
+            type: 'NULL'
+            expression: Parameters.FanBore
+      group: Sketch
+    Label:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Sk_FanBore
+      group: Base
+    MakeInternals:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Internal Geometry
+    MapMode:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: FlatFace
+      group: Attachment
+    MapReversed:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Attachment
+    Placement:
+      kind: Placement
+      paths:
+        Base.x:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.y:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.z:
+          type: QUANTITY
+          value: 93.5 mm
+        Rotation.Angle:
+          type: QUANTITY
+          value: 0.0 deg
+        Rotation.Axis.x:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.y:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.z:
+          type: FLOAT
+          value: 1.0
+      group: Base
+- name: DP_LidTop002
+  id: 2401
+  type_id: PartDesign::Plane
+  properties:
+    AttacherEngine:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Engine Plane
+      group: Attachment
+    AttachmentOffset:
+      kind: Placement
+      paths:
+        Base.x:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.y:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.z:
+          type: QUANTITY
+          value: 93.5 mm
+          expression: Parameters.Height - Parameters.LidRecessDrop
+        Rotation.Angle:
+          type: QUANTITY
+          value: 0.0 deg
+        Rotation.Axis.x:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.y:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.z:
+          type: FLOAT
+          value: 1.0
+      group: Attachment
+    Label:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: DP_LidPocket
+      group: Base
+    Length:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 400.4073028714239 mm
+      group: Size
+    MapMode:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: FlatFace
+      group: Attachment
+    MapReversed:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Attachment
+    Placement:
+      kind: Placement
+      paths:
+        Base.x:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.y:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.z:
+          type: QUANTITY
+          value: 93.5 mm
+        Rotation.Angle:
+          type: QUANTITY
+          value: 0.0 deg
+        Rotation.Axis.x:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.y:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.z:
+          type: FLOAT
+          value: 1.0
+      group: Base
+    ResizeMode:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Automatic
+      group: Size
+    Width:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 258.9073028714239 mm
+      group: Size
+- name: Hole001
+  id: 2404
+  type_id: PartDesign::Hole
+  properties:
+    AllowMultiFace:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: true
+      group: SketchBased
+    BaseProfileType:
+      kind: Primitive
+      paths:
+        .:
+          type: INT
+          value: 7
+      group: Hole
+    CustomThreadClearance:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 0.0 mm
+      group: Hole
+    Depth:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 1.5 mm
+          expression: Parameters.Height - Parameters.SplitZ - Parameters.LidRecessDrop
+      group: Hole
+    DepthType:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Dimension
+      group: Hole
+    Diameter:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 5.0 mm
+          expression: Parameters.FanScrewD
+      group: Hole
+    DrillForDepth:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Hole
+    DrillPoint:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Flat
+      group: Hole
+    DrillPointAngle:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 118.0 deg
+      group: Hole
+    FuzzyTolerance:
+      kind: Primitive
+      paths:
+        .:
+          type: FLOAT
+          value: -1.0
+      group: Part Design
+    HoleCutCountersinkAngle:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 130.0 deg
+          expression: Parameters.FanScrewHeadAngle
+      group: Hole
+    HoleCutCustomValues:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Hole
+    HoleCutDepth:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 1.56 mm
+          expression: Parameters.FanScrewHeadDepth
+      group: Hole
+    HoleCutDiameter:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 6.7 mm
+          expression: Parameters.FanScrewHeadD
+      group: Hole
+    HoleCutType:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Countersink
+      group: Hole
+    Label:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: FanScrewHoles
+      group: Base
+    Midplane:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: SketchBased
+    ModelThread:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Hole
+    Profile:
+      kind: List
+      paths: {}
+      items:
+      - kind: Unknown
+        paths:
+          .:
+            type: STRING
+            value: <Sketcher::SketchObject>
+            freecad_type: Sketcher.SketchObject
+      - kind: List
+        paths: {}
+        items:
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: ''
+      group: SketchBased
+    Refine:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: true
+      group: Part Design
+    Reversed:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: SketchBased
+    Suppressed:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Base
+    Tapered:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Hole
+    TaperedAngle:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 90.0 deg
+      group: Hole
+    ThreadClass:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: None
+      group: Hole
+    ThreadDepth:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 1.5 mm
+      group: Hole
+    ThreadDepthType:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Hole Depth
+      group: Hole
+    ThreadDiameter:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 5.0 mm
+      group: Hole
+    ThreadDirection:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Right
+      group: Hole
+    ThreadFit:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: '-'
+      group: Hole
+    ThreadSize:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: '---'
+      group: Hole
+    ThreadType:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: None
+      group: Hole
+    Threaded:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Hole
+    UpToFace:
+      kind: Primitive
+      paths:
+        .:
+          type: 'NULL'
+      group: Side1
+    UpToFace2:
+      kind: Primitive
+      paths:
+        .:
+          type: 'NULL'
+      group: Side2
+    UseCustomThreadClearance:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Hole
+- name: Pocket006
+  id: 2405
+  type_id: PartDesign::Pocket
+  properties:
+    AllowMultiFace:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: true
+      group: SketchBased
+    AlongSketchNormal:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: true
+      group: Pocket
+    FuzzyTolerance:
+      kind: Primitive
+      paths:
+        .:
+          type: FLOAT
+          value: -1.0
+      group: Part Design
+    Label:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: FanBore
+      group: Base
+    Length:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 1.5 mm
+          expression: Parameters.Height - Parameters.SplitZ - Parameters.LidRecessDrop
+      group: Side1
+    Length2:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 1.5 mm
+          expression: Parameters.FanBoreTrimPad
+      group: Side2
+    Midplane:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: SketchBased
+    Offset:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 0.0 mm
+      group: Side1
+    Offset2:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 0.0 mm
+      group: Side2
+    Profile:
+      kind: List
+      paths: {}
+      items:
+      - kind: Unknown
+        paths:
+          .:
+            type: STRING
+            value: <Sketcher::SketchObject>
+            freecad_type: Sketcher.SketchObject
+      - kind: List
+        paths: {}
+        items:
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: ''
+      group: SketchBased
+    ReferenceAxis:
+      kind: List
+      paths: {}
+      items:
+      - kind: Unknown
+        paths:
+          .:
+            type: STRING
+            value: <Sketcher::SketchObject>
+            freecad_type: Sketcher.SketchObject
+      - kind: List
+        paths: {}
+        items:
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: N_Axis
+      group: Pocket
+    Refine:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: true
+      group: Part Design
+    Reversed:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: SketchBased
+    SideType:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Two sides
+      group: Pocket
+    Suppressed:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Base
+    TaperAngle:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 0.0 deg
+      group: Side1
+    TaperAngle2:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 0.0 deg
+      group: Side2
+    Type:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Length
+      group: Side1
+    Type2:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Length
+      group: Side2
+    UpToFace:
+      kind: Primitive
+      paths:
+        .:
+          type: 'NULL'
+      group: Side1
+    UpToFace2:
+      kind: Primitive
+      paths:
+        .:
+          type: 'NULL'
+      group: Side2
+    UseCustomVector:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Pocket
 - name: Pad005
-  id: 2362
+  id: 2406
   type_id: PartDesign::Pad
   properties:
     AllowMultiFace:
@@ -59016,7 +59298,7 @@ objects:
       paths:
         .:
           type: STRING
-          value: FanBoreTrimPad
+          value: FanBorePad
       group: Base
     Length:
       kind: Primitive
@@ -59167,190 +59449,8 @@ objects:
           type: BOOL
           value: false
       group: Pad
-- name: Pocket004
-  id: 2366
-  type_id: PartDesign::Pocket
-  properties:
-    AllowMultiFace:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: true
-      group: SketchBased
-    AlongSketchNormal:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: true
-      group: Pocket
-    FuzzyTolerance:
-      kind: Primitive
-      paths:
-        .:
-          type: FLOAT
-          value: -1.0
-      group: Part Design
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: FanBore
-      group: Base
-    Length:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 4.0 mm
-          expression: Parameters.Height - Parameters.SplitZ + 1 mm
-      group: Side1
-    Length2:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 1.5 mm
-          expression: Parameters.FanBoreTrimPad
-      group: Side2
-    Midplane:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: SketchBased
-    Offset:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 0.0 mm
-      group: Side1
-    Offset2:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 0.0 mm
-      group: Side2
-    Profile:
-      kind: List
-      paths: {}
-      items:
-      - kind: Unknown
-        paths:
-          .:
-            type: STRING
-            value: <Sketcher::SketchObject>
-            freecad_type: Sketcher.SketchObject
-      - kind: List
-        paths: {}
-        items:
-        - kind: Primitive
-          paths:
-            .:
-              type: STRING
-              value: ''
-      group: SketchBased
-    ReferenceAxis:
-      kind: List
-      paths: {}
-      items:
-      - kind: Unknown
-        paths:
-          .:
-            type: STRING
-            value: <Sketcher::SketchObject>
-            freecad_type: Sketcher.SketchObject
-      - kind: List
-        paths: {}
-        items:
-        - kind: Primitive
-          paths:
-            .:
-              type: STRING
-              value: N_Axis
-      group: Pocket
-    Refine:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: true
-      group: Part Design
-    Reversed:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: SketchBased
-    SideType:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Two sides
-      group: Pocket
-    Suppressed:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Base
-    TaperAngle:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 0.0 deg
-      group: Side1
-    TaperAngle2:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 0.0 deg
-      group: Side2
-    Type:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Length
-      group: Side1
-    Type2:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Length
-      group: Side2
-    UpToFace:
-      kind: Primitive
-      paths:
-        .:
-          type: 'NULL'
-      group: Side1
-    UpToFace2:
-      kind: Primitive
-      paths:
-        .:
-          type: 'NULL'
-      group: Side2
-    UseCustomVector:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Pocket
 - name: Prints
-  id: 2374
+  id: 2407
   type_id: App::DocumentObjectGroup
   properties:
     Label:
@@ -59361,7 +59461,7 @@ objects:
           value: Prints
       group: Base
 - name: TrayA
-  id: 2376
+  id: 2409
   type_id: Part::Feature
   properties:
     Label:
@@ -59397,7 +59497,7 @@ objects:
           value: 1.0
       group: Base
 - name: TrayB
-  id: 2377
+  id: 2410
   type_id: Part::Feature
   properties:
     Label:
@@ -59433,7 +59533,7 @@ objects:
           value: 1.0
       group: Base
 - name: LidA
-  id: 2379
+  id: 2412
   type_id: Part::Feature
   properties:
     Label:
@@ -59469,7 +59569,7 @@ objects:
           value: 1.0
       group: Base
 - name: LidB
-  id: 2380
+  id: 2413
   type_id: Part::Feature
   properties:
     Label:
@@ -59505,7 +59605,7 @@ objects:
           value: 1.0
       group: Base
 - name: DirectorWhole
-  id: 2381
+  id: 2414
   type_id: Part::Feature
   properties:
     Label:
@@ -59540,298 +59640,6 @@ objects:
           type: FLOAT
           value: 1.0
       group: Base
-- name: Fillet004
-  id: 2382
-  type_id: PartDesign::Fillet
-  properties:
-    Base:
-      kind: List
-      paths: {}
-      items:
-      - kind: Unknown
-        paths:
-          .:
-            type: STRING
-            value: <PartDesign::Pocket>
-            freecad_type: PartDesign.Feature
-      - kind: List
-        paths: {}
-        items:
-        - kind: Primitive
-          paths:
-            .:
-              type: STRING
-              value: Edge52
-      group: Base
-    FuzzyTolerance:
-      kind: Primitive
-      paths:
-        .:
-          type: FLOAT
-          value: -1.0
-      group: Part Design
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: FanBoreOuterFillet
-      group: Base
-    Radius:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 0.7 mm
-          expression: Parameters.FanBoreTrimPad / 2 - 0.05 mm
-      group: Fillet
-    Refine:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: true
-      group: Part Design
-    SupportTransform:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Base
-    Suppressed:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Base
-    UseAllEdges:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Fillet
-- name: Fillet005
-  id: 2383
-  type_id: PartDesign::Fillet
-  properties:
-    Base:
-      kind: List
-      paths: {}
-      items:
-      - kind: Unknown
-        paths:
-          .:
-            type: STRING
-            value: <PartDesign::Fillet>
-            freecad_type: PartDesign.Feature
-      - kind: List
-        paths: {}
-        items:
-        - kind: Primitive
-          paths:
-            .:
-              type: STRING
-              value: Edge83
-      group: Base
-    FuzzyTolerance:
-      kind: Primitive
-      paths:
-        .:
-          type: FLOAT
-          value: -1.0
-      group: Part Design
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: FanBoreOuterRound
-      group: Base
-    Radius:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 0.7 mm
-          expression: Parameters.FanBoreTrimPad / 2 - 0.05 mm
-      group: Fillet
-    Refine:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: true
-      group: Part Design
-    SupportTransform:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Base
-    Suppressed:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Base
-    UseAllEdges:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Fillet
-- name: Fillet006
-  id: 2384
-  type_id: PartDesign::Fillet
-  properties:
-    Base:
-      kind: List
-      paths: {}
-      items:
-      - kind: Unknown
-        paths:
-          .:
-            type: STRING
-            value: <PartDesign::Fillet>
-            freecad_type: PartDesign.Feature
-      - kind: List
-        paths: {}
-        items:
-        - kind: Primitive
-          paths:
-            .:
-              type: STRING
-              value: Edge8
-      group: Base
-    FuzzyTolerance:
-      kind: Primitive
-      paths:
-        .:
-          type: FLOAT
-          value: -1.0
-      group: Part Design
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: FanBoreInnerRoundTop
-      group: Base
-    Radius:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 1.45 mm
-          expression: Parameters.FanBoreTrimPad - 0.05 mm
-      group: Fillet
-    Refine:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: true
-      group: Part Design
-    SupportTransform:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Base
-    Suppressed:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Base
-    UseAllEdges:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Fillet
-- name: Fillet007
-  id: 2385
-  type_id: PartDesign::Fillet
-  properties:
-    Base:
-      kind: List
-      paths: {}
-      items:
-      - kind: Unknown
-        paths:
-          .:
-            type: STRING
-            value: <PartDesign::Fillet>
-            freecad_type: PartDesign.Feature
-      - kind: List
-        paths: {}
-        items:
-        - kind: Primitive
-          paths:
-            .:
-              type: STRING
-              value: Edge8
-      group: Base
-    FuzzyTolerance:
-      kind: Primitive
-      paths:
-        .:
-          type: FLOAT
-          value: -1.0
-      group: Part Design
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: FanBoreInnerRoundBot
-      group: Base
-    Radius:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 0.7 mm
-          expression: Parameters.FanBoreTrimPad / 2 - 0.05 mm
-      group: Fillet
-    Refine:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: true
-      group: Part Design
-    SupportTransform:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Base
-    Suppressed:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Base
-    UseAllEdges:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Fillet
 occurrences:
 - path: Assembly
   after: Parameters
@@ -59877,33 +59685,15 @@ occurrences:
   after: Assembly/Lid/Origin001
 - path: Assembly/Lid/DP_LidTop
   after: Assembly/Lid/LidBlock
+- path: Assembly/Lid/DP_LidTop002
+  after: Assembly/Lid/Pocket005
 - path: Assembly/Lid/DP_TabTrimX
   after: Assembly/Lid/LocatorTabs
 - path: Assembly/Lid/DP_TabTrimY
   after: Assembly/Lid/DP_TabTrimX
-- path: Assembly/Lid/Fillet004
-  after: Assembly/Lid/Pocket004
-- path: Assembly/Lid/Fillet005
-  after: Assembly/Lid/Fillet004
-- path: Assembly/Lid/Fillet006
-  after: Assembly/Lid/Fillet005
-- path: Assembly/Lid/Fillet007
-  after: Assembly/Lid/Fillet006
 - path: Assembly/Lid/Hole001
-  after: Assembly/Lid/TabChamferX
+  after: Assembly/Lid/DP_LidTop002
 - path: Assembly/Lid/Hole001/Sk_Fan120
-  after: null
-- path: Assembly/Lid/Hole002
-  after: Assembly/Lid/Hole001
-- path: Assembly/Lid/Hole002/Sk_Fan120
-  after: null
-- path: Assembly/Lid/Hole003
-  after: Assembly/Lid/Hole002
-- path: Assembly/Lid/Hole003/Sk_Fan120
-  after: null
-- path: Assembly/Lid/Hole004
-  after: Assembly/Lid/Hole003
-- path: Assembly/Lid/Hole004/Sk_Fan120
   after: null
 - path: Assembly/Lid/LidBlock
   after: Assembly/Lid/DP_LidBase
@@ -59930,12 +59720,16 @@ occurrences:
 - path: Assembly/Lid/Origin001/Z_Axis001
   after: Assembly/Lid/Origin001/Y_Axis001
 - path: Assembly/Lid/Pad005
-  after: Assembly/Lid/Hole004
+  after: Assembly/Lid/Hole001
 - path: Assembly/Lid/Pad005/Sketch009
   after: null
-- path: Assembly/Lid/Pocket004
+- path: Assembly/Lid/Pocket005
+  after: Assembly/Lid/TabChamferX
+- path: Assembly/Lid/Pocket005/Sketch010
+  after: null
+- path: Assembly/Lid/Pocket006
   after: Assembly/Lid/Pad005
-- path: Assembly/Lid/Pocket004/Sk_Fan120
+- path: Assembly/Lid/Pocket006/Sk_Fan121
   after: null
 - path: Assembly/Lid/TabChamferX
   after: Assembly/Lid/TabChamferY
