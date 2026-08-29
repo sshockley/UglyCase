@@ -1,6 +1,6 @@
 v: 2
-timestamp: '2026-08-28T17:26:10.865457'
-uid: a546aef2-51a7-4fbe-99bb-c49c63842e79
+timestamp: '2026-08-28T20:41:02.127917'
+uid: a741b9c2-22b8-46a0-a307-2da393925f8d
 objects:
 - name: Parameters
   id: 2132
@@ -24152,7 +24152,7 @@ objects:
       paths:
         .:
           type: STRING
-          value: <PartDesign::Pocket>
+          value: <PartDesign::Fillet>
           freecad_type: PartDesign.Feature
       group: Base
 - name: Origin001
@@ -58911,7 +58911,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 1.56 mm
+          value: 1.5621306548192453 mm
           expression: Parameters.FanScrewHeadDepth
       group: Hole
     HoleCutDiameter:
@@ -59449,8 +59449,311 @@ objects:
           type: BOOL
           value: false
       group: Pad
+- name: Fillet004
+  id: 2419
+  type_id: PartDesign::Fillet
+  properties:
+    Base:
+      kind: List
+      paths: {}
+      items:
+      - kind: Unknown
+        paths:
+          .:
+            type: STRING
+            value: <PartDesign::Pocket>
+            freecad_type: PartDesign.Feature
+      - kind: List
+        paths: {}
+        items:
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Edge39
+      group: Base
+    FuzzyTolerance:
+      kind: Primitive
+      paths:
+        .:
+          type: FLOAT
+          value: -1.0
+      group: Part Design
+    Label:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: LidOutsideRound
+      group: Base
+    Radius:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 0.5 mm
+      group: Fillet
+    Refine:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: true
+      group: Part Design
+    SupportTransform:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Base
+    Suppressed:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Base
+    UseAllEdges:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Fillet
+- name: Fillet005
+  id: 2420
+  type_id: PartDesign::Fillet
+  properties:
+    Base:
+      kind: List
+      paths: {}
+      items:
+      - kind: Unknown
+        paths:
+          .:
+            type: STRING
+            value: <PartDesign::Fillet>
+            freecad_type: PartDesign.Feature
+      - kind: List
+        paths: {}
+        items:
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Face48
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Face47
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Face45
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Face46
+      group: Base
+    FuzzyTolerance:
+      kind: Primitive
+      paths:
+        .:
+          type: FLOAT
+          value: -1.0
+      group: Part Design
+    Label:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: LidInsideRound
+      group: Base
+    Radius:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 0.75 mm
+      group: Fillet
+    Refine:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: true
+      group: Part Design
+    SupportTransform:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Base
+    Suppressed:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Base
+    UseAllEdges:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Fillet
+- name: Fillet006
+  id: 2421
+  type_id: PartDesign::Fillet
+  properties:
+    Base:
+      kind: List
+      paths: {}
+      items:
+      - kind: Unknown
+        paths:
+          .:
+            type: STRING
+            value: <PartDesign::Fillet>
+            freecad_type: PartDesign.Feature
+      - kind: List
+        paths: {}
+        items:
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Face90
+      group: Base
+    FuzzyTolerance:
+      kind: Primitive
+      paths:
+        .:
+          type: FLOAT
+          value: -1.0
+      group: Part Design
+    Label:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: FanPaddingFillet
+      group: Base
+    Radius:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 0.5 mm
+      group: Fillet
+    Refine:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: true
+      group: Part Design
+    SupportTransform:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Base
+    Suppressed:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Base
+    UseAllEdges:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Fillet
+- name: Fillet007
+  id: 2422
+  type_id: PartDesign::Fillet
+  properties:
+    Base:
+      kind: List
+      paths: {}
+      items:
+      - kind: Unknown
+        paths:
+          .:
+            type: STRING
+            value: <PartDesign::Fillet>
+            freecad_type: PartDesign.Feature
+      - kind: List
+        paths: {}
+        items:
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Edge130
+      group: Base
+    FuzzyTolerance:
+      kind: Primitive
+      paths:
+        .:
+          type: FLOAT
+          value: -1.0
+      group: Part Design
+    Label:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: FanInsideFillet
+      group: Base
+    Radius:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 0.75 mm
+      group: Fillet
+    Refine:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: true
+      group: Part Design
+    SupportTransform:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Base
+    Suppressed:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Base
+    UseAllEdges:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Fillet
 - name: Prints
-  id: 2407
+  id: 2423
   type_id: App::DocumentObjectGroup
   properties:
     Label:
@@ -59461,7 +59764,7 @@ objects:
           value: Prints
       group: Base
 - name: TrayA
-  id: 2409
+  id: 2425
   type_id: Part::Feature
   properties:
     Label:
@@ -59497,7 +59800,7 @@ objects:
           value: 1.0
       group: Base
 - name: TrayB
-  id: 2410
+  id: 2426
   type_id: Part::Feature
   properties:
     Label:
@@ -59533,7 +59836,7 @@ objects:
           value: 1.0
       group: Base
 - name: LidA
-  id: 2412
+  id: 2428
   type_id: Part::Feature
   properties:
     Label:
@@ -59569,7 +59872,7 @@ objects:
           value: 1.0
       group: Base
 - name: LidB
-  id: 2413
+  id: 2429
   type_id: Part::Feature
   properties:
     Label:
@@ -59605,7 +59908,7 @@ objects:
           value: 1.0
       group: Base
 - name: DirectorWhole
-  id: 2414
+  id: 2430
   type_id: Part::Feature
   properties:
     Label:
@@ -59691,6 +59994,14 @@ occurrences:
   after: Assembly/Lid/LocatorTabs
 - path: Assembly/Lid/DP_TabTrimY
   after: Assembly/Lid/DP_TabTrimX
+- path: Assembly/Lid/Fillet004
+  after: Assembly/Lid/Pocket006
+- path: Assembly/Lid/Fillet005
+  after: Assembly/Lid/Fillet004
+- path: Assembly/Lid/Fillet006
+  after: Assembly/Lid/Fillet005
+- path: Assembly/Lid/Fillet007
+  after: Assembly/Lid/Fillet006
 - path: Assembly/Lid/Hole001
   after: Assembly/Lid/DP_LidTop002
 - path: Assembly/Lid/Hole001/Sk_Fan120
