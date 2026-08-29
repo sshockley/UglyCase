@@ -1,6 +1,6 @@
 v: 2
-timestamp: '2026-08-28T21:19:04.479355'
-uid: 9747453c-1c18-4db3-b429-4cdea384509c
+timestamp: '2026-08-28T22:10:06.077008'
+uid: 747af2a3-a284-4549-93e8-059dd4e97dff
 objects:
 - name: Parameters
   id: 2132
@@ -453,7 +453,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 1.8 mm
+          value: 3.1 mm
         Alias:
           type: STRING
           value: CboreDepth
@@ -11365,110 +11365,6 @@ objects:
           type: BOOL
           value: false
       group: Pad
-- name: DP_LedgeBase
-  id: 2164
-  type_id: PartDesign::Plane
-  properties:
-    AttacherEngine:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Engine Plane
-      group: Attachment
-    AttachmentOffset:
-      kind: Placement
-      paths:
-        Base.x:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.y:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.z:
-          type: QUANTITY
-          value: 43.0 mm
-          expression: Parameters.LedgeZ0
-        Rotation.Angle:
-          type: QUANTITY
-          value: 0.0 deg
-        Rotation.Axis.x:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.y:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.z:
-          type: FLOAT
-          value: 1.0
-      group: Attachment
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: DP_LedgeBase
-      group: Base
-    Length:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 400.4073028714239 mm
-      group: Size
-    MapMode:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: FlatFace
-      group: Attachment
-    MapReversed:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Attachment
-    Placement:
-      kind: Placement
-      paths:
-        Base.x:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.y:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.z:
-          type: QUANTITY
-          value: 43.0 mm
-        Rotation.Angle:
-          type: QUANTITY
-          value: 0.0 deg
-        Rotation.Axis.x:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.y:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.z:
-          type: FLOAT
-          value: 1.0
-      group: Base
-    ResizeMode:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Automatic
-      group: Size
-    Width:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 258.9073028714239 mm
-      group: Size
 - name: DP_BossBase
   id: 2166
   type_id: PartDesign::Plane
@@ -29278,7 +29174,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 1.8 mm
+          value: 3.1 mm
           expression: Parameters.CboreDepth
       group: Side1
     Length2:
@@ -46539,214 +46435,6 @@ objects:
           type: BOOL
           value: false
       group: Pad
-- name: DP_SpliceGusATop
-  id: 2263
-  type_id: PartDesign::Plane
-  properties:
-    AttacherEngine:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Engine Plane
-      group: Attachment
-    AttachmentOffset:
-      kind: Placement
-      paths:
-        Base.x:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.y:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.z:
-          type: QUANTITY
-          value: 5.0 mm
-          expression: Parameters.SpliceGusA
-        Rotation.Angle:
-          type: QUANTITY
-          value: 0.0 deg
-        Rotation.Axis.x:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.y:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.z:
-          type: FLOAT
-          value: 1.0
-      group: Attachment
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: DP_SpliceGusATop
-      group: Base
-    Length:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 400.4073028714239 mm
-      group: Size
-    MapMode:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: FlatFace
-      group: Attachment
-    MapReversed:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Attachment
-    Placement:
-      kind: Placement
-      paths:
-        Base.x:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.y:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.z:
-          type: QUANTITY
-          value: 6.0 mm
-        Rotation.Angle:
-          type: QUANTITY
-          value: 0.0 deg
-        Rotation.Axis.x:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.y:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.z:
-          type: FLOAT
-          value: 1.0
-      group: Base
-    ResizeMode:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Automatic
-      group: Size
-    Width:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 258.9073028714239 mm
-      group: Size
-- name: DP_SpliceGusBLo
-  id: 2266
-  type_id: PartDesign::Plane
-  properties:
-    AttacherEngine:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Engine Plane
-      group: Attachment
-    AttachmentOffset:
-      kind: Placement
-      paths:
-        Base.x:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.y:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.z:
-          type: QUANTITY
-          value: 47.0 mm
-          expression: Parameters.SpliceBossZ - Parameters.SpliceGusB
-        Rotation.Angle:
-          type: QUANTITY
-          value: 0.0 deg
-        Rotation.Axis.x:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.y:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.z:
-          type: FLOAT
-          value: 1.0
-      group: Attachment
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: DP_SpliceGusBLo
-      group: Base
-    Length:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 400.4073028714239 mm
-      group: Size
-    MapMode:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: FlatFace
-      group: Attachment
-    MapReversed:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Attachment
-    Placement:
-      kind: Placement
-      paths:
-        Base.x:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.y:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.z:
-          type: QUANTITY
-          value: 47.0 mm
-        Rotation.Angle:
-          type: QUANTITY
-          value: 0.0 deg
-        Rotation.Axis.x:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.y:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.z:
-          type: FLOAT
-          value: 1.0
-      group: Base
-    ResizeMode:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Automatic
-      group: Size
-    Width:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 258.9073028714239 mm
-      group: Size
 - name: DP_SpliceGusBHi
   id: 2267
   type_id: PartDesign::Plane
@@ -58911,7 +58599,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 1.5621306548192453 mm
+          value: 1.56 mm
           expression: Parameters.FanScrewHeadDepth
       group: Hole
     HoleCutDiameter:
@@ -60099,25 +59787,19 @@ occurrences:
 - path: Assembly/Tray/ClosureBosses/Sk_ClosureBosses
   after: null
 - path: Assembly/Tray/DP_BossBase
-  after: Assembly/Tray/DP_LedgeBase
+  after: Assembly/Tray/HeatsinkFrame
 - path: Assembly/Tray/DP_BossGusXlo
   after: Assembly/Tray/BossGusTrimXhi
 - path: Assembly/Tray/DP_BossTop
   after: Assembly/Tray/BoardBosses
 - path: Assembly/Tray/DP_FloorTop
   after: Assembly/Tray/BoardPilots
-- path: Assembly/Tray/DP_LedgeBase
-  after: Assembly/Tray/HeatsinkFrame
 - path: Assembly/Tray/DP_Seam
   after: Assembly/Tray/TrayBlock
 - path: Assembly/Tray/DP_SpliceEnd
   after: Assembly/Tray/DP_SpliceStart
-- path: Assembly/Tray/DP_SpliceGusATop
-  after: Assembly/Tray/SpliceBosses
 - path: Assembly/Tray/DP_SpliceGusBHi
-  after: Assembly/Tray/DP_SpliceGusBLo
-- path: Assembly/Tray/DP_SpliceGusBLo
-  after: Assembly/Tray/DP_SpliceGusATop
+  after: Assembly/Tray/SpliceBosses
 - path: Assembly/Tray/DP_SpliceStart
   after: Assembly/Tray/SpliceBand
 - path: Assembly/Tray/DP_TrimXStart
