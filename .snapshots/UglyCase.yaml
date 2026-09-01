@@ -1,6 +1,6 @@
 v: 2
-timestamp: '2026-09-01T17:18:25.489206'
-uid: cce68a1d-0ef1-4cbf-9a0f-60afbba350af
+timestamp: '2026-09-01T17:25:55.822375'
+uid: fa5f9021-1c9a-4568-8ab2-b99e14ff0574
 objects:
 - name: Parameters
   id: 2132
@@ -491,7 +491,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 9.0 mm
+          value: 12.0 mm
         Alias:
           type: STRING
           value: BossD
@@ -5253,7 +5253,7 @@ objects:
       paths:
         .:
           type: STRING
-          value: <PartDesign::Pocket>
+          value: <PartDesign::Fillet>
           freecad_type: PartDesign.Feature
       group: Base
 - name: Origin
@@ -6343,7 +6343,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 400.4073028714239 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -6396,7 +6396,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 258.9073028714239 mm
       group: Size
 - name: Sk_TrayCavity
   id: 2147
@@ -8103,7 +8103,7 @@ objects:
             value: Diameter
           Value:
             type: FLOAT
-            value: 9.0
+            value: 12.0
           First:
             type: INT
             value: 0
@@ -8208,7 +8208,7 @@ objects:
             value: Diameter
           Value:
             type: FLOAT
-            value: 9.0
+            value: 12.0
           First:
             type: INT
             value: 1
@@ -8837,7 +8837,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 400.4073028714239 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -8890,7 +8890,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 258.9073028714239 mm
       group: Size
 - name: Sk_BoardPilots
   id: 2156
@@ -9625,7 +9625,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 400.4073028714239 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -9678,7 +9678,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 258.9073028714239 mm
       group: Size
 - name: Sk_HeatsinkWindows
   id: 2159
@@ -11445,7 +11445,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 400.4073028714239 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -11498,7 +11498,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 258.9073028714239 mm
       group: Size
 - name: Sk_ClosureBosses
   id: 2167
@@ -60058,6 +60058,113 @@ objects:
           type: FLOAT
           value: 1.0
       group: Base
+- name: Fillet008
+  id: 2446
+  type_id: PartDesign::Fillet
+  properties:
+    Base:
+      kind: List
+      paths: {}
+      items:
+      - kind: Unknown
+        paths:
+          .:
+            type: STRING
+            value: <PartDesign::Pocket>
+            freecad_type: PartDesign.Feature
+      - kind: List
+        paths: {}
+        items:
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Edge363
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Edge560
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Edge559
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Edge368
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Edge366
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Edge367
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Edge364
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Edge365
+      group: Base
+    FuzzyTolerance:
+      kind: Primitive
+      paths:
+        .:
+          type: FLOAT
+          value: -1.0
+      group: Part Design
+    Label:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: PSFanFillet
+      group: Base
+    Radius:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 2.0 mm
+      group: Fillet
+    Refine:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: true
+      group: Part Design
+    SupportTransform:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Base
+    Suppressed:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Base
+    UseAllEdges:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Fillet
 occurrences:
 - path: Assembly
   after: Parameters
@@ -60245,6 +60352,8 @@ occurrences:
   after: Assembly/Tray/Fillet001
 - path: Assembly/Tray/Fillet003
   after: Assembly/Tray/Fillet002
+- path: Assembly/Tray/Fillet008
+  after: Assembly/Tray/Pocket003
 - path: Assembly/Tray/HeatsinkFrame
   after: Assembly/Tray/HeatsinkWindows
 - path: Assembly/Tray/HeatsinkFrame/Sk_HeatsinkFrame
