@@ -1,6 +1,6 @@
 v: 2
-timestamp: '2026-09-02T15:35:28.442599'
-uid: 515a05e2-407a-4829-8f1b-6f149d915dea
+timestamp: '2026-09-02T15:46:05.299416'
+uid: 011578a8-a957-469f-8c3f-0e3d9aee50c3
 objects:
 - name: Parameters
   id: 2132
@@ -2503,7 +2503,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 162.0 mm
+          value: 172.0 mm
         Alias:
           type: STRING
           value: HexY1
@@ -6374,7 +6374,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 400.4073028714239 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -6427,7 +6427,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 258.9073028714239 mm
       group: Size
 - name: Sk_TrayCavity
   id: 2147
@@ -8868,7 +8868,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 400.4073028714239 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -8921,7 +8921,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 258.9073028714239 mm
       group: Size
 - name: Sk_BoardPilots
   id: 2156
@@ -9656,7 +9656,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 400.4073028714239 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -9709,7 +9709,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 258.9073028714239 mm
       group: Size
 - name: Sk_HeatsinkWindows
   id: 2159
@@ -11476,7 +11476,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 400.4073028714239 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -11529,7 +11529,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 258.9073028714239 mm
       group: Size
 - name: Sk_ClosureBosses
   id: 2167
@@ -42249,7 +42249,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 236.51193318708138 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -42302,7 +42302,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 148.01193318708138 mm
       group: Size
 - name: DP_TrimYStart
   id: 2243
@@ -42354,7 +42354,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 387.29838706449675 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -42407,7 +42407,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.000000000000014 mm
+          value: 157.29838706449684 mm
       group: Size
 - name: Sk_BossGusTrimY
   id: 2244
@@ -45693,7 +45693,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 236.51193318708138 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -45746,7 +45746,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 148.01193318708138 mm
       group: Size
 - name: DP_SpliceEnd
   id: 2258
@@ -45797,7 +45797,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 236.51193318708138 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -45850,7 +45850,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 148.01193318708138 mm
       group: Size
 - name: Sk_SpliceBosses
   id: 2260
@@ -53485,19 +53485,19 @@ objects:
       paths:
         Base.x:
           type: QUANTITY
-          value: 4.811311263205674e-14 mm
+          value: 4.8113112632056724e-14 mm
         Base.y:
           type: QUANTITY
           value: 1.5000000000012905 mm
         Base.z:
           type: QUANTITY
-          value: -1.1056260297769553e-14 mm
+          value: -1.1056260297769608e-14 mm
         Rotation.Angle:
           type: QUANTITY
           value: 179.9999999999987 deg
         Rotation.Axis.x:
           type: FLOAT
-          value: 1.1340369402030022e-14
+          value: 1.1340369402030019e-14
         Rotation.Axis.y:
           type: FLOAT
           value: 0.7071067811865501
@@ -56212,7 +56212,7 @@ objects:
             value: DistanceX
           Value:
             type: FLOAT
-            value: 162.0
+            value: 172.0
           First:
             type: INT
             value: 2
@@ -59769,6 +59769,288 @@ objects:
           type: BOOL
           value: false
       group: Pocket
+- name: HexGrid
+  id: 2483
+  type_id: Sketcher::SketchObject
+  properties:
+    ArcFitTolerance:
+      kind: Primitive
+      paths:
+        .:
+          type: FLOAT
+          value: 1.0e-06
+      group: Sketch
+    AttacherEngine:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Engine 3D
+      group: Attachment
+    AttachmentOffset:
+      kind: Placement
+      paths:
+        Base.x:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.y:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.z:
+          type: QUANTITY
+          value: 0.0 mm
+        Rotation.Angle:
+          type: QUANTITY
+          value: 0.0 deg
+        Rotation.Axis.x:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.y:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.z:
+          type: FLOAT
+          value: 1.0
+      group: Attachment
+    Constraints:
+      kind: List
+      paths: {}
+      items: []
+      group: Sketch
+    Label:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: HexGrid
+      group: Base
+    MakeInternals:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Internal Geometry
+    MapMode:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: FlatFace
+      group: Attachment
+    MapReversed:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Attachment
+    Placement:
+      kind: Placement
+      paths:
+        Base.x:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.y:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.z:
+          type: QUANTITY
+          value: 0.0 mm
+        Rotation.Angle:
+          type: QUANTITY
+          value: 120.00000000000001 deg
+        Rotation.Axis.x:
+          type: FLOAT
+          value: 0.5773502691896257
+        Rotation.Axis.y:
+          type: FLOAT
+          value: -0.5773502691896257
+        Rotation.Axis.z:
+          type: FLOAT
+          value: -0.5773502691896257
+      group: Base
+- name: Pocket008
+  id: 2484
+  type_id: PartDesign::Pocket
+  properties:
+    AllowMultiFace:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: true
+      group: SketchBased
+    AlongSketchNormal:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: true
+      group: Pocket
+    FuzzyTolerance:
+      kind: Primitive
+      paths:
+        .:
+          type: FLOAT
+          value: -1.0
+      group: Part Design
+    Label:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Pocket008
+      group: Base
+    Length:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 3.0 mm
+          expression: Parameters.PortsWall
+      group: Side1
+    Length2:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 5.0 mm
+      group: Side2
+    Midplane:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: SketchBased
+    Offset:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 0.0 mm
+      group: Side1
+    Offset2:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 0.0 mm
+      group: Side2
+    Profile:
+      kind: List
+      paths: {}
+      items:
+      - kind: Unknown
+        paths:
+          .:
+            type: STRING
+            value: <Sketcher::SketchObject>
+            freecad_type: Sketcher.SketchObject
+      - kind: List
+        paths: {}
+        items:
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: ''
+      group: SketchBased
+    ReferenceAxis:
+      kind: List
+      paths: {}
+      items:
+      - kind: Unknown
+        paths:
+          .:
+            type: STRING
+            value: <Sketcher::SketchObject>
+            freecad_type: Sketcher.SketchObject
+      - kind: List
+        paths: {}
+        items:
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: N_Axis
+      group: Pocket
+    Refine:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: true
+      group: Part Design
+    Reversed:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: SketchBased
+    SideType:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: One side
+      group: Pocket
+    Suppressed:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Base
+    TaperAngle:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 0.0 deg
+      group: Side1
+    TaperAngle2:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 0.0 deg
+      group: Side2
+    Type:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Length
+      group: Side1
+    Type2:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Length
+      group: Side2
+    UpToFace:
+      kind: Primitive
+      paths:
+        .:
+          type: 'NULL'
+      group: Side1
+    UpToFace2:
+      kind: Primitive
+      paths:
+        .:
+          type: 'NULL'
+      group: Side2
+    UseCustomVector:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Pocket
 occurrences:
 - path: Assembly
   after: Parameters
@@ -60025,6 +60307,10 @@ occurrences:
 - path: Assembly/Tray/Pocket007
   after: Assembly/Tray/Pad004
 - path: Assembly/Tray/Pocket007/Sketch011
+  after: null
+- path: Assembly/Tray/Pocket008
+  after: Assembly/Tray/Pocket007
+- path: Assembly/Tray/Pocket008/HexGrid
   after: null
 - path: Assembly/Tray/PsuFaceOpenings
   after: Assembly/Tray/IecOpening
