@@ -1,6 +1,6 @@
 v: 2
-timestamp: '2026-09-02T14:08:03.932440'
-uid: 8cd68ccf-a629-4715-a02b-71a2df031c57
+timestamp: '2026-09-02T14:12:12.171057'
+uid: 419c737a-48a2-4817-8533-e885dceffa17
 objects:
 - name: Parameters
   id: 2132
@@ -5253,7 +5253,7 @@ objects:
       paths:
         .:
           type: STRING
-          value: <PartDesign::Fillet>
+          value: <PartDesign::Pad>
           freecad_type: PartDesign.Feature
       group: Base
 - name: Origin
@@ -53047,7 +53047,7 @@ objects:
           value: 0.0 mm
         Base.y:
           type: QUANTITY
-          value: 1.5 mm
+          value: 1.5000000000000002 mm
         Base.z:
           type: QUANTITY
           value: 0.0 mm
@@ -54121,7 +54121,7 @@ objects:
           value: 0.0 mm
         Base.y:
           type: QUANTITY
-          value: 1.5 mm
+          value: 1.5000000000000002 mm
         Base.z:
           type: QUANTITY
           value: 0.0 mm
@@ -56268,7 +56268,7 @@ objects:
           value: 0.0 mm
         Base.y:
           type: QUANTITY
-          value: 179.00000000000003 mm
+          value: 179.0 mm
         Base.z:
           type: QUANTITY
           value: 0.0 mm
@@ -57164,22 +57164,22 @@ objects:
           paths:
             .:
               type: STRING
-              value: Edge191
+              value: Edge219
         - kind: Primitive
           paths:
             .:
               type: STRING
-              value: Edge190
+              value: Edge218
         - kind: Primitive
           paths:
             .:
               type: STRING
-              value: Edge189
+              value: Edge217
         - kind: Primitive
           paths:
             .:
               type: STRING
-              value: Edge188
+              value: Edge216
       group: Base
     FuzzyTolerance:
       kind: Primitive
@@ -57410,32 +57410,32 @@ objects:
           paths:
             .:
               type: STRING
-              value: Face127
+              value: Face135
         - kind: Primitive
           paths:
             .:
               type: STRING
-              value: Face208
+              value: Face216
         - kind: Primitive
           paths:
             .:
               type: STRING
-              value: Face128
+              value: Face136
         - kind: Primitive
           paths:
             .:
               type: STRING
-              value: Edge519
+              value: Edge539
         - kind: Primitive
           paths:
             .:
               type: STRING
-              value: Edge201
+              value: Edge207
         - kind: Primitive
           paths:
             .:
               type: STRING
-              value: Edge204
+              value: Edge210
       group: Base
     FuzzyTolerance:
       kind: Primitive
@@ -59617,197 +59617,6 @@ objects:
           type: BOOL
           value: false
       group: Fillet
-- name: Prints
-  id: 2447
-  type_id: App::DocumentObjectGroup
-  properties:
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Prints
-      group: Base
-- name: TrayA
-  id: 2449
-  type_id: Part::Feature
-  properties:
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: TrayA
-      group: Base
-    Placement:
-      kind: Placement
-      paths:
-        Base.x:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.y:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.z:
-          type: QUANTITY
-          value: 0.0 mm
-        Rotation.Angle:
-          type: QUANTITY
-          value: 0.0 deg
-        Rotation.Axis.x:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.y:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.z:
-          type: FLOAT
-          value: 1.0
-      group: Base
-- name: TrayB
-  id: 2450
-  type_id: Part::Feature
-  properties:
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: TrayB
-      group: Base
-    Placement:
-      kind: Placement
-      paths:
-        Base.x:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.y:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.z:
-          type: QUANTITY
-          value: 0.0 mm
-        Rotation.Angle:
-          type: QUANTITY
-          value: 0.0 deg
-        Rotation.Axis.x:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.y:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.z:
-          type: FLOAT
-          value: 1.0
-      group: Base
-- name: LidA
-  id: 2452
-  type_id: Part::Feature
-  properties:
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: LidA
-      group: Base
-    Placement:
-      kind: Placement
-      paths:
-        Base.x:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.y:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.z:
-          type: QUANTITY
-          value: 0.0 mm
-        Rotation.Angle:
-          type: QUANTITY
-          value: 0.0 deg
-        Rotation.Axis.x:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.y:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.z:
-          type: FLOAT
-          value: 1.0
-      group: Base
-- name: LidB
-  id: 2453
-  type_id: Part::Feature
-  properties:
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: LidB
-      group: Base
-    Placement:
-      kind: Placement
-      paths:
-        Base.x:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.y:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.z:
-          type: QUANTITY
-          value: 0.0 mm
-        Rotation.Angle:
-          type: QUANTITY
-          value: 0.0 deg
-        Rotation.Axis.x:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.y:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.z:
-          type: FLOAT
-          value: 1.0
-      group: Base
-- name: DirectorWhole
-  id: 2454
-  type_id: Part::Feature
-  properties:
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: DirectorWhole
-      group: Base
-    Placement:
-      kind: Placement
-      paths:
-        Base.x:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.y:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.z:
-          type: QUANTITY
-          value: 0.0 mm
-        Rotation.Angle:
-          type: QUANTITY
-          value: 0.0 deg
-        Rotation.Axis.x:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.y:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.z:
-          type: FLOAT
-          value: 1.0
-      group: Base
 - name: Fillet008
   id: 2458
   type_id: PartDesign::Fillet
@@ -60063,7 +59872,7 @@ occurrences:
 - path: Assembly/Tray/BossGusTrimY/Sk_BossGusTrimY
   after: null
 - path: Assembly/Tray/BossGussets
-  after: Assembly/Tray/PsuFaceOpenings
+  after: Assembly/Tray/Fillet008
 - path: Assembly/Tray/BossGussets/Sk_BossGussets
   after: null
 - path: Assembly/Tray/ClosureBosses
@@ -60103,7 +59912,7 @@ occurrences:
 - path: Assembly/Tray/Fillet003
   after: Assembly/Tray/Fillet002
 - path: Assembly/Tray/Fillet008
-  after: Assembly/Tray/Pad004
+  after: Assembly/Tray/PsuFaceOpenings
 - path: Assembly/Tray/HeatsinkFrame
   after: Assembly/Tray/HeatsinkWindows
 - path: Assembly/Tray/HeatsinkFrame/Sk_HeatsinkFrame
@@ -60206,17 +60015,5 @@ occurrences:
   after: null
 - path: Parameters
   after: null
-- path: Prints
-  after: UpdateParts
-- path: Prints/DirectorWhole
-  after: Prints/LidB
-- path: Prints/LidA
-  after: Prints/TrayB
-- path: Prints/LidB
-  after: Prints/LidA
-- path: Prints/TrayA
-  after: null
-- path: Prints/TrayB
-  after: Prints/TrayA
 - path: UpdateParts
   after: Assembly
