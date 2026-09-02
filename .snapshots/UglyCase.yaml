@@ -1,6 +1,6 @@
 v: 2
-timestamp: '2026-09-01T17:25:55.822375'
-uid: fa5f9021-1c9a-4568-8ab2-b99e14ff0574
+timestamp: '2026-09-01T21:44:43.093384'
+uid: c5f5b169-5c7a-4a82-bdf9-879284b28732
 objects:
 - name: Parameters
   id: 2132
@@ -3013,7 +3013,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 68.0 mm
+          value: 66.5 mm
         Alias:
           type: STRING
           value: Conn1Y0
@@ -3044,7 +3044,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 83.5 mm
+          value: 84.0 mm
         Alias:
           type: STRING
           value: Conn1Y1
@@ -3385,7 +3385,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 127.5 mm
+          value: 128.5 mm
         Alias:
           type: STRING
           value: Conn4Y0
@@ -3416,7 +3416,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 143.0 mm
+          value: 143.2 mm
         Alias:
           type: STRING
           value: Conn4Y1
@@ -6343,7 +6343,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 400.4073028714239 mm
+          value: 397.993369986945 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -6396,7 +6396,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 258.9073028714239 mm
+          value: 256.4931716226872 mm
       group: Size
 - name: Sk_TrayCavity
   id: 2147
@@ -8837,7 +8837,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 400.4073028714239 mm
+          value: 397.993369986945 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -8890,7 +8890,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 258.9073028714239 mm
+          value: 256.4931716226872 mm
       group: Size
 - name: Sk_BoardPilots
   id: 2156
@@ -9625,7 +9625,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 400.4073028714239 mm
+          value: 397.993369986945 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -9678,7 +9678,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 258.9073028714239 mm
+          value: 256.4931716226872 mm
       group: Size
 - name: Sk_HeatsinkWindows
   id: 2159
@@ -11445,7 +11445,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 400.4073028714239 mm
+          value: 397.993369986945 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -11498,7 +11498,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 258.9073028714239 mm
+          value: 256.4931716226872 mm
       group: Size
 - name: Sk_ClosureBosses
   id: 2167
@@ -20826,7 +20826,7 @@ objects:
             value: DistanceX
           Value:
             type: FLOAT
-            value: 67.25
+            value: 65.75
           First:
             type: INT
             value: -1
@@ -20896,7 +20896,7 @@ objects:
             value: DistanceX
           Value:
             type: FLOAT
-            value: 84.25
+            value: 84.75
           First:
             type: INT
             value: -1
@@ -22014,7 +22014,7 @@ objects:
             value: DistanceX
           Value:
             type: FLOAT
-            value: 126.75
+            value: 127.75
           First:
             type: INT
             value: -1
@@ -22084,7 +22084,7 @@ objects:
             value: DistanceX
           Value:
             type: FLOAT
-            value: 143.75
+            value: 143.95
           First:
             type: INT
             value: -1
@@ -24646,7 +24646,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 400.4073028714239 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -24699,7 +24699,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 258.9073028714239 mm
       group: Size
 - name: Sk_LidOuter
   id: 2188
@@ -25669,7 +25669,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 400.4073028714239 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -25722,7 +25722,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 258.9073028714239 mm
       group: Size
 - name: Sk_Fan120
   id: 2193
@@ -29952,7 +29952,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 167.06720429670463 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -30005,7 +30005,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 237.06720429670463 mm
       group: Size
 - name: Sk_DirectorRiser
   id: 2210
@@ -42205,7 +42205,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 236.51193318708138 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -42258,7 +42258,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 148.01193318708138 mm
       group: Size
 - name: DP_TrimYStart
   id: 2243
@@ -42310,7 +42310,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 387.29838706449675 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -42363,7 +42363,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.000000000000014 mm
+          value: 157.29838706449684 mm
       group: Size
 - name: Sk_BossGusTrimY
   id: 2244
@@ -44199,7 +44199,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 387.29838706449675 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -44252,7 +44252,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.000000000000014 mm
+          value: 157.29838706449684 mm
       group: Size
 - name: Sk_BossGusTrimXlo
   id: 2249
@@ -45648,7 +45648,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 236.51193318708138 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -45701,7 +45701,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 148.01193318708138 mm
       group: Size
 - name: DP_SpliceEnd
   id: 2258
@@ -45752,7 +45752,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 236.51193318708138 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -45805,7 +45805,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 148.01193318708138 mm
       group: Size
 - name: Sk_SpliceBosses
   id: 2260
@@ -46911,7 +46911,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 400.4073028714239 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -46964,7 +46964,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 258.9073028714239 mm
       group: Size
 - name: Sk_SpliceCbores
   id: 2271
@@ -48411,7 +48411,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 237.16764910756717 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -48464,7 +48464,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 153.66764910756717 mm
       group: Size
 - name: DP_TabTrimY
   id: 2278
@@ -48515,7 +48515,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 388.15045564753814 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -48568,7 +48568,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.000000000000014 mm
+          value: 163.15045564753817 mm
       group: Size
 - name: Sk_TabChamferY
   id: 2279
@@ -57660,32 +57660,32 @@ objects:
           paths:
             .:
               type: STRING
-              value: Face126
-        - kind: Primitive
-          paths:
-            .:
-              type: STRING
-              value: Face207
-        - kind: Primitive
-          paths:
-            .:
-              type: STRING
               value: Face127
         - kind: Primitive
           paths:
             .:
               type: STRING
-              value: Edge528
+              value: Face208
         - kind: Primitive
           paths:
             .:
               type: STRING
-              value: Edge213
+              value: Face128
         - kind: Primitive
           paths:
             .:
               type: STRING
-              value: Edge216
+              value: Edge519
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Edge201
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Edge204
       group: Base
     FuzzyTolerance:
       kind: Primitive
@@ -58875,7 +58875,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 400.4073028714239 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -58928,7 +58928,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 60.0 mm
+          value: 258.9073028714239 mm
       group: Size
 - name: Hole001
   id: 2404
@@ -59867,197 +59867,6 @@ objects:
           type: BOOL
           value: false
       group: Fillet
-- name: Prints
-  id: 2438
-  type_id: App::DocumentObjectGroup
-  properties:
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Prints
-      group: Base
-- name: TrayA
-  id: 2440
-  type_id: Part::Feature
-  properties:
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: TrayA
-      group: Base
-    Placement:
-      kind: Placement
-      paths:
-        Base.x:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.y:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.z:
-          type: QUANTITY
-          value: 0.0 mm
-        Rotation.Angle:
-          type: QUANTITY
-          value: 0.0 deg
-        Rotation.Axis.x:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.y:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.z:
-          type: FLOAT
-          value: 1.0
-      group: Base
-- name: TrayB
-  id: 2441
-  type_id: Part::Feature
-  properties:
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: TrayB
-      group: Base
-    Placement:
-      kind: Placement
-      paths:
-        Base.x:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.y:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.z:
-          type: QUANTITY
-          value: 0.0 mm
-        Rotation.Angle:
-          type: QUANTITY
-          value: 0.0 deg
-        Rotation.Axis.x:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.y:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.z:
-          type: FLOAT
-          value: 1.0
-      group: Base
-- name: LidA
-  id: 2443
-  type_id: Part::Feature
-  properties:
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: LidA
-      group: Base
-    Placement:
-      kind: Placement
-      paths:
-        Base.x:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.y:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.z:
-          type: QUANTITY
-          value: 0.0 mm
-        Rotation.Angle:
-          type: QUANTITY
-          value: 0.0 deg
-        Rotation.Axis.x:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.y:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.z:
-          type: FLOAT
-          value: 1.0
-      group: Base
-- name: LidB
-  id: 2444
-  type_id: Part::Feature
-  properties:
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: LidB
-      group: Base
-    Placement:
-      kind: Placement
-      paths:
-        Base.x:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.y:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.z:
-          type: QUANTITY
-          value: 0.0 mm
-        Rotation.Angle:
-          type: QUANTITY
-          value: 0.0 deg
-        Rotation.Axis.x:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.y:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.z:
-          type: FLOAT
-          value: 1.0
-      group: Base
-- name: DirectorWhole
-  id: 2445
-  type_id: Part::Feature
-  properties:
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: DirectorWhole
-      group: Base
-    Placement:
-      kind: Placement
-      paths:
-        Base.x:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.y:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.z:
-          type: QUANTITY
-          value: 0.0 mm
-        Rotation.Angle:
-          type: QUANTITY
-          value: 0.0 deg
-        Rotation.Axis.x:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.y:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.z:
-          type: FLOAT
-          value: 1.0
-      group: Base
 - name: Fillet008
   id: 2446
   type_id: PartDesign::Fillet
@@ -60460,17 +60269,5 @@ occurrences:
   after: null
 - path: Parameters
   after: null
-- path: Prints
-  after: UpdateParts
-- path: Prints/DirectorWhole
-  after: Prints/LidB
-- path: Prints/LidA
-  after: Prints/TrayB
-- path: Prints/LidB
-  after: Prints/LidA
-- path: Prints/TrayA
-  after: null
-- path: Prints/TrayB
-  after: Prints/TrayA
 - path: UpdateParts
   after: Assembly
