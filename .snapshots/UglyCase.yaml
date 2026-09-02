@@ -1,6 +1,6 @@
 v: 2
-timestamp: '2026-09-01T21:44:43.093384'
-uid: c5f5b169-5c7a-4a82-bdf9-879284b28732
+timestamp: '2026-09-02T10:48:30.342025'
+uid: 2dbcf9b9-e023-49b1-9965-312581ef78e8
 objects:
 - name: Parameters
   id: 2132
@@ -5253,7 +5253,7 @@ objects:
       paths:
         .:
           type: STRING
-          value: <PartDesign::Fillet>
+          value: <PartDesign::Pocket>
           freecad_type: PartDesign.Feature
       group: Base
 - name: Origin
@@ -6343,7 +6343,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 397.993369986945 mm
+          value: 400.4073028714239 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -6396,7 +6396,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 256.4931716226872 mm
+          value: 258.9073028714239 mm
       group: Size
 - name: Sk_TrayCavity
   id: 2147
@@ -8837,7 +8837,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 397.993369986945 mm
+          value: 400.4073028714239 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -8890,7 +8890,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 256.4931716226872 mm
+          value: 258.9073028714239 mm
       group: Size
 - name: Sk_BoardPilots
   id: 2156
@@ -9625,7 +9625,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 397.993369986945 mm
+          value: 400.4073028714239 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -9678,7 +9678,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 256.4931716226872 mm
+          value: 258.9073028714239 mm
       group: Size
 - name: Sk_HeatsinkWindows
   id: 2159
@@ -11445,7 +11445,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 397.993369986945 mm
+          value: 400.4073028714239 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -11498,7 +11498,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 256.4931716226872 mm
+          value: 258.9073028714239 mm
       group: Size
 - name: Sk_ClosureBosses
   id: 2167
@@ -59867,113 +59867,197 @@ objects:
           type: BOOL
           value: false
       group: Fillet
-- name: Fillet008
-  id: 2446
-  type_id: PartDesign::Fillet
+- name: Prints
+  id: 2447
+  type_id: App::DocumentObjectGroup
   properties:
-    Base:
-      kind: List
-      paths: {}
-      items:
-      - kind: Unknown
-        paths:
-          .:
-            type: STRING
-            value: <PartDesign::Pocket>
-            freecad_type: PartDesign.Feature
-      - kind: List
-        paths: {}
-        items:
-        - kind: Primitive
-          paths:
-            .:
-              type: STRING
-              value: Edge363
-        - kind: Primitive
-          paths:
-            .:
-              type: STRING
-              value: Edge560
-        - kind: Primitive
-          paths:
-            .:
-              type: STRING
-              value: Edge559
-        - kind: Primitive
-          paths:
-            .:
-              type: STRING
-              value: Edge368
-        - kind: Primitive
-          paths:
-            .:
-              type: STRING
-              value: Edge366
-        - kind: Primitive
-          paths:
-            .:
-              type: STRING
-              value: Edge367
-        - kind: Primitive
-          paths:
-            .:
-              type: STRING
-              value: Edge364
-        - kind: Primitive
-          paths:
-            .:
-              type: STRING
-              value: Edge365
-      group: Base
-    FuzzyTolerance:
-      kind: Primitive
-      paths:
-        .:
-          type: FLOAT
-          value: -1.0
-      group: Part Design
     Label:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: PSFanFillet
+          value: Prints
       group: Base
-    Radius:
+- name: TrayA
+  id: 2449
+  type_id: Part::Feature
+  properties:
+    Label:
       kind: Primitive
       paths:
         .:
+          type: STRING
+          value: TrayA
+      group: Base
+    Placement:
+      kind: Placement
+      paths:
+        Base.x:
           type: QUANTITY
-          value: 2.0 mm
-      group: Fillet
-    Refine:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: true
-      group: Part Design
-    SupportTransform:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
+          value: 0.0 mm
+        Base.y:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.z:
+          type: QUANTITY
+          value: 0.0 mm
+        Rotation.Angle:
+          type: QUANTITY
+          value: 0.0 deg
+        Rotation.Axis.x:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.y:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.z:
+          type: FLOAT
+          value: 1.0
       group: Base
-    Suppressed:
+- name: TrayB
+  id: 2450
+  type_id: Part::Feature
+  properties:
+    Label:
       kind: Primitive
       paths:
         .:
-          type: BOOL
-          value: false
+          type: STRING
+          value: TrayB
       group: Base
-    UseAllEdges:
+    Placement:
+      kind: Placement
+      paths:
+        Base.x:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.y:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.z:
+          type: QUANTITY
+          value: 0.0 mm
+        Rotation.Angle:
+          type: QUANTITY
+          value: 0.0 deg
+        Rotation.Axis.x:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.y:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.z:
+          type: FLOAT
+          value: 1.0
+      group: Base
+- name: LidA
+  id: 2452
+  type_id: Part::Feature
+  properties:
+    Label:
       kind: Primitive
       paths:
         .:
-          type: BOOL
-          value: false
-      group: Fillet
+          type: STRING
+          value: LidA
+      group: Base
+    Placement:
+      kind: Placement
+      paths:
+        Base.x:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.y:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.z:
+          type: QUANTITY
+          value: 0.0 mm
+        Rotation.Angle:
+          type: QUANTITY
+          value: 0.0 deg
+        Rotation.Axis.x:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.y:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.z:
+          type: FLOAT
+          value: 1.0
+      group: Base
+- name: LidB
+  id: 2453
+  type_id: Part::Feature
+  properties:
+    Label:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: LidB
+      group: Base
+    Placement:
+      kind: Placement
+      paths:
+        Base.x:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.y:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.z:
+          type: QUANTITY
+          value: 0.0 mm
+        Rotation.Angle:
+          type: QUANTITY
+          value: 0.0 deg
+        Rotation.Axis.x:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.y:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.z:
+          type: FLOAT
+          value: 1.0
+      group: Base
+- name: DirectorWhole
+  id: 2454
+  type_id: Part::Feature
+  properties:
+    Label:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: DirectorWhole
+      group: Base
+    Placement:
+      kind: Placement
+      paths:
+        Base.x:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.y:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.z:
+          type: QUANTITY
+          value: 0.0 mm
+        Rotation.Angle:
+          type: QUANTITY
+          value: 0.0 deg
+        Rotation.Axis.x:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.y:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.z:
+          type: FLOAT
+          value: 1.0
+      group: Base
 occurrences:
 - path: Assembly
   after: Parameters
@@ -60161,8 +60245,6 @@ occurrences:
   after: Assembly/Tray/Fillet001
 - path: Assembly/Tray/Fillet003
   after: Assembly/Tray/Fillet002
-- path: Assembly/Tray/Fillet008
-  after: Assembly/Tray/Pocket003
 - path: Assembly/Tray/HeatsinkFrame
   after: Assembly/Tray/HeatsinkWindows
 - path: Assembly/Tray/HeatsinkFrame/Sk_HeatsinkFrame
@@ -60269,5 +60351,17 @@ occurrences:
   after: null
 - path: Parameters
   after: null
+- path: Prints
+  after: UpdateParts
+- path: Prints/DirectorWhole
+  after: Prints/LidB
+- path: Prints/LidA
+  after: Prints/TrayB
+- path: Prints/LidB
+  after: Prints/LidA
+- path: Prints/TrayA
+  after: null
+- path: Prints/TrayB
+  after: Prints/TrayA
 - path: UpdateParts
   after: Assembly
