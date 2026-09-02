@@ -1,6 +1,6 @@
 v: 2
-timestamp: '2026-09-02T11:09:28.911455'
-uid: 6fd098a1-20f0-4ecb-9dea-540e3c6fddc4
+timestamp: '2026-09-02T14:08:03.932440'
+uid: 8cd68ccf-a629-4715-a02b-71a2df031c57
 objects:
 - name: Parameters
   id: 2132
@@ -5253,7 +5253,7 @@ objects:
       paths:
         .:
           type: STRING
-          value: <PartDesign::Pocket>
+          value: <PartDesign::Fillet>
           freecad_type: PartDesign.Feature
       group: Base
 - name: Origin
@@ -57143,288 +57143,6 @@ objects:
           type: BOOL
           value: false
       group: Pad
-- name: HexGrid
-  id: 2339
-  type_id: Sketcher::SketchObject
-  properties:
-    ArcFitTolerance:
-      kind: Primitive
-      paths:
-        .:
-          type: FLOAT
-          value: 1.0e-06
-      group: Sketch
-    AttacherEngine:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Engine Plane
-      group: Attachment
-    AttachmentOffset:
-      kind: Placement
-      paths:
-        Base.x:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.y:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.z:
-          type: QUANTITY
-          value: 0.0 mm
-        Rotation.Angle:
-          type: QUANTITY
-          value: 0.0 deg
-        Rotation.Axis.x:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.y:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.z:
-          type: FLOAT
-          value: 1.0
-      group: Attachment
-    Constraints:
-      kind: List
-      paths: {}
-      items: []
-      group: Sketch
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Sk_HexGrid
-      group: Base
-    MakeInternals:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Internal Geometry
-    MapMode:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: FlatFace
-      group: Attachment
-    MapReversed:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Attachment
-    Placement:
-      kind: Placement
-      paths:
-        Base.x:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.y:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.z:
-          type: QUANTITY
-          value: 0.0 mm
-        Rotation.Angle:
-          type: QUANTITY
-          value: 120.00000000000001 deg
-        Rotation.Axis.x:
-          type: FLOAT
-          value: 0.5773502691896257
-        Rotation.Axis.y:
-          type: FLOAT
-          value: -0.5773502691896257
-        Rotation.Axis.z:
-          type: FLOAT
-          value: -0.5773502691896257
-      group: Base
-- name: Pocket003
-  id: 2341
-  type_id: PartDesign::Pocket
-  properties:
-    AllowMultiFace:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: true
-      group: SketchBased
-    AlongSketchNormal:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: true
-      group: Pocket
-    FuzzyTolerance:
-      kind: Primitive
-      paths:
-        .:
-          type: FLOAT
-          value: -1.0
-      group: Part Design
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: HexGrid
-      group: Base
-    Length:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 1.5 mm
-          expression: Parameters.Wall
-      group: Side1
-    Length2:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 5.0 mm
-      group: Side2
-    Midplane:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: SketchBased
-    Offset:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 0.0 mm
-      group: Side1
-    Offset2:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 0.0 mm
-      group: Side2
-    Profile:
-      kind: List
-      paths: {}
-      items:
-      - kind: Unknown
-        paths:
-          .:
-            type: STRING
-            value: <Sketcher::SketchObject>
-            freecad_type: Sketcher.SketchObject
-      - kind: List
-        paths: {}
-        items:
-        - kind: Primitive
-          paths:
-            .:
-              type: STRING
-              value: ''
-      group: SketchBased
-    ReferenceAxis:
-      kind: List
-      paths: {}
-      items:
-      - kind: Unknown
-        paths:
-          .:
-            type: STRING
-            value: <Sketcher::SketchObject>
-            freecad_type: Sketcher.SketchObject
-      - kind: List
-        paths: {}
-        items:
-        - kind: Primitive
-          paths:
-            .:
-              type: STRING
-              value: N_Axis
-      group: Pocket
-    Refine:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: true
-      group: Part Design
-    Reversed:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: SketchBased
-    SideType:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: One side
-      group: Pocket
-    Suppressed:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Base
-    TaperAngle:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 0.0 deg
-      group: Side1
-    TaperAngle2:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 0.0 deg
-      group: Side2
-    Type:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Length
-      group: Side1
-    Type2:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Length
-      group: Side2
-    UpToFace:
-      kind: Primitive
-      paths:
-        .:
-          type: 'NULL'
-      group: Side1
-    UpToFace2:
-      kind: Primitive
-      paths:
-        .:
-          type: 'NULL'
-      group: Side2
-    UseCustomVector:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Pocket
 - name: Fillet
   id: 2346
   type_id: PartDesign::Fillet
@@ -59058,7 +58776,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 1.56 mm
+          value: 1.5621306548192453 mm
           expression: Parameters.FanScrewHeadDepth
       group: Hole
     HoleCutDiameter:
@@ -60090,6 +59808,113 @@ objects:
           type: FLOAT
           value: 1.0
       group: Base
+- name: Fillet008
+  id: 2458
+  type_id: PartDesign::Fillet
+  properties:
+    Base:
+      kind: List
+      paths: {}
+      items:
+      - kind: Unknown
+        paths:
+          .:
+            type: STRING
+            value: <PartDesign::Pocket>
+            freecad_type: PartDesign.Feature
+      - kind: List
+        paths: {}
+        items:
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Edge368
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Edge559
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Edge363
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Edge560
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Edge364
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Edge365
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Edge366
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Edge367
+      group: Base
+    FuzzyTolerance:
+      kind: Primitive
+      paths:
+        .:
+          type: FLOAT
+          value: -1.0
+      group: Part Design
+    Label:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: PSFanScrewFillet
+      group: Base
+    Radius:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 2.0 mm
+      group: Fillet
+    Refine:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: true
+      group: Part Design
+    SupportTransform:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Base
+    Suppressed:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Base
+    UseAllEdges:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Fillet
 occurrences:
 - path: Assembly
   after: Parameters
@@ -60277,6 +60102,8 @@ occurrences:
   after: Assembly/Tray/Fillet001
 - path: Assembly/Tray/Fillet003
   after: Assembly/Tray/Fillet002
+- path: Assembly/Tray/Fillet008
+  after: Assembly/Tray/Pad004
 - path: Assembly/Tray/HeatsinkFrame
   after: Assembly/Tray/HeatsinkWindows
 - path: Assembly/Tray/HeatsinkFrame/Sk_HeatsinkFrame
@@ -60344,10 +60171,6 @@ occurrences:
 - path: Assembly/Tray/Pocket002
   after: Assembly/Tray/Pocket
 - path: Assembly/Tray/Pocket002/Sketch003
-  after: null
-- path: Assembly/Tray/Pocket003
-  after: Assembly/Tray/Pad004
-- path: Assembly/Tray/Pocket003/HexGrid
   after: null
 - path: Assembly/Tray/PsuFaceOpenings
   after: Assembly/Tray/IecOpening
