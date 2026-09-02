@@ -1,6 +1,6 @@
 v: 2
-timestamp: '2026-09-02T10:48:30.342025'
-uid: 2dbcf9b9-e023-49b1-9965-312581ef78e8
+timestamp: '2026-09-02T11:09:28.911455'
+uid: 6fd098a1-20f0-4ecb-9dea-540e3c6fddc4
 objects:
 - name: Parameters
   id: 2132
@@ -47936,6 +47936,31 @@ objects:
           type: STRING
           value: Engine Plane
       group: Attachment
+    AttachmentOffset:
+      kind: Placement
+      paths:
+        Base.x:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.y:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.z:
+          type: QUANTITY
+          value: 0.0 mm
+        Rotation.Angle:
+          type: QUANTITY
+          value: 0.0 deg
+        Rotation.Axis.x:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.y:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.z:
+          type: FLOAT
+          value: 1.0
+      group: Attachment
     Constraints:
       kind: List
       paths: {}
@@ -48174,12 +48199,19 @@ objects:
           type: STRING
           value: FlatFace
       group: Attachment
+    MapReversed:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Attachment
     Placement:
       kind: Placement
       paths:
         Base.x:
           type: QUANTITY
-          value: 180.0 mm
+          value: 190.0 mm
         Base.y:
           type: QUANTITY
           value: 0.0 mm
@@ -52950,7 +52982,7 @@ objects:
             value: DistanceY
           Value:
             type: FLOAT
-            value: 84.5
+            value: 85.5
           First:
             type: INT
             value: -1
@@ -52977,7 +53009,7 @@ objects:
             value: true
           .:
             type: 'NULL'
-            expression: Parameters.PsuTopZ
+            expression: Parameters.BossZ0
       group: Sketch
     Label:
       kind: Primitive
@@ -53015,7 +53047,7 @@ objects:
           value: 0.0 mm
         Base.y:
           type: QUANTITY
-          value: 1.5000000000000004 mm
+          value: 1.5 mm
         Base.z:
           type: QUANTITY
           value: 0.0 mm
@@ -54016,7 +54048,7 @@ objects:
             value: true
           .:
             type: 'NULL'
-            expression: Parameters.SplitZ - Parameters.GussetDrop
+            expression: Parameters.BossZ0
       - kind: Constraint
         paths:
           Type:
@@ -54051,7 +54083,7 @@ objects:
             value: true
           .:
             type: 'NULL'
-            expression: Parameters.SplitZ - Parameters.GussetDrop
+            expression: Parameters.BossZ0
       group: Sketch
     Label:
       kind: Primitive
@@ -54089,7 +54121,7 @@ objects:
           value: 0.0 mm
         Base.y:
           type: QUANTITY
-          value: 1.5000000000000004 mm
+          value: 1.5 mm
         Base.z:
           type: QUANTITY
           value: 0.0 mm
@@ -56236,7 +56268,7 @@ objects:
           value: 0.0 mm
         Base.y:
           type: QUANTITY
-          value: 178.99999999999997 mm
+          value: 179.00000000000003 mm
         Base.z:
           type: QUANTITY
           value: 0.0 mm
