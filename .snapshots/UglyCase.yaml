@@ -1,6 +1,6 @@
 v: 2
-timestamp: '2026-09-02T15:57:04.764422'
-uid: 83c84230-4491-4e6d-9d1c-5239c4e4a0b1
+timestamp: '2026-09-03T09:05:53.846570'
+uid: ddbe7718-663a-4fd0-87e4-30f23c7f31e0
 objects:
 - name: Parameters
   id: 2132
@@ -3733,7 +3733,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 79.8 mm
+          value: 78.7 mm
         Alias:
           type: STRING
           value: PsuScrew1Z
@@ -3764,7 +3764,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 41.75 mm
+          value: 41.8 mm
         Alias:
           type: STRING
           value: PsuScrew2Y
@@ -3795,7 +3795,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 79.1 mm
+          value: 78.8 mm
         Alias:
           type: STRING
           value: PsuScrew2Z
@@ -3857,7 +3857,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 18.3 mm
+          value: 18.8 mm
         Alias:
           type: STRING
           value: PsuScrew3Z
@@ -3919,7 +3919,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 7.5 mm
+          value: 8.0 mm
         Alias:
           type: STRING
           value: PsuScrew4Z
@@ -23461,7 +23461,7 @@ objects:
             value: DistanceY
           Value:
             type: FLOAT
-            value: 79.8
+            value: 78.7
           First:
             type: INT
             value: -1
@@ -23531,7 +23531,7 @@ objects:
             value: DistanceX
           Value:
             type: FLOAT
-            value: 41.75
+            value: 41.8
           First:
             type: INT
             value: -1
@@ -23566,7 +23566,7 @@ objects:
             value: DistanceY
           Value:
             type: FLOAT
-            value: 79.1
+            value: 78.8
           First:
             type: INT
             value: -1
@@ -23671,7 +23671,7 @@ objects:
             value: DistanceY
           Value:
             type: FLOAT
-            value: 18.3
+            value: 18.8
           First:
             type: INT
             value: -1
@@ -23776,7 +23776,7 @@ objects:
             value: DistanceY
           Value:
             type: FLOAT
-            value: 7.5
+            value: 8.0
           First:
             type: INT
             value: -1
@@ -24690,7 +24690,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 400.4073028714239 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -24743,7 +24743,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 258.9073028714239 mm
+          value: 60.0 mm
       group: Size
 - name: Sk_LidOuter
   id: 2188
@@ -25713,7 +25713,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 400.4073028714239 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -25766,7 +25766,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 258.9073028714239 mm
+          value: 60.0 mm
       group: Size
 - name: Sk_Fan120
   id: 2193
@@ -29996,7 +29996,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 167.06720429670463 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -30049,7 +30049,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 237.06720429670463 mm
+          value: 60.0 mm
       group: Size
 - name: Sk_DirectorRiser
   id: 2210
@@ -42249,7 +42249,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 236.51193318708138 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -42302,7 +42302,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 148.01193318708138 mm
+          value: 60.0 mm
       group: Size
 - name: DP_TrimYStart
   id: 2243
@@ -42354,7 +42354,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 387.29838706449675 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -42407,7 +42407,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 157.29838706449684 mm
+          value: 60.000000000000014 mm
       group: Size
 - name: Sk_BossGusTrimY
   id: 2244
@@ -44244,7 +44244,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 387.29838706449675 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -44297,7 +44297,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 157.29838706449684 mm
+          value: 60.000000000000014 mm
       group: Size
 - name: Sk_BossGusTrimXlo
   id: 2249
@@ -45693,7 +45693,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 236.51193318708138 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -45746,7 +45746,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 148.01193318708138 mm
+          value: 60.0 mm
       group: Size
 - name: DP_SpliceEnd
   id: 2258
@@ -45797,7 +45797,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 236.51193318708138 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -45850,7 +45850,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 148.01193318708138 mm
+          value: 60.0 mm
       group: Size
 - name: Sk_SpliceBosses
   id: 2260
@@ -46956,7 +46956,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 400.4073028714239 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -47009,7 +47009,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 258.9073028714239 mm
+          value: 60.0 mm
       group: Size
 - name: Sk_SpliceCbores
   id: 2271
@@ -48488,7 +48488,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 237.16764910756717 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -48541,7 +48541,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 153.66764910756717 mm
+          value: 60.0 mm
       group: Size
 - name: DP_TabTrimY
   id: 2278
@@ -48592,7 +48592,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 388.15045564753814 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -48645,7 +48645,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 163.15045564753817 mm
+          value: 60.000000000000014 mm
       group: Size
 - name: Sk_TabChamferY
   id: 2279
@@ -53485,25 +53485,25 @@ objects:
       paths:
         Base.x:
           type: QUANTITY
-          value: 4.8113112632056724e-14 mm
+          value: 4.990333068697688e-14 mm
         Base.y:
           type: QUANTITY
-          value: 1.5000000000012905 mm
+          value: 1.4999999999380076 mm
         Base.z:
           type: QUANTITY
-          value: -1.1056260297769608e-14 mm
+          value: 8.289882055528546e-15 mm
         Rotation.Angle:
           type: QUANTITY
-          value: 179.9999999999987 deg
+          value: 179.99999999999866 deg
         Rotation.Axis.x:
           type: FLOAT
-          value: 1.1340369402030019e-14
+          value: 1.1762327844671446e-14
         Rotation.Axis.y:
           type: FLOAT
-          value: 0.7071067811865501
+          value: 0.7071067811865456
         Rotation.Axis.z:
           type: FLOAT
-          value: 0.7071067811865449
+          value: 0.7071067811865495
       group: Base
 - name: Pad001
   id: 2317
@@ -57992,7 +57992,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 400.4073028714239 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -58045,7 +58045,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 258.9073028714239 mm
+          value: 60.0 mm
       group: Size
 - name: Hole001
   id: 2404
