@@ -1,6 +1,6 @@
 v: 2
-timestamp: '2026-09-03T22:26:46.003662'
-uid: 1a21f772-b210-496b-9c5b-4826dd4d0a69
+timestamp: '2026-09-03T22:37:59.478583'
+uid: 4d0e1cd7-1519-4695-b766-0d41f9706e60
 objects:
 - name: Parameters
   id: 2132
@@ -59625,8 +59625,8 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 1.5 mm
-          expression: Parameters.PortsWall - 1.5 mm
+          value: 1.0 mm
+          expression: Parameters.PortsWall - 2 mm
       group: Side1
     Length2:
       kind: Primitive
