@@ -1,6 +1,6 @@
 v: 2
-timestamp: '2026-09-03T22:37:59.478583'
-uid: 4d0e1cd7-1519-4695-b766-0d41f9706e60
+timestamp: '2026-09-14T19:45:36.536216'
+uid: 8c35b7af-f4ee-4b44-a302-4393cd8466c2
 objects:
 - name: Parameters
   id: 2132
@@ -18,7 +18,7 @@ objects:
       paths:
         .:
           type: STRING
-          value: Ugly Case v20 -- master parameters
+          value: UglyCase parameters
       group: Base
     A2:
       kind: Primitive
@@ -570,7 +570,7 @@ objects:
       paths:
         .:
           type: STRING
-          value: boss top = PCB underside
+          value: boss top / PCB underside
       group: Base
     A23:
       kind: Primitive
@@ -1042,7 +1042,7 @@ objects:
       paths:
         .:
           type: STRING
-          value: heatsink underside = frame top
+          value: heatsink underside / frame top
       group: Base
     A39:
       kind: Primitive
@@ -1924,7 +1924,7 @@ objects:
       paths:
         .:
           type: STRING
-          value: 120 mm fan centre, X
+          value: Fan center, X
       group: Base
     A69:
       kind: Primitive
@@ -1955,7 +1955,7 @@ objects:
       paths:
         .:
           type: STRING
-          value: fan centre Y, on the case centre line
+          value: Fan center Y
       group: Base
     A70:
       kind: Primitive
@@ -1986,7 +1986,7 @@ objects:
       paths:
         .:
           type: STRING
-          value: fan bore (fan throat is 111.2)
+          value: Fan bore
       group: Base
     A71:
       kind: Primitive
@@ -2017,7 +2017,7 @@ objects:
       paths:
         .:
           type: STRING
-          value: fan screw pitch, measured
+          value: Fan screw pitch
       group: Base
     A72:
       kind: Primitive
@@ -2048,7 +2048,7 @@ objects:
       paths:
         .:
           type: STRING
-          value: clearance over the fan's own 4.3 holes
+          value: clearance over the fan's own holes
       group: Base
     A73:
       kind: Primitive
@@ -2782,7 +2782,7 @@ objects:
       paths:
         .:
           type: STRING
-          value: PSU fan bore (round, so screw lands survive)
+          value: PSU fan bore
       group: Base
     A99:
       kind: Primitive
@@ -3030,7 +3030,7 @@ objects:
       paths:
         .:
           type: STRING
-          value: clearance round each connector
+          value: clearance around each connector
       group: Base
     A107:
       kind: Primitive
@@ -3681,7 +3681,7 @@ objects:
       paths:
         .:
           type: STRING
-          value: clearance round each button
+          value: clearance around each button
       group: Base
     A128:
       kind: Primitive
@@ -4036,7 +4036,7 @@ objects:
       paths:
         .:
           type: STRING
-          value: seam station 1
+          value: seam 1
       group: Base
     A141:
       kind: Primitive
@@ -4315,7 +4315,7 @@ objects:
       paths:
         .:
           type: STRING
-          value: round boss dia; same offset as ovals so screws line up
+          value: round boss dia
       group: Base
     A150:
       kind: Primitive
@@ -4346,7 +4346,7 @@ objects:
       paths:
         .:
           type: STRING
-          value: 45 deg gusset drop = boss reach past the cavity face
+          value: 45 deg gusset drop / boss reach past the cavity face
       group: Base
     A151:
       kind: Primitive
@@ -4577,7 +4577,7 @@ objects:
       paths:
         .:
           type: STRING
-          value: outer profile origin, X (kept as a handle; 0 in v20)
+          value: outer profile origin, X
       group: Base
     A160:
       kind: Primitive
@@ -4639,31 +4639,31 @@ objects:
       paths:
         .:
           type: STRING
-          value: floor thickness; decoupled from Wall
+          value: floor thickness
       group: Base
     A162:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: -- LID LOCATOR TABS --
+          value: -- SPLICE --
       group: Base
     A163:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: TabT
+          value: SpliceBossD
       group: Base
     B163:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 4.0 mm
+          value: 12.0 mm
         Alias:
           type: STRING
-          value: TabT
+          value: SpliceBossD
       group: Base
     C163:
       kind: Primitive
@@ -4677,24 +4677,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: locator tab thickness
+          value: splice boss diameter
       group: Base
     A164:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: TabD
+          value: SpliceBossL
       group: Base
     B164:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 5.0 mm
+          value: 20.0 mm
         Alias:
           type: STRING
-          value: TabD
+          value: SpliceBossL
       group: Base
     C164:
       kind: Primitive
@@ -4708,24 +4708,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: locator tab engagement depth below the seam
+          value: splice boss length, straddling the cut plane
       group: Base
     A165:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: TabL
+          value: SpliceBossInset
       group: Base
     B165:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 20.0 mm
+          value: 1.0 mm
         Alias:
           type: STRING
-          value: TabL
+          value: SpliceBossInset
       group: Base
     C165:
       kind: Primitive
@@ -4739,24 +4739,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: locator tab length along the wall
+          value: boss centre offset from the inner face it hugs
       group: Base
     A166:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: TabClr
+          value: SpliceBossShift
       group: Base
     B166:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 0.2 mm
+          value: 35.0 mm
         Alias:
           type: STRING
-          value: TabClr
+          value: SpliceBossShift
       group: Base
     C166:
       kind: Primitive
@@ -4770,24 +4770,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: locator tab clearance to the cavity face
+          value: shift boss from corner
       group: Base
     A167:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: TabChf
+          value: SpliceBossZ
       group: Base
     B167:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 0.6 mm
+          value: 55.0 mm
         Alias:
           type: STRING
-          value: TabChf
+          value: SpliceBossZ
       group: Base
     C167:
       kind: Primitive
@@ -4801,31 +4801,55 @@ objects:
       paths:
         .:
           type: STRING
-          value: lead-in chamfer on the tab's outboard bottom edge
+          value: high-Y splice boss centre height
       group: Base
     A168:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: -- SPLICE --
+          value: SpliceGusA
+      group: Base
+    B168:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 5.0 mm
+        Alias:
+          type: STRING
+          value: SpliceGusA
+      group: Base
+    C168:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: mm
+      group: Base
+    D168:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: floor splice gusset, 45 deg run
       group: Base
     A169:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: SpliceBossD
+          value: SpliceGusB
       group: Base
     B169:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 12.0 mm
+          value: 8.0 mm
         Alias:
           type: STRING
-          value: SpliceBossD
+          value: SpliceGusB
       group: Base
     C169:
       kind: Primitive
@@ -4839,24 +4863,24 @@ objects:
       paths:
         .:
           type: STRING
-          value: splice boss diameter
+          value: wall splice gusset, 45 deg run
       group: Base
     A170:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: SpliceBossL
+          value: SpliceClearOver
       group: Base
     B170:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 20.0 mm
+          value: 0.5 mm
         Alias:
           type: STRING
-          value: SpliceBossL
+          value: SpliceClearOver
       group: Base
     C170:
       kind: Primitive
@@ -4870,55 +4894,31 @@ objects:
       paths:
         .:
           type: STRING
-          value: splice boss length, straddling the cut plane
+          value: clearance hole over-depth past the cut plane
       group: Base
     A171:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: SpliceBossInset
-      group: Base
-    B171:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 1.0 mm
-        Alias:
-          type: STRING
-          value: SpliceBossInset
-      group: Base
-    C171:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: mm
-      group: Base
-    D171:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: boss centre offset from the inner face it hugs
+          value: -- HEATSINK WINDOW --
       group: Base
     A172:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: SpliceBossShift
+          value: CutX1
       group: Base
     B172:
       kind: Primitive
       paths:
         .:
           type: QUANTITY
-          value: 35.0 mm
+          value: 297.0 mm
         Alias:
           type: STRING
-          value: SpliceBossShift
+          value: CutX1
       group: Base
     C172:
       kind: Primitive
@@ -4932,185 +4932,23 @@ objects:
       paths:
         .:
           type: STRING
-          value: shift boss from corner
+          value: single window, high-X (CutX0 is the low-X edge)
       group: Base
     A173:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: SpliceBossZ
-      group: Base
-    B173:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 55.0 mm
-        Alias:
-          type: STRING
-          value: SpliceBossZ
-      group: Base
-    C173:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: mm
-      group: Base
-    D173:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: high-Y splice boss centre height
+          value: -- Switch hole --
       group: Base
     A174:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: SpliceGusA
-      group: Base
-    B174:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 5.0 mm
-        Alias:
-          type: STRING
-          value: SpliceGusA
-      group: Base
-    C174:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: mm
-      group: Base
-    D174:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: floor splice gusset, 45 deg run
-      group: Base
-    A175:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: SpliceGusB
-      group: Base
-    B175:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 8.0 mm
-        Alias:
-          type: STRING
-          value: SpliceGusB
-      group: Base
-    C175:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: mm
-      group: Base
-    D175:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: wall splice gusset, 45 deg run
-      group: Base
-    A176:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: SpliceClearOver
-      group: Base
-    B176:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 0.5 mm
-        Alias:
-          type: STRING
-          value: SpliceClearOver
-      group: Base
-    C176:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: mm
-      group: Base
-    D176:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: clearance hole over-depth past the cut plane
-      group: Base
-    A177:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: -- HEATSINK WINDOW --
-      group: Base
-    A178:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: CutX1
-      group: Base
-    B178:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 297.0 mm
-        Alias:
-          type: STRING
-          value: CutX1
-      group: Base
-    C178:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: mm
-      group: Base
-    D178:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: single window, high-X (CutX0 is the low-X edge)
-      group: Base
-    A179:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: -- Switch hole --
-      group: Base
-    A180:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
           value: SwitchDiameter
       group: Base
-    B180:
+    B174:
       kind: Primitive
       paths:
         .:
@@ -5120,21 +4958,21 @@ objects:
           type: STRING
           value: SwitchDiameter
       group: Base
-    D180:
+    D174:
       kind: Primitive
       paths:
         .:
           type: STRING
           value: front panel switch diameter
       group: Base
-    A181:
+    A175:
       kind: Primitive
       paths:
         .:
           type: STRING
           value: SwitchToBottom
       group: Base
-    B181:
+    B175:
       kind: Primitive
       paths:
         .:
@@ -5144,28 +4982,28 @@ objects:
           type: STRING
           value: SwitchToBottom
       group: Base
-    D181:
+    D175:
       kind: Primitive
       paths:
         .:
           type: STRING
           value: switch to bottom of case
       group: Base
-    A182:
+    A176:
       kind: Primitive
       paths:
         .:
           type: STRING
           value: -- PS SUPPORT --
       group: Base
-    A183:
+    A177:
       kind: Primitive
       paths:
         .:
           type: STRING
           value: PsSuppLenPadding
       group: Base
-    B183:
+    B177:
       kind: Primitive
       paths:
         .:
@@ -5175,21 +5013,21 @@ objects:
           type: STRING
           value: PsSuppLenPadding
       group: Base
-    D183:
+    D177:
       kind: Primitive
       paths:
         .:
           type: STRING
           value: Extra width past the end of the power supply
       group: Base
-    A184:
+    A178:
       kind: Primitive
       paths:
         .:
           type: STRING
           value: PsSuppWidth
       group: Base
-    B184:
+    B178:
       kind: Primitive
       paths:
         .:
@@ -5199,21 +5037,21 @@ objects:
           type: STRING
           value: PsSuppWidth
       group: Base
-    D184:
+    D178:
       kind: Primitive
       paths:
         .:
           type: STRING
           value: PS Support width
       group: Base
-    A185:
+    A179:
       kind: Primitive
       paths:
         .:
           type: STRING
           value: PsSuppHeight
       group: Base
-    B185:
+    B179:
       kind: Primitive
       paths:
         .:
@@ -5223,7 +5061,7 @@ objects:
           type: STRING
           value: PsSuppHeight
       group: Base
-    D185:
+    D179:
       kind: Primitive
       paths:
         .:
@@ -6374,7 +6212,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 400.4073028714239 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -6427,7 +6265,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 258.9073028714239 mm
+          value: 60.0 mm
       group: Size
 - name: Sk_TrayCavity
   id: 2147
@@ -8868,7 +8706,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 400.4073028714239 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -8921,7 +8759,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 258.9073028714239 mm
+          value: 60.0 mm
       group: Size
 - name: Sk_BoardPilots
   id: 2156
@@ -9656,7 +9494,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 400.4073028714239 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -9709,7 +9547,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 258.9073028714239 mm
+          value: 60.0 mm
       group: Size
 - name: Sk_HeatsinkWindows
   id: 2159
@@ -11476,7 +11314,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 400.4073028714239 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -11529,7 +11367,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 258.9073028714239 mm
+          value: 60.0 mm
       group: Size
 - name: Sk_ClosureBosses
   id: 2167
@@ -24690,7 +24528,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 400.4073028714239 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -24743,7 +24581,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 258.9073028714239 mm
+          value: 60.0 mm
       group: Size
 - name: Sk_LidOuter
   id: 2188
@@ -25713,7 +25551,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 400.4073028714239 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -25766,9 +25604,9 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 258.9073028714239 mm
+          value: 60.0 mm
       group: Size
-- name: Sk_Fan120
+- name: Sk_FanMount
   id: 2193
   type_id: Sketcher::SketchObject
   properties:
@@ -29996,7 +29834,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 167.06720429670463 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -30049,7 +29887,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 237.06720429670463 mm
+          value: 60.0 mm
       group: Size
 - name: Sk_DirectorRiser
   id: 2210
@@ -30764,7 +30602,7 @@ objects:
           type: FLOAT
           value: 1.0
       group: Base
-- name: PSU_Apevia_FlexATX
+- name: Apevia_ITX_PFC500W
   id: 2219
   type_id: Part::Feature
   properties:
@@ -31107,4245 +30945,6 @@ objects:
           type: STRING
           value: Origin
       group: Base
-- name: Sk_LocatorTabs
-  id: 2238
-  type_id: Sketcher::SketchObject
-  properties:
-    ArcFitTolerance:
-      kind: Primitive
-      paths:
-        .:
-          type: FLOAT
-          value: 1.0e-06
-      group: Sketch
-    AttacherEngine:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Engine Plane
-      group: Attachment
-    AttachmentOffset:
-      kind: Placement
-      paths:
-        Base.x:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.y:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.z:
-          type: QUANTITY
-          value: 0.0 mm
-        Rotation.Angle:
-          type: QUANTITY
-          value: 0.0 deg
-        Rotation.Axis.x:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.y:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.z:
-          type: FLOAT
-          value: 1.0
-      group: Attachment
-    Constraints:
-      kind: List
-      paths: {}
-      items:
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 0
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 1
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 1
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 2
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 2
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 3
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 3
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 0
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Horizontal
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 0
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Horizontal
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 2
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Vertical
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 1
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Vertical
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 3
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceX
-          Value:
-            type: FLOAT
-            value: 1.7
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 0
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.OuterX0 + Parameters.Wall + Parameters.TabClr
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceY
-          Value:
-            type: FLOAT
-            value: 70.0
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 0
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: 80 mm - Parameters.TabL / 2
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceX
-          Value:
-            type: FLOAT
-            value: 5.7
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 2
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.OuterX0 + Parameters.Wall + Parameters.TabClr +
-              Parameters.TabT
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceY
-          Value:
-            type: FLOAT
-            value: 90.0
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 2
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: 80 mm + Parameters.TabL / 2
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 4
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 5
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 5
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 6
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 6
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 7
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 7
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 4
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Horizontal
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 4
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Horizontal
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 6
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Vertical
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 5
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Vertical
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 7
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceX
-          Value:
-            type: FLOAT
-            value: 1.7
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 4
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.OuterX0 + Parameters.Wall + Parameters.TabClr
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceY
-          Value:
-            type: FLOAT
-            value: 150.0
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 4
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: 160 mm - Parameters.TabL / 2
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceX
-          Value:
-            type: FLOAT
-            value: 5.7
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 6
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.OuterX0 + Parameters.Wall + Parameters.TabClr +
-              Parameters.TabT
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceY
-          Value:
-            type: FLOAT
-            value: 170.0
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 6
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: 160 mm + Parameters.TabL / 2
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 8
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 9
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 9
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 10
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 10
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 11
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 11
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 8
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Horizontal
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 8
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Horizontal
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 10
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Vertical
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 9
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Vertical
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 11
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceX
-          Value:
-            type: FLOAT
-            value: 316.3
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 8
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.OuterX0 + Parameters.Length - Parameters.Wall -
-              Parameters.TabClr - Parameters.TabT
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceY
-          Value:
-            type: FLOAT
-            value: 70.0
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 8
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: 80 mm - Parameters.TabL / 2
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceX
-          Value:
-            type: FLOAT
-            value: 320.3
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 10
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.OuterX0 + Parameters.Length - Parameters.Wall -
-              Parameters.TabClr
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceY
-          Value:
-            type: FLOAT
-            value: 90.0
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 10
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: 80 mm + Parameters.TabL / 2
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 12
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 13
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 13
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 14
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 14
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 15
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 15
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 12
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Horizontal
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 12
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Horizontal
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 14
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Vertical
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 13
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Vertical
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 15
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceX
-          Value:
-            type: FLOAT
-            value: 316.3
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 12
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.OuterX0 + Parameters.Length - Parameters.Wall -
-              Parameters.TabClr - Parameters.TabT
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceY
-          Value:
-            type: FLOAT
-            value: 150.0
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 12
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: 160 mm - Parameters.TabL / 2
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceX
-          Value:
-            type: FLOAT
-            value: 320.3
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 14
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.OuterX0 + Parameters.Length - Parameters.Wall -
-              Parameters.TabClr
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceY
-          Value:
-            type: FLOAT
-            value: 170.0
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 14
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: 160 mm + Parameters.TabL / 2
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 16
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 17
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 17
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 18
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 18
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 19
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 19
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 16
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Horizontal
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 16
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Horizontal
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 18
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Vertical
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 17
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Vertical
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 19
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceX
-          Value:
-            type: FLOAT
-            value: 52.0
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 16
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: 62 mm - Parameters.TabL / 2
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceY
-          Value:
-            type: FLOAT
-            value: 1.7
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 16
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.OuterY0 + Parameters.Wall + Parameters.TabClr
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceX
-          Value:
-            type: FLOAT
-            value: 72.0
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 18
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: 62 mm + Parameters.TabL / 2
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceY
-          Value:
-            type: FLOAT
-            value: 5.7
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 18
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.OuterY0 + Parameters.Wall + Parameters.TabClr +
-              Parameters.TabT
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 20
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 21
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 21
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 22
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 22
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 23
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 23
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 20
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Horizontal
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 20
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Horizontal
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 22
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Vertical
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 21
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Vertical
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 23
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceX
-          Value:
-            type: FLOAT
-            value: 137.0
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 20
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: 147 mm - Parameters.TabL / 2
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceY
-          Value:
-            type: FLOAT
-            value: 1.7
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 20
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.OuterY0 + Parameters.Wall + Parameters.TabClr
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceX
-          Value:
-            type: FLOAT
-            value: 157.0
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 22
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: 147 mm + Parameters.TabL / 2
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceY
-          Value:
-            type: FLOAT
-            value: 5.7
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 22
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.OuterY0 + Parameters.Wall + Parameters.TabClr +
-              Parameters.TabT
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 24
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 25
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 25
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 26
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 26
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 27
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 27
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 24
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Horizontal
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 24
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Horizontal
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 26
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Vertical
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 25
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Vertical
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 27
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceX
-          Value:
-            type: FLOAT
-            value: 137.0
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 24
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: 147 mm - Parameters.TabL / 2
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceY
-          Value:
-            type: FLOAT
-            value: 174.8
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 24
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.OuterY0 + Parameters.Width - Parameters.Wall -
-              Parameters.TabClr - Parameters.TabT
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceX
-          Value:
-            type: FLOAT
-            value: 157.0
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 26
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: 147 mm + Parameters.TabL / 2
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceY
-          Value:
-            type: FLOAT
-            value: 178.8
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 26
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.OuterY0 + Parameters.Width - Parameters.Wall -
-              Parameters.TabClr
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 28
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 29
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 29
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 30
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 30
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 31
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 31
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 28
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Horizontal
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 28
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Horizontal
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 30
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Vertical
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 29
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Vertical
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 31
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceX
-          Value:
-            type: FLOAT
-            value: 240.0
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 28
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: 250 mm - Parameters.TabL / 2
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceY
-          Value:
-            type: FLOAT
-            value: 174.8
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 28
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.OuterY0 + Parameters.Width - Parameters.Wall -
-              Parameters.TabClr - Parameters.TabT
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceX
-          Value:
-            type: FLOAT
-            value: 260.0
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 30
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: 250 mm + Parameters.TabL / 2
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceY
-          Value:
-            type: FLOAT
-            value: 178.8
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 30
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.OuterY0 + Parameters.Width - Parameters.Wall -
-              Parameters.TabClr
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 32
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 33
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 33
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 34
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 34
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 35
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 35
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 32
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Vertical
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 32
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Vertical
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 34
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Horizontal
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 33
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Horizontal
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 35
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Distance
-          Value:
-            type: FLOAT
-            value: 1.7
-          First:
-            type: INT
-            value: 33
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: -1
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.OuterY0 + Parameters.Wall + Parameters.TabClr
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Distance
-          Value:
-            type: FLOAT
-            value: 5.7
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 35
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.OuterY0 + Parameters.Wall + Parameters.TabClr +
-              Parameters.TabT
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Distance
-          Value:
-            type: FLOAT
-            value: 260.0
-          First:
-            type: INT
-            value: 33
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: -2
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: 250 mm + Parameters.TabL / 2
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Distance
-          Value:
-            type: FLOAT
-            value: 240.0
-          First:
-            type: INT
-            value: 32
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: -2
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: 250 mm - Parameters.TabL / 2
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 36
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 37
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 37
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 38
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 38
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 39
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 39
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 36
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Horizontal
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 36
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Horizontal
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 38
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Vertical
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 37
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Vertical
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 39
-          FirstPos:
-            type: INT
-            value: 0
-          Second:
-            type: INT
-            value: -2000
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Distance
-          Value:
-            type: FLOAT
-            value: 52.0
-          First:
-            type: INT
-            value: 39
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: -2
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: 62 mm - Parameters.TabL / 2
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Distance
-          Value:
-            type: FLOAT
-            value: 72.0
-          First:
-            type: INT
-            value: 37
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: -2
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: 62 mm + Parameters.TabL / 2
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Distance
-          Value:
-            type: FLOAT
-            value: 178.8
-          First:
-            type: INT
-            value: 38
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: -1
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.OuterY0 + Parameters.Width - Parameters.Wall -
-              Parameters.TabClr
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Distance
-          Value:
-            type: FLOAT
-            value: 174.8
-          First:
-            type: INT
-            value: 36
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: -1
-          SecondPos:
-            type: INT
-            value: 0
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.OuterY0 + Parameters.Width - Parameters.Wall -
-              Parameters.TabClr - Parameters.TabT
-      group: Sketch
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Sk_LocatorTabs
-      group: Base
-    MakeInternals:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Internal Geometry
-    MapMode:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: FlatFace
-      group: Attachment
-    MapReversed:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Attachment
-    Placement:
-      kind: Placement
-      paths:
-        Base.x:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.y:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.z:
-          type: QUANTITY
-          value: 92.0 mm
-        Rotation.Angle:
-          type: QUANTITY
-          value: 0.0 deg
-        Rotation.Axis.x:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.y:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.z:
-          type: FLOAT
-          value: 1.0
-      group: Base
-- name: LocatorTabs
-  id: 2239
-  type_id: PartDesign::Pad
-  properties:
-    AllowMultiFace:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: true
-      group: SketchBased
-    AlongSketchNormal:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: true
-      group: Pad
-    FuzzyTolerance:
-      kind: Primitive
-      paths:
-        .:
-          type: FLOAT
-          value: -1.0
-      group: Part Design
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: LocatorTabs
-      group: Base
-    Length:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 5.0 mm
-          expression: Parameters.TabD
-      group: Side1
-    Length2:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 10.0 mm
-      group: Side2
-    Midplane:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: SketchBased
-    Offset:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 0.0 mm
-      group: Side1
-    Offset2:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 0.0 mm
-      group: Side2
-    Profile:
-      kind: List
-      paths: {}
-      items:
-      - kind: Unknown
-        paths:
-          .:
-            type: STRING
-            value: <Sketcher::SketchObject>
-            freecad_type: Sketcher.SketchObject
-      - kind: List
-        paths: {}
-        items: []
-      group: SketchBased
-    ReferenceAxis:
-      kind: Primitive
-      paths:
-        .:
-          type: 'NULL'
-      group: Pad
-    Refine:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: true
-      group: Part Design
-    Reversed:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: true
-      group: SketchBased
-    SideType:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: One side
-      group: Pad
-    Suppressed:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: true
-      group: Base
-    TaperAngle:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 0.0 deg
-      group: Side1
-    TaperAngle2:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 0.0 deg
-      group: Side2
-    Type:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Length
-      group: Side1
-    Type2:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Length
-      group: Side2
-    UpToFace:
-      kind: Primitive
-      paths:
-        .:
-          type: 'NULL'
-      group: Side1
-    UpToFace2:
-      kind: Primitive
-      paths:
-        .:
-          type: 'NULL'
-      group: Side2
-    UseCustomVector:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Pad
 - name: Sk_BossGussets
   id: 2240
   type_id: Sketcher::SketchObject
@@ -42249,7 +37848,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 236.51193318708138 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -42302,7 +37901,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 148.01193318708138 mm
+          value: 60.0 mm
       group: Size
 - name: DP_TrimYStart
   id: 2243
@@ -42354,7 +37953,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 387.29838706449675 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -42407,7 +38006,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 157.29838706449684 mm
+          value: 60.000000000000014 mm
       group: Size
 - name: Sk_BossGusTrimY
   id: 2244
@@ -44244,7 +39843,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 387.29838706449675 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -44297,7 +39896,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 157.29838706449684 mm
+          value: 60.000000000000014 mm
       group: Size
 - name: Sk_BossGusTrimXlo
   id: 2249
@@ -45693,7 +41292,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 236.51193318708138 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -45746,7 +41345,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 148.01193318708138 mm
+          value: 60.0 mm
       group: Size
 - name: DP_SpliceEnd
   id: 2258
@@ -45797,7 +41396,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 236.51193318708138 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -45850,7 +41449,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 148.01193318708138 mm
+          value: 60.0 mm
       group: Size
 - name: Sk_SpliceBosses
   id: 2260
@@ -46956,7 +42555,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 400.4073028714239 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -47009,7 +42608,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 258.9073028714239 mm
+          value: 60.0 mm
       group: Size
 - name: Sk_SpliceCbores
   id: 2271
@@ -48439,1974 +44038,6 @@ objects:
           type: BOOL
           value: false
       group: Pocket
-- name: DP_TabTrimX
-  id: 2277
-  type_id: PartDesign::Plane
-  properties:
-    AttacherEngine:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Engine Plane
-      group: Attachment
-    AttachmentOffset:
-      kind: Placement
-      paths:
-        Base.x:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.y:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.z:
-          type: QUANTITY
-          value: 1.5 mm
-          expression: Parameters.OuterX0 + Parameters.Wall
-        Rotation.Angle:
-          type: QUANTITY
-          value: 0.0 deg
-        Rotation.Axis.x:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.y:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.z:
-          type: FLOAT
-          value: 1.0
-      group: Attachment
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: DP_TabTrimX
-      group: Base
-    Length:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 237.16764910756717 mm
-      group: Size
-    MapMode:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: FlatFace
-      group: Attachment
-    MapReversed:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Attachment
-    Placement:
-      kind: Placement
-      paths:
-        Base.x:
-          type: QUANTITY
-          value: 1.5 mm
-        Base.y:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.z:
-          type: QUANTITY
-          value: 0.0 mm
-        Rotation.Angle:
-          type: QUANTITY
-          value: 120.00000000000001 deg
-        Rotation.Axis.x:
-          type: FLOAT
-          value: 0.5773502691896257
-        Rotation.Axis.y:
-          type: FLOAT
-          value: 0.5773502691896257
-        Rotation.Axis.z:
-          type: FLOAT
-          value: 0.5773502691896257
-      group: Base
-    ResizeMode:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Automatic
-      group: Size
-    Width:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 153.66764910756717 mm
-      group: Size
-- name: DP_TabTrimY
-  id: 2278
-  type_id: PartDesign::Plane
-  properties:
-    AttacherEngine:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Engine Plane
-      group: Attachment
-    AttachmentOffset:
-      kind: Placement
-      paths:
-        Base.x:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.y:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.z:
-          type: QUANTITY
-          value: -1.5 mm
-          expression: -(Parameters.OuterY0 + Parameters.Wall)
-        Rotation.Angle:
-          type: QUANTITY
-          value: 0.0 deg
-        Rotation.Axis.x:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.y:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.z:
-          type: FLOAT
-          value: 1.0
-      group: Attachment
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: DP_TabTrimY
-      group: Base
-    Length:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 388.15045564753814 mm
-      group: Size
-    MapMode:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: FlatFace
-      group: Attachment
-    MapReversed:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Attachment
-    Placement:
-      kind: Placement
-      paths:
-        Base.x:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.y:
-          type: QUANTITY
-          value: 1.5 mm
-        Base.z:
-          type: QUANTITY
-          value: -3.3306690738754696e-16 mm
-        Rotation.Angle:
-          type: QUANTITY
-          value: 90.0 deg
-        Rotation.Axis.x:
-          type: FLOAT
-          value: 1.0
-        Rotation.Axis.y:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.z:
-          type: FLOAT
-          value: 0.0
-      group: Base
-    ResizeMode:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Automatic
-      group: Size
-    Width:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 163.15045564753817 mm
-      group: Size
-- name: Sk_TabChamferY
-  id: 2279
-  type_id: Sketcher::SketchObject
-  properties:
-    ArcFitTolerance:
-      kind: Primitive
-      paths:
-        .:
-          type: FLOAT
-          value: 1.0e-06
-      group: Sketch
-    AttacherEngine:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Engine Plane
-      group: Attachment
-    AttachmentOffset:
-      kind: Placement
-      paths:
-        Base.x:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.y:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.z:
-          type: QUANTITY
-          value: 0.0 mm
-        Rotation.Angle:
-          type: QUANTITY
-          value: 0.0 deg
-        Rotation.Axis.x:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.y:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.z:
-          type: FLOAT
-          value: 1.0
-      group: Attachment
-    Constraints:
-      kind: List
-      paths: {}
-      items:
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 0
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 1
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 1
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 2
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 2
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 0
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceX
-          Value:
-            type: FLOAT
-            value: 1.7
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 0
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.OuterY0 + Parameters.Wall + Parameters.TabClr
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceY
-          Value:
-            type: FLOAT
-            value: 87.0
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 0
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.SplitZ - Parameters.TabD
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceX
-          Value:
-            type: FLOAT
-            value: 2.3
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 1
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.OuterY0 + Parameters.Wall + Parameters.TabClr +
-              Parameters.TabChf
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceY
-          Value:
-            type: FLOAT
-            value: 87.0
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 1
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.SplitZ - Parameters.TabD
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceX
-          Value:
-            type: FLOAT
-            value: 1.7
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 2
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.OuterY0 + Parameters.Wall + Parameters.TabClr
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceY
-          Value:
-            type: FLOAT
-            value: 87.6
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 2
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.SplitZ - Parameters.TabD + Parameters.TabChf
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 3
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 4
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 4
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 5
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 5
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 3
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceX
-          Value:
-            type: FLOAT
-            value: 178.8
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 3
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.OuterY0 + Parameters.Width - Parameters.Wall -
-              Parameters.TabClr
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceY
-          Value:
-            type: FLOAT
-            value: 87.0
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 3
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.SplitZ - Parameters.TabD
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceX
-          Value:
-            type: FLOAT
-            value: 178.20000000000002
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 4
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.OuterY0 + Parameters.Width - Parameters.Wall -
-              Parameters.TabClr - Parameters.TabChf
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceY
-          Value:
-            type: FLOAT
-            value: 87.0
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 4
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.SplitZ - Parameters.TabD
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceX
-          Value:
-            type: FLOAT
-            value: 178.8
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 5
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.OuterY0 + Parameters.Width - Parameters.Wall -
-              Parameters.TabClr
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceY
-          Value:
-            type: FLOAT
-            value: 87.6
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 5
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.SplitZ - Parameters.TabD + Parameters.TabChf
-      group: Sketch
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Sk_TabChamferY
-      group: Base
-    MakeInternals:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Internal Geometry
-    MapMode:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: FlatFace
-      group: Attachment
-    MapReversed:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Attachment
-    Placement:
-      kind: Placement
-      paths:
-        Base.x:
-          type: QUANTITY
-          value: 1.5 mm
-        Base.y:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.z:
-          type: QUANTITY
-          value: 0.0 mm
-        Rotation.Angle:
-          type: QUANTITY
-          value: 120.00000000000001 deg
-        Rotation.Axis.x:
-          type: FLOAT
-          value: 0.5773502691896257
-        Rotation.Axis.y:
-          type: FLOAT
-          value: 0.5773502691896257
-        Rotation.Axis.z:
-          type: FLOAT
-          value: 0.5773502691896257
-      group: Base
-- name: TabChamferY
-  id: 2280
-  type_id: PartDesign::Pocket
-  properties:
-    AllowMultiFace:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: true
-      group: SketchBased
-    AlongSketchNormal:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: true
-      group: Pocket
-    FuzzyTolerance:
-      kind: Primitive
-      paths:
-        .:
-          type: FLOAT
-          value: -1.0
-      group: Part Design
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: TabChamferY
-      group: Base
-    Length:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 319.0 mm
-          expression: Parameters.Length - 2 * Parameters.Wall
-      group: Side1
-    Length2:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 5.0 mm
-      group: Side2
-    Midplane:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: SketchBased
-    Offset:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 0.0 mm
-      group: Side1
-    Offset2:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 0.0 mm
-      group: Side2
-    Profile:
-      kind: List
-      paths: {}
-      items:
-      - kind: Unknown
-        paths:
-          .:
-            type: STRING
-            value: <Sketcher::SketchObject>
-            freecad_type: Sketcher.SketchObject
-      - kind: List
-        paths: {}
-        items: []
-      group: SketchBased
-    ReferenceAxis:
-      kind: Primitive
-      paths:
-        .:
-          type: 'NULL'
-      group: Pocket
-    Refine:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: true
-      group: Part Design
-    Reversed:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: true
-      group: SketchBased
-    SideType:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: One side
-      group: Pocket
-    Suppressed:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: true
-      group: Base
-    TaperAngle:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 0.0 deg
-      group: Side1
-    TaperAngle2:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 0.0 deg
-      group: Side2
-    Type:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Length
-      group: Side1
-    Type2:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Length
-      group: Side2
-    UpToFace:
-      kind: Primitive
-      paths:
-        .:
-          type: 'NULL'
-      group: Side1
-    UpToFace2:
-      kind: Primitive
-      paths:
-        .:
-          type: 'NULL'
-      group: Side2
-    UseCustomVector:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Pocket
-- name: Sk_TabChamferX
-  id: 2281
-  type_id: Sketcher::SketchObject
-  properties:
-    ArcFitTolerance:
-      kind: Primitive
-      paths:
-        .:
-          type: FLOAT
-          value: 1.0e-06
-      group: Sketch
-    AttacherEngine:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Engine Plane
-      group: Attachment
-    AttachmentOffset:
-      kind: Placement
-      paths:
-        Base.x:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.y:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.z:
-          type: QUANTITY
-          value: 0.0 mm
-        Rotation.Angle:
-          type: QUANTITY
-          value: 0.0 deg
-        Rotation.Axis.x:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.y:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.z:
-          type: FLOAT
-          value: 1.0
-      group: Attachment
-    Constraints:
-      kind: List
-      paths: {}
-      items:
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 0
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 1
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 1
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 2
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 2
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 0
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceX
-          Value:
-            type: FLOAT
-            value: 1.7
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 0
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.OuterX0 + Parameters.Wall + Parameters.TabClr
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceY
-          Value:
-            type: FLOAT
-            value: 87.0
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 0
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.SplitZ - Parameters.TabD
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceX
-          Value:
-            type: FLOAT
-            value: 2.3
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 1
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.OuterX0 + Parameters.Wall + Parameters.TabClr +
-              Parameters.TabChf
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceY
-          Value:
-            type: FLOAT
-            value: 87.0
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 1
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.SplitZ - Parameters.TabD
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceX
-          Value:
-            type: FLOAT
-            value: 1.7
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 2
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.OuterX0 + Parameters.Wall + Parameters.TabClr
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceY
-          Value:
-            type: FLOAT
-            value: 87.6
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 2
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.SplitZ - Parameters.TabD + Parameters.TabChf
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 3
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 4
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 4
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 5
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: Coincident
-          Value:
-            type: FLOAT
-            value: 0.0
-          First:
-            type: INT
-            value: 5
-          FirstPos:
-            type: INT
-            value: 2
-          Second:
-            type: INT
-            value: 3
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceX
-          Value:
-            type: FLOAT
-            value: 320.3
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 3
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.OuterX0 + Parameters.Length - Parameters.Wall -
-              Parameters.TabClr
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceY
-          Value:
-            type: FLOAT
-            value: 87.0
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 3
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.SplitZ - Parameters.TabD
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceX
-          Value:
-            type: FLOAT
-            value: 319.7
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 4
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.OuterX0 + Parameters.Length - Parameters.Wall -
-              Parameters.TabClr - Parameters.TabChf
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceY
-          Value:
-            type: FLOAT
-            value: 87.0
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 4
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.SplitZ - Parameters.TabD
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceX
-          Value:
-            type: FLOAT
-            value: 320.3
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 5
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.OuterX0 + Parameters.Length - Parameters.Wall -
-              Parameters.TabClr
-      - kind: Constraint
-        paths:
-          Type:
-            type: STRING
-            value: DistanceY
-          Value:
-            type: FLOAT
-            value: 87.6
-          First:
-            type: INT
-            value: -1
-          FirstPos:
-            type: INT
-            value: 1
-          Second:
-            type: INT
-            value: 5
-          SecondPos:
-            type: INT
-            value: 1
-          Third:
-            type: INT
-            value: -2000
-          ThirdPos:
-            type: INT
-            value: 0
-          Driving:
-            type: BOOL
-            value: true
-          IsActive:
-            type: BOOL
-            value: true
-          .:
-            type: 'NULL'
-            expression: Parameters.SplitZ - Parameters.TabD + Parameters.TabChf
-      group: Sketch
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Sk_TabChamferX
-      group: Base
-    MakeInternals:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Internal Geometry
-    MapMode:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: FlatFace
-      group: Attachment
-    MapReversed:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Attachment
-    Placement:
-      kind: Placement
-      paths:
-        Base.x:
-          type: QUANTITY
-          value: 0.0 mm
-        Base.y:
-          type: QUANTITY
-          value: 1.5 mm
-        Base.z:
-          type: QUANTITY
-          value: -3.3306690738754696e-16 mm
-        Rotation.Angle:
-          type: QUANTITY
-          value: 90.0 deg
-        Rotation.Axis.x:
-          type: FLOAT
-          value: 1.0
-        Rotation.Axis.y:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.z:
-          type: FLOAT
-          value: 0.0
-      group: Base
-- name: TabChamferX
-  id: 2282
-  type_id: PartDesign::Pocket
-  properties:
-    AllowMultiFace:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: true
-      group: SketchBased
-    AlongSketchNormal:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: true
-      group: Pocket
-    FuzzyTolerance:
-      kind: Primitive
-      paths:
-        .:
-          type: FLOAT
-          value: -1.0
-      group: Part Design
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: TabChamferX
-      group: Base
-    Length:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 177.5 mm
-          expression: Parameters.Width - 2 * Parameters.Wall
-      group: Side1
-    Length2:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 5.0 mm
-      group: Side2
-    Midplane:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: SketchBased
-    Offset:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 0.0 mm
-      group: Side1
-    Offset2:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 0.0 mm
-      group: Side2
-    Profile:
-      kind: List
-      paths: {}
-      items:
-      - kind: Unknown
-        paths:
-          .:
-            type: STRING
-            value: <Sketcher::SketchObject>
-            freecad_type: Sketcher.SketchObject
-      - kind: List
-        paths: {}
-        items: []
-      group: SketchBased
-    ReferenceAxis:
-      kind: Primitive
-      paths:
-        .:
-          type: 'NULL'
-      group: Pocket
-    Refine:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: true
-      group: Part Design
-    Reversed:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: SketchBased
-    SideType:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: One side
-      group: Pocket
-    Suppressed:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: true
-      group: Base
-    TaperAngle:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 0.0 deg
-      group: Side1
-    TaperAngle2:
-      kind: Primitive
-      paths:
-        .:
-          type: QUANTITY
-          value: 0.0 deg
-      group: Side2
-    Type:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Length
-      group: Side1
-    Type2:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: Length
-      group: Side2
-    UpToFace:
-      kind: Primitive
-      paths:
-        .:
-          type: 'NULL'
-      group: Side1
-    UpToFace2:
-      kind: Primitive
-      paths:
-        .:
-          type: 'NULL'
-      group: Side2
-    UseCustomVector:
-      kind: Primitive
-      paths:
-        .:
-          type: BOOL
-          value: false
-      group: Pocket
 - name: UpdateParts
   id: 2289
   type_id: App::TextDocument
@@ -50418,7 +44049,7 @@ objects:
           type: STRING
           value: uglycase-check-slice.py
       group: Base
-- name: Sketch
+- name: Sk_PowerSwitch
   id: 2290
   type_id: Sketcher::SketchObject
   properties:
@@ -50624,7 +44255,7 @@ objects:
           type: FLOAT
           value: 0.5773502691896257
       group: Base
-- name: Hole
+- name: PowerSwitch
   id: 2291
   type_id: PartDesign::Hole
   properties:
@@ -50892,7 +44523,7 @@ objects:
           type: BOOL
           value: false
       group: Hole
-- name: Sketch001
+- name: Sk_PsSideScrewGroove
   id: 2300
   type_id: Sketcher::SketchObject
   properties:
@@ -51785,7 +45416,7 @@ objects:
           type: FLOAT
           value: 1.0
       group: Base
-- name: Pocket
+- name: PsuSideScrewGroove
   id: 2301
   type_id: PartDesign::Pocket
   properties:
@@ -51966,7 +45597,7 @@ objects:
           type: BOOL
           value: false
       group: Pocket
-- name: Sketch004
+- name: Sk_PsSupport3
   id: 2314
   type_id: Sketcher::SketchObject
   properties:
@@ -52431,7 +46062,7 @@ objects:
           type: FLOAT
           value: 0.7071067811865449
       group: Base
-- name: Pad
+- name: PsuSupport3
   id: 2315
   type_id: PartDesign::Pad
   properties:
@@ -52612,7 +46243,7 @@ objects:
           type: BOOL
           value: false
       group: Pad
-- name: Sketch005
+- name: Sk_PsSupports1_2
   id: 2316
   type_id: Sketcher::SketchObject
   properties:
@@ -53505,7 +47136,7 @@ objects:
           type: FLOAT
           value: 0.7071067811865449
       group: Base
-- name: Pad001
+- name: PsuSupports1_2
   id: 2317
   type_id: PartDesign::Pad
   properties:
@@ -53686,7 +47317,7 @@ objects:
           type: BOOL
           value: false
       group: Pad
-- name: Sketch006
+- name: Sk_DirectorBossLow
   id: 2324
   type_id: Sketcher::SketchObject
   properties:
@@ -54579,7 +48210,7 @@ objects:
           type: FLOAT
           value: 0.7071067811865475
       group: Base
-- name: Pad002
+- name: DirectorBossLow
   id: 2325
   type_id: PartDesign::Pad
   properties:
@@ -54759,7 +48390,7 @@ objects:
           type: BOOL
           value: false
       group: Pad
-- name: Sketch007
+- name: Sk_DirectorBossHigh
   id: 2326
   type_id: Sketcher::SketchObject
   properties:
@@ -55652,7 +49283,7 @@ objects:
           type: FLOAT
           value: 0.0
       group: Base
-- name: Pad003
+- name: DirectorBossHigh
   id: 2327
   type_id: PartDesign::Pad
   properties:
@@ -55832,7 +49463,7 @@ objects:
           type: BOOL
           value: false
       group: Pad
-- name: Sketch008
+- name: Sk_HexVents001
   id: 2328
   type_id: Sketcher::SketchObject
   properties:
@@ -56329,7 +49960,7 @@ objects:
           type: FLOAT
           value: -0.5773502691896257
       group: Base
-- name: Pad004
+- name: HexVentsArea
   id: 2332
   type_id: PartDesign::Pad
   properties:
@@ -56510,7 +50141,7 @@ objects:
           type: BOOL
           value: false
       group: Pad
-- name: Fillet
+- name: SpliceAttachFillet1
   id: 2346
   type_id: PartDesign::Fillet
   properties:
@@ -56597,7 +50228,7 @@ objects:
           type: BOOL
           value: false
       group: Fillet
-- name: Fillet001
+- name: SpliceAttachFillet2
   id: 2348
   type_id: PartDesign::Fillet
   properties:
@@ -56684,7 +50315,7 @@ objects:
           type: BOOL
           value: false
       group: Fillet
-- name: Fillet002
+- name: SpliceAttachFillet3
   id: 2349
   type_id: PartDesign::Fillet
   properties:
@@ -56756,7 +50387,7 @@ objects:
           type: BOOL
           value: false
       group: Fillet
-- name: Fillet003
+- name: SpliceAttachFillet4
   id: 2357
   type_id: PartDesign::Fillet
   properties:
@@ -56853,7 +50484,7 @@ objects:
           type: BOOL
           value: false
       group: Fillet
-- name: Sketch009
+- name: Sk_FanBoreTrim
   id: 2359
   type_id: Sketcher::SketchObject
   properties:
@@ -57059,7 +50690,7 @@ objects:
           type: FLOAT
           value: 1.0
       group: Base
-- name: Sketch010
+- name: Sk_LidBorder
   id: 2393
   type_id: Sketcher::SketchObject
   properties:
@@ -57556,7 +51187,7 @@ objects:
           type: FLOAT
           value: 1.0
       group: Base
-- name: Pocket005
+- name: LidBorderPocket
   id: 2396
   type_id: PartDesign::Pocket
   properties:
@@ -57737,7 +51368,7 @@ objects:
           type: BOOL
           value: false
       group: Pocket
-- name: Sk_Fan121
+- name: Sk_FanBore
   id: 2399
   type_id: Sketcher::SketchObject
   properties:
@@ -57943,7 +51574,7 @@ objects:
           type: FLOAT
           value: 1.0
       group: Base
-- name: DP_LidTop002
+- name: DP_LidPocket
   id: 2401
   type_id: PartDesign::Plane
   properties:
@@ -57992,7 +51623,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 400.4073028714239 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -58045,9 +51676,9 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 258.9073028714239 mm
+          value: 60.0 mm
       group: Size
-- name: Hole001
+- name: FanScrewHoles
   id: 2404
   type_id: PartDesign::Hole
   properties:
@@ -58318,7 +51949,7 @@ objects:
           type: BOOL
           value: false
       group: Hole
-- name: Pocket006
+- name: FanBore
   id: 2405
   type_id: PartDesign::Pocket
   properties:
@@ -58500,7 +52131,7 @@ objects:
           type: BOOL
           value: false
       group: Pocket
-- name: Pad005
+- name: FanBorePad
   id: 2406
   type_id: PartDesign::Pad
   properties:
@@ -58681,7 +52312,7 @@ objects:
           type: BOOL
           value: false
       group: Pad
-- name: Fillet004
+- name: LidOutsideRound
   id: 2419
   type_id: PartDesign::Fillet
   properties:
@@ -58753,7 +52384,7 @@ objects:
           type: BOOL
           value: false
       group: Fillet
-- name: Fillet005
+- name: LidInsideRound
   id: 2420
   type_id: PartDesign::Fillet
   properties:
@@ -58840,7 +52471,7 @@ objects:
           type: BOOL
           value: false
       group: Fillet
-- name: Fillet006
+- name: FanPaddingFillet
   id: 2421
   type_id: PartDesign::Fillet
   properties:
@@ -58912,7 +52543,7 @@ objects:
           type: BOOL
           value: false
       group: Fillet
-- name: Fillet007
+- name: FanInsideFillet
   id: 2422
   type_id: PartDesign::Fillet
   properties:
@@ -58984,7 +52615,7 @@ objects:
           type: BOOL
           value: false
       group: Fillet
-- name: Fillet008
+- name: PSFanScrewFillet
   id: 2458
   type_id: PartDesign::Fillet
   properties:
@@ -59091,7 +52722,7 @@ objects:
           type: BOOL
           value: false
       group: Fillet
-- name: Sketch011
+- name: Sk_PortsRecess
   id: 2481
   type_id: Sketcher::SketchObject
   properties:
@@ -59588,7 +53219,7 @@ objects:
           type: FLOAT
           value: 0.5773502691896257
       group: Base
-- name: Pocket007
+- name: PortsRecessPocket
   id: 2482
   type_id: PartDesign::Pocket
   properties:
@@ -59769,7 +53400,7 @@ objects:
           type: BOOL
           value: false
       group: Pocket
-- name: HexGrid001
+- name: Sk_HexGrid
   id: 2493
   type_id: Sketcher::SketchObject
   properties:
@@ -59870,7 +53501,7 @@ objects:
           type: FLOAT
           value: -0.5773502691896257
       group: Base
-- name: Pocket008
+- name: HexGridPocket
   id: 2494
   type_id: PartDesign::Pocket
   properties:
@@ -60054,6 +53685,8 @@ objects:
 occurrences:
 - path: Assembly
   after: Parameters
+- path: Assembly/Apevia_ITX_PFC500W
+  after: Assembly/Board_BC250
 - path: Assembly/Board_BC250
   after: Assembly/Director
 - path: Assembly/Director
@@ -60081,7 +53714,7 @@ occurrences:
 - path: Assembly/Director/Origin002/Z_Axis002
   after: Assembly/Director/Origin002/Y_Axis002
 - path: Assembly/Fan_120mm
-  after: Assembly/PSU_Apevia_FlexATX
+  after: Assembly/Apevia_ITX_PFC500W
 - path: Assembly/Lid
   after: Assembly/Origin003
 - path: Assembly/Lid/ClosureCbores
@@ -60094,34 +53727,38 @@ occurrences:
   after: null
 - path: Assembly/Lid/DP_LidBase
   after: Assembly/Lid/Origin001
+- path: Assembly/Lid/DP_LidPocket
+  after: Assembly/Lid/LidBorderPocket
 - path: Assembly/Lid/DP_LidTop
   after: Assembly/Lid/LidBlock
-- path: Assembly/Lid/DP_LidTop002
-  after: Assembly/Lid/Pocket005
-- path: Assembly/Lid/DP_TabTrimX
-  after: Assembly/Lid/LocatorTabs
-- path: Assembly/Lid/DP_TabTrimY
-  after: Assembly/Lid/DP_TabTrimX
-- path: Assembly/Lid/Fillet004
-  after: Assembly/Lid/Pocket006
-- path: Assembly/Lid/Fillet005
-  after: Assembly/Lid/Fillet004
-- path: Assembly/Lid/Fillet006
-  after: Assembly/Lid/Fillet005
-- path: Assembly/Lid/Fillet007
-  after: Assembly/Lid/Fillet006
-- path: Assembly/Lid/Hole001
-  after: Assembly/Lid/DP_LidTop002
-- path: Assembly/Lid/Hole001/Sk_Fan120
+- path: Assembly/Lid/FanBore
+  after: Assembly/Lid/FanBorePad
+- path: Assembly/Lid/FanBore/Sk_FanBore
+  after: null
+- path: Assembly/Lid/FanBorePad
+  after: Assembly/Lid/FanScrewHoles
+- path: Assembly/Lid/FanBorePad/Sk_FanBoreTrim
+  after: null
+- path: Assembly/Lid/FanInsideFillet
+  after: Assembly/Lid/FanPaddingFillet
+- path: Assembly/Lid/FanPaddingFillet
+  after: Assembly/Lid/LidInsideRound
+- path: Assembly/Lid/FanScrewHoles
+  after: Assembly/Lid/DP_LidPocket
+- path: Assembly/Lid/FanScrewHoles/Sk_FanMount
   after: null
 - path: Assembly/Lid/LidBlock
   after: Assembly/Lid/DP_LidBase
 - path: Assembly/Lid/LidBlock/Sk_LidOuter
   after: null
-- path: Assembly/Lid/LocatorTabs
+- path: Assembly/Lid/LidBorderPocket
   after: Assembly/Lid/ClosureCbores
-- path: Assembly/Lid/LocatorTabs/Sk_LocatorTabs
+- path: Assembly/Lid/LidBorderPocket/Sk_LidBorder
   after: null
+- path: Assembly/Lid/LidInsideRound
+  after: Assembly/Lid/LidOutsideRound
+- path: Assembly/Lid/LidOutsideRound
+  after: Assembly/Lid/FanBore
 - path: Assembly/Lid/Origin001
   after: null
 - path: Assembly/Lid/Origin001/Origin005
@@ -60138,26 +53775,6 @@ occurrences:
   after: Assembly/Lid/Origin001/X_Axis001
 - path: Assembly/Lid/Origin001/Z_Axis001
   after: Assembly/Lid/Origin001/Y_Axis001
-- path: Assembly/Lid/Pad005
-  after: Assembly/Lid/Hole001
-- path: Assembly/Lid/Pad005/Sketch009
-  after: null
-- path: Assembly/Lid/Pocket005
-  after: Assembly/Lid/TabChamferX
-- path: Assembly/Lid/Pocket005/Sketch010
-  after: null
-- path: Assembly/Lid/Pocket006
-  after: Assembly/Lid/Pad005
-- path: Assembly/Lid/Pocket006/Sk_Fan121
-  after: null
-- path: Assembly/Lid/TabChamferX
-  after: Assembly/Lid/TabChamferY
-- path: Assembly/Lid/TabChamferX/Sk_TabChamferX
-  after: null
-- path: Assembly/Lid/TabChamferY
-  after: Assembly/Lid/DP_TabTrimY
-- path: Assembly/Lid/TabChamferY/Sk_TabChamferY
-  after: null
 - path: Assembly/Origin003
   after: null
 - path: Assembly/Origin003/Origin007
@@ -60174,8 +53791,6 @@ occurrences:
   after: Assembly/Origin003/X_Axis003
 - path: Assembly/Origin003/Z_Axis003
   after: Assembly/Origin003/Y_Axis003
-- path: Assembly/PSU_Apevia_FlexATX
-  after: Assembly/Board_BC250
 - path: Assembly/Tray
   after: Assembly/Lid
 - path: Assembly/Tray/BoardBosses
@@ -60199,7 +53814,7 @@ occurrences:
 - path: Assembly/Tray/BossGusTrimY/Sk_BossGusTrimY
   after: null
 - path: Assembly/Tray/BossGussets
-  after: Assembly/Tray/Fillet008
+  after: Assembly/Tray/PSFanScrewFillet
 - path: Assembly/Tray/BossGussets/Sk_BossGussets
   after: null
 - path: Assembly/Tray/ClosureBosses
@@ -60226,20 +53841,18 @@ occurrences:
   after: Assembly/Tray/BossGussets
 - path: Assembly/Tray/DP_TrimYStart
   after: Assembly/Tray/DP_TrimXStart
+- path: Assembly/Tray/DirectorBossHigh
+  after: Assembly/Tray/DirectorBossLow
+- path: Assembly/Tray/DirectorBossHigh/Sk_DirectorBossHigh
+  after: null
+- path: Assembly/Tray/DirectorBossLow
+  after: Assembly/Tray/PsuSupports1_2
+- path: Assembly/Tray/DirectorBossLow/Sk_DirectorBossLow
+  after: null
 - path: Assembly/Tray/EndWallOpenings
   after: Assembly/Tray/InsertPilots
 - path: Assembly/Tray/EndWallOpenings/Sk_EndWallOpenings
   after: null
-- path: Assembly/Tray/Fillet
-  after: Assembly/Tray/SplicePilots
-- path: Assembly/Tray/Fillet001
-  after: Assembly/Tray/Fillet
-- path: Assembly/Tray/Fillet002
-  after: Assembly/Tray/Fillet001
-- path: Assembly/Tray/Fillet003
-  after: Assembly/Tray/Fillet002
-- path: Assembly/Tray/Fillet008
-  after: Assembly/Tray/PsuFaceOpenings
 - path: Assembly/Tray/HeatsinkFrame
   after: Assembly/Tray/HeatsinkWindows
 - path: Assembly/Tray/HeatsinkFrame/Sk_HeatsinkFrame
@@ -60248,9 +53861,13 @@ occurrences:
   after: Assembly/Tray/DP_FloorTop
 - path: Assembly/Tray/HeatsinkWindows/Sk_HeatsinkWindows
   after: null
-- path: Assembly/Tray/Hole
-  after: Assembly/Tray/Fillet003
-- path: Assembly/Tray/Hole/Sketch
+- path: Assembly/Tray/HexGridPocket
+  after: Assembly/Tray/PortsRecessPocket
+- path: Assembly/Tray/HexGridPocket/Sk_HexGrid
+  after: null
+- path: Assembly/Tray/HexVentsArea
+  after: Assembly/Tray/DirectorBossHigh
+- path: Assembly/Tray/HexVentsArea/Sk_HexVents001
   after: null
 - path: Assembly/Tray/IecOpening
   after: Assembly/Tray/EndWallOpenings
@@ -60276,46 +53893,44 @@ occurrences:
   after: Assembly/Tray/Origin/X_Axis
 - path: Assembly/Tray/Origin/Z_Axis
   after: Assembly/Tray/Origin/Y_Axis
-- path: Assembly/Tray/Pad
-  after: Assembly/Tray/Pocket
-- path: Assembly/Tray/Pad/Sketch004
-  after: null
-- path: Assembly/Tray/Pad001
-  after: Assembly/Tray/Pad
-- path: Assembly/Tray/Pad001/Sketch005
-  after: null
-- path: Assembly/Tray/Pad002
-  after: Assembly/Tray/Pad001
-- path: Assembly/Tray/Pad002/Sketch006
-  after: null
-- path: Assembly/Tray/Pad003
-  after: Assembly/Tray/Pad002
-- path: Assembly/Tray/Pad003/Sketch007
-  after: null
-- path: Assembly/Tray/Pad004
-  after: Assembly/Tray/Pad003
-- path: Assembly/Tray/Pad004/Sketch008
-  after: null
+- path: Assembly/Tray/PSFanScrewFillet
+  after: Assembly/Tray/PsuFaceOpenings
 - path: Assembly/Tray/Partition
   after: Assembly/Tray/TrayCavity
 - path: Assembly/Tray/Partition/Sk_Partition
   after: null
-- path: Assembly/Tray/Pocket
-  after: Assembly/Tray/Hole
-- path: Assembly/Tray/Pocket/Sketch001
+- path: Assembly/Tray/PortsRecessPocket
+  after: Assembly/Tray/HexVentsArea
+- path: Assembly/Tray/PortsRecessPocket/Sk_PortsRecess
   after: null
-- path: Assembly/Tray/Pocket007
-  after: Assembly/Tray/Pad004
-- path: Assembly/Tray/Pocket007/Sketch011
-  after: null
-- path: Assembly/Tray/Pocket008
-  after: Assembly/Tray/Pocket007
-- path: Assembly/Tray/Pocket008/HexGrid001
+- path: Assembly/Tray/PowerSwitch
+  after: Assembly/Tray/SpliceAttachFillet4
+- path: Assembly/Tray/PowerSwitch/Sk_PowerSwitch
   after: null
 - path: Assembly/Tray/PsuFaceOpenings
   after: Assembly/Tray/IecOpening
 - path: Assembly/Tray/PsuFaceOpenings/Sk_PsuFace
   after: null
+- path: Assembly/Tray/PsuSideScrewGroove
+  after: Assembly/Tray/PowerSwitch
+- path: Assembly/Tray/PsuSideScrewGroove/Sk_PsSideScrewGroove
+  after: null
+- path: Assembly/Tray/PsuSupport3
+  after: Assembly/Tray/PsuSideScrewGroove
+- path: Assembly/Tray/PsuSupport3/Sk_PsSupport3
+  after: null
+- path: Assembly/Tray/PsuSupports1_2
+  after: Assembly/Tray/PsuSupport3
+- path: Assembly/Tray/PsuSupports1_2/Sk_PsSupports1_2
+  after: null
+- path: Assembly/Tray/SpliceAttachFillet1
+  after: Assembly/Tray/SplicePilots
+- path: Assembly/Tray/SpliceAttachFillet2
+  after: Assembly/Tray/SpliceAttachFillet1
+- path: Assembly/Tray/SpliceAttachFillet3
+  after: Assembly/Tray/SpliceAttachFillet2
+- path: Assembly/Tray/SpliceAttachFillet4
+  after: Assembly/Tray/SpliceAttachFillet3
 - path: Assembly/Tray/SpliceBand
   after: Assembly/Tray/BossGusTrimXlo
 - path: Assembly/Tray/SpliceBand/Sk_SpliceBand
