@@ -1,6 +1,6 @@
 v: 2
-timestamp: '2026-09-14T19:45:36.536216'
-uid: 8c35b7af-f4ee-4b44-a302-4393cd8466c2
+timestamp: '2026-09-14T21:15:44.568606'
+uid: 7c467963-ee94-484e-bb17-70369cce8db6
 objects:
 - name: Parameters
   id: 2132
@@ -30567,12 +30567,33 @@ objects:
   id: 2218
   type_id: Part::Feature
   properties:
+    CreatedBy:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Fahad_Alduraibi (@Fahad)
+      group: Base
     Label:
       kind: Primitive
       paths:
         .:
           type: STRING
-          value: board BC-250 (no bracket)
+          value: BC-250 (no bracket)
+      group: Base
+    License:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: BY-SA
+      group: Base
+    ModelURL:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: https://www.printables.com/model/1651082-amd-bc-250-model-accurate-dimenstions
       group: Base
     Placement:
       kind: Placement
@@ -30606,12 +30627,26 @@ objects:
   id: 2219
   type_id: Part::Feature
   properties:
+    CreatedBy:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: '@MandicReally'
+      group: Base
     Label:
       kind: Primitive
       paths:
         .:
           type: STRING
           value: Apevia ITX-PFC500W
+      group: Base
+    ModelURL:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: https://www.printables.com/model/1359585-apevia-itx-pfc500w-mini-itx-flex-atx-power-supply
       group: Base
     Placement:
       kind: Placement
@@ -30640,45 +30675,6 @@ objects:
         Rotation.Axis.z:
           type: FLOAT
           value: 1.0
-      group: Base
-- name: Fan_120mm
-  id: 2220
-  type_id: Part::Feature
-  properties:
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: 120 mm fan
-      group: Base
-    Placement:
-      kind: Placement
-      paths:
-        Base.x:
-          type: QUANTITY
-          value: 251.5 mm
-          expression: Parameters.FanOffX
-        Base.y:
-          type: QUANTITY
-          value: 90.25 mm
-          expression: Parameters.FanOffY
-        Base.z:
-          type: QUANTITY
-          value: 79.5 mm
-          expression: Parameters.FanOffZ
-        Rotation.Angle:
-          type: QUANTITY
-          value: 90.0 deg
-        Rotation.Axis.x:
-          type: FLOAT
-          value: 1.0
-        Rotation.Axis.y:
-          type: FLOAT
-          value: 0.0
-        Rotation.Axis.z:
-          type: FLOAT
-          value: 0.0
       group: Base
 - name: Assembly
   id: 2221
@@ -53682,13 +53678,77 @@ objects:
           type: BOOL
           value: false
       group: Pocket
+- name: Part__Feature
+  id: 2503
+  type_id: Part::Feature
+  properties:
+    CreatedBy:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Jason Badon (retnel)
+      group: Base
+    Label:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Corsair_120mm_Fan v2
+      group: Base
+    License:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: CC-BY
+      group: Base
+    ModelUrl:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: https://www.thingiverse.com/thing:4163406
+      group: Base
+    Placement:
+      kind: Placement
+      paths:
+        Base.x:
+          type: QUANTITY
+          value: 251.5 mm
+        Base.y:
+          type: QUANTITY
+          value: 90.25 mm
+        Base.z:
+          type: QUANTITY
+          value: 117.5 mm
+        Rotation.Angle:
+          type: QUANTITY
+          value: 0.0 deg
+        Rotation.Axis.x:
+          type: FLOAT
+          value: 1.0
+        Rotation.Axis.y:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.z:
+          type: FLOAT
+          value: 0.0
+      group: Base
+- name: Group
+  id: 2518
+  type_id: App::DocumentObjectGroup
+  properties:
+    Label:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: External
+      group: Base
 occurrences:
 - path: Assembly
   after: Parameters
-- path: Assembly/Apevia_ITX_PFC500W
-  after: Assembly/Board_BC250
-- path: Assembly/Board_BC250
-  after: Assembly/Director
 - path: Assembly/Director
   after: Assembly/Tray
 - path: Assembly/Director/DP_PlateBase
@@ -53713,8 +53773,6 @@ occurrences:
   after: Assembly/Director/Origin002/X_Axis002
 - path: Assembly/Director/Origin002/Z_Axis002
   after: Assembly/Director/Origin002/Y_Axis002
-- path: Assembly/Fan_120mm
-  after: Assembly/Apevia_ITX_PFC500W
 - path: Assembly/Lid
   after: Assembly/Origin003
 - path: Assembly/Lid/ClosureCbores
@@ -53958,6 +54016,14 @@ occurrences:
 - path: Assembly/Tray/TrayCavity
   after: Assembly/Tray/DP_Seam
 - path: Assembly/Tray/TrayCavity/Sk_TrayCavity
+  after: null
+- path: Group
+  after: UpdateParts
+- path: Group/Apevia_ITX_PFC500W
+  after: Group/Board_BC250
+- path: Group/Board_BC250
+  after: Group/Part__Feature
+- path: Group/Part__Feature
   after: null
 - path: Parameters
   after: null
