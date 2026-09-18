@@ -1,6 +1,6 @@
 v: 2
-timestamp: '2026-09-17T20:44:38.310070'
-uid: a2318d22-c765-412a-b131-58529b045f95
+timestamp: '2026-09-18T19:05:03.571520'
+uid: 6a6644a4-1e1d-4ed6-b1e8-4971ed9190f1
 objects:
 - name: Parameters
   id: 2132
@@ -44034,17 +44034,6 @@ objects:
           type: BOOL
           value: false
       group: Pocket
-- name: UpdateParts
-  id: 2289
-  type_id: App::TextDocument
-  properties:
-    Label:
-      kind: Primitive
-      paths:
-        .:
-          type: STRING
-          value: uglycase-check-slice.py
-      group: Base
 - name: Sk_PowerSwitch
   id: 2290
   type_id: Sketcher::SketchObject
@@ -53694,7 +53683,7 @@ objects:
       paths:
         .:
           type: STRING
-          value: Corsair_120mm_Fan v2
+          value: Fan_120mm
       group: Base
     License:
       kind: Primitive
@@ -54018,7 +54007,7 @@ occurrences:
 - path: Assembly/Tray/TrayCavity/Sk_TrayCavity
   after: null
 - path: Group
-  after: UpdateParts
+  after: Assembly
 - path: Group/Apevia_ITX_PFC500W
   after: Group/Board_BC250
 - path: Group/Board_BC250
@@ -54027,5 +54016,3 @@ occurrences:
   after: null
 - path: Parameters
   after: null
-- path: UpdateParts
-  after: Assembly
