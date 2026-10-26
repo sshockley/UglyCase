@@ -1,6 +1,6 @@
 v: 2
-timestamp: '2026-09-18T19:05:03.571520'
-uid: 6a6644a4-1e1d-4ed6-b1e8-4971ed9190f1
+timestamp: '2026-10-26T17:21:16.919048'
+uid: ef6383d1-1587-481b-ae5b-6c2584703b6b
 objects:
 - name: Parameters
   id: 2132
@@ -19,6 +19,7 @@ objects:
         .:
           type: STRING
           value: UglyCase parameters
+          expression: '''UglyCase parameters'
       group: Base
     A2:
       kind: Primitive
@@ -26,6 +27,7 @@ objects:
         .:
           type: STRING
           value: name
+          expression: '''name'
       group: Base
     B2:
       kind: Primitive
@@ -33,6 +35,7 @@ objects:
         .:
           type: STRING
           value: value
+          expression: '''value'
       group: Base
     C2:
       kind: Primitive
@@ -40,6 +43,7 @@ objects:
         .:
           type: STRING
           value: units
+          expression: '''units'
       group: Base
     D2:
       kind: Primitive
@@ -47,6 +51,7 @@ objects:
         .:
           type: STRING
           value: description
+          expression: '''description'
       group: Base
     A3:
       kind: Primitive
@@ -54,6 +59,7 @@ objects:
         .:
           type: STRING
           value: -- ENVELOPE --
+          expression: '''-- ENVELOPE --'
       group: Base
     A4:
       kind: Primitive
@@ -61,6 +67,7 @@ objects:
         .:
           type: STRING
           value: Length
+          expression: '''Length'
       group: Base
     B4:
       kind: Primitive
@@ -68,6 +75,7 @@ objects:
         .:
           type: QUANTITY
           value: 322.0 mm
+          expression: =322 mm
         Alias:
           type: STRING
           value: Length
@@ -78,6 +86,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D4:
       kind: Primitive
@@ -85,6 +94,7 @@ objects:
         .:
           type: STRING
           value: overall case length, X
+          expression: '''overall case length, X'
       group: Base
     A5:
       kind: Primitive
@@ -92,6 +102,7 @@ objects:
         .:
           type: STRING
           value: Width
+          expression: '''Width'
       group: Base
     B5:
       kind: Primitive
@@ -99,6 +110,7 @@ objects:
         .:
           type: QUANTITY
           value: 180.5 mm
+          expression: =180.5 mm
         Alias:
           type: STRING
           value: Width
@@ -109,6 +121,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D5:
       kind: Primitive
@@ -116,6 +129,7 @@ objects:
         .:
           type: STRING
           value: overall case width, Y
+          expression: '''overall case width, Y'
       group: Base
     A6:
       kind: Primitive
@@ -123,6 +137,7 @@ objects:
         .:
           type: STRING
           value: Height
+          expression: '''Height'
       group: Base
     B6:
       kind: Primitive
@@ -130,6 +145,7 @@ objects:
         .:
           type: QUANTITY
           value: 97.0 mm
+          expression: =97 mm
         Alias:
           type: STRING
           value: Height
@@ -140,6 +156,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D6:
       kind: Primitive
@@ -147,6 +164,7 @@ objects:
         .:
           type: STRING
           value: overall case height, Z
+          expression: '''overall case height, Z'
       group: Base
     A7:
       kind: Primitive
@@ -154,6 +172,7 @@ objects:
         .:
           type: STRING
           value: Wall
+          expression: '''Wall'
       group: Base
     B7:
       kind: Primitive
@@ -161,6 +180,7 @@ objects:
         .:
           type: QUANTITY
           value: 1.5 mm
+          expression: =1.5 mm
         Alias:
           type: STRING
           value: Wall
@@ -171,6 +191,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D7:
       kind: Primitive
@@ -178,6 +199,7 @@ objects:
         .:
           type: STRING
           value: nominal wall thickness, uniform to the seam
+          expression: '''nominal wall thickness, uniform to the seam'
       group: Base
     A8:
       kind: Primitive
@@ -185,6 +207,7 @@ objects:
         .:
           type: STRING
           value: PortsWall
+          expression: '''PortsWall'
       group: Base
     B8:
       kind: Primitive
@@ -192,6 +215,7 @@ objects:
         .:
           type: QUANTITY
           value: 3.0 mm
+          expression: =3 mm
         Alias:
           type: STRING
           value: PortsWall
@@ -202,6 +226,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D8:
       kind: Primitive
@@ -209,6 +234,7 @@ objects:
         .:
           type: STRING
           value: Wall thickness of wall with ports/PSU
+          expression: '''Wall thickness of wall with ports/PSU'
       group: Base
     A9:
       kind: Primitive
@@ -216,6 +242,7 @@ objects:
         .:
           type: STRING
           value: FilletOuter
+          expression: '''FilletOuter'
       group: Base
     B9:
       kind: Primitive
@@ -223,6 +250,7 @@ objects:
         .:
           type: QUANTITY
           value: 5.0 mm
+          expression: =5 mm
         Alias:
           type: STRING
           value: FilletOuter
@@ -233,6 +261,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D9:
       kind: Primitive
@@ -240,6 +269,7 @@ objects:
         .:
           type: STRING
           value: outer corner radius; FilletInner + Wall, arcs concentric
+          expression: '''outer corner radius; FilletInner + Wall, arcs concentric'
       group: Base
     A10:
       kind: Primitive
@@ -247,6 +277,7 @@ objects:
         .:
           type: STRING
           value: FilletInner
+          expression: '''FilletInner'
       group: Base
     B10:
       kind: Primitive
@@ -254,6 +285,7 @@ objects:
         .:
           type: QUANTITY
           value: 3.0 mm
+          expression: =3 mm
         Alias:
           type: STRING
           value: FilletInner
@@ -264,6 +296,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D10:
       kind: Primitive
@@ -271,6 +304,7 @@ objects:
         .:
           type: STRING
           value: cavity corner radius (2.0 clears the PSU face)
+          expression: '''cavity corner radius (2.0 clears the PSU face)'
       group: Base
     A11:
       kind: Primitive
@@ -278,6 +312,7 @@ objects:
         .:
           type: STRING
           value: -- SEAM --
+          expression: '''-- SEAM --'
       group: Base
     A12:
       kind: Primitive
@@ -285,6 +320,7 @@ objects:
         .:
           type: STRING
           value: SplitZ
+          expression: '''SplitZ'
       group: Base
     B12:
       kind: Primitive
@@ -292,6 +328,7 @@ objects:
         .:
           type: QUANTITY
           value: 92.0 mm
+          expression: =92 mm
         Alias:
           type: STRING
           value: SplitZ
@@ -302,6 +339,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D12:
       kind: Primitive
@@ -309,6 +347,7 @@ objects:
         .:
           type: STRING
           value: parting plane height (long-edge seam)
+          expression: '''parting plane height (long-edge seam)'
       group: Base
     A13:
       kind: Primitive
@@ -316,6 +355,7 @@ objects:
         .:
           type: STRING
           value: -- CLOSURE --
+          expression: '''-- CLOSURE --'
       group: Base
     A14:
       kind: Primitive
@@ -323,6 +363,7 @@ objects:
         .:
           type: STRING
           value: BossZ0
+          expression: '''BossZ0'
       group: Base
     B14:
       kind: Primitive
@@ -330,6 +371,7 @@ objects:
         .:
           type: QUANTITY
           value: 85.5 mm
+          expression: =85.5 mm
         Alias:
           type: STRING
           value: BossZ0
@@ -340,6 +382,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D14:
       kind: Primitive
@@ -347,6 +390,7 @@ objects:
         .:
           type: STRING
           value: closure boss underside
+          expression: '''closure boss underside'
       group: Base
     A15:
       kind: Primitive
@@ -354,6 +398,7 @@ objects:
         .:
           type: STRING
           value: PilotD
+          expression: '''PilotD'
       group: Base
     B15:
       kind: Primitive
@@ -361,6 +406,7 @@ objects:
         .:
           type: QUANTITY
           value: 4.0 mm
+          expression: =4 mm
         Alias:
           type: STRING
           value: PilotD
@@ -371,6 +417,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D15:
       kind: Primitive
@@ -378,6 +425,7 @@ objects:
         .:
           type: STRING
           value: heat-set insert pilot diameter
+          expression: '''heat-set insert pilot diameter'
       group: Base
     A16:
       kind: Primitive
@@ -385,6 +433,7 @@ objects:
         .:
           type: STRING
           value: PilotDepth
+          expression: '''PilotDepth'
       group: Base
     B16:
       kind: Primitive
@@ -392,6 +441,7 @@ objects:
         .:
           type: QUANTITY
           value: 6.0 mm
+          expression: =6 mm
         Alias:
           type: STRING
           value: PilotDepth
@@ -402,6 +452,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D16:
       kind: Primitive
@@ -409,6 +460,7 @@ objects:
         .:
           type: STRING
           value: pilot depth, bored down from SplitZ
+          expression: '''pilot depth, bored down from SplitZ'
       group: Base
     A17:
       kind: Primitive
@@ -416,6 +468,7 @@ objects:
         .:
           type: STRING
           value: ScrewD
+          expression: '''ScrewD'
       group: Base
     B17:
       kind: Primitive
@@ -423,6 +476,7 @@ objects:
         .:
           type: QUANTITY
           value: 3.4 mm
+          expression: =3.4 mm
         Alias:
           type: STRING
           value: ScrewD
@@ -433,6 +487,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D17:
       kind: Primitive
@@ -440,6 +495,7 @@ objects:
         .:
           type: STRING
           value: M3 clearance in the lid
+          expression: '''M3 clearance in the lid'
       group: Base
     A18:
       kind: Primitive
@@ -447,6 +503,7 @@ objects:
         .:
           type: STRING
           value: CboreD
+          expression: '''CboreD'
       group: Base
     B18:
       kind: Primitive
@@ -454,6 +511,7 @@ objects:
         .:
           type: QUANTITY
           value: 6.2 mm
+          expression: =6.2 mm
         Alias:
           type: STRING
           value: CboreD
@@ -464,6 +522,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D18:
       kind: Primitive
@@ -471,6 +530,7 @@ objects:
         .:
           type: STRING
           value: M3 socket head counterbore
+          expression: '''M3 socket head counterbore'
       group: Base
     A19:
       kind: Primitive
@@ -478,6 +538,7 @@ objects:
         .:
           type: STRING
           value: CboreDepth
+          expression: '''CboreDepth'
       group: Base
     B19:
       kind: Primitive
@@ -485,6 +546,7 @@ objects:
         .:
           type: QUANTITY
           value: 3.1 mm
+          expression: =3.1 mm
         Alias:
           type: STRING
           value: CboreDepth
@@ -495,6 +557,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D19:
       kind: Primitive
@@ -502,6 +565,7 @@ objects:
         .:
           type: STRING
           value: counterbore depth in the lid top
+          expression: '''counterbore depth in the lid top'
       group: Base
     A20:
       kind: Primitive
@@ -509,6 +573,7 @@ objects:
         .:
           type: STRING
           value: -- BOARD MOUNTING --
+          expression: '''-- BOARD MOUNTING --'
       group: Base
     A21:
       kind: Primitive
@@ -516,6 +581,7 @@ objects:
         .:
           type: STRING
           value: BossD
+          expression: '''BossD'
       group: Base
     B21:
       kind: Primitive
@@ -523,6 +589,7 @@ objects:
         .:
           type: QUANTITY
           value: 12.0 mm
+          expression: =12 mm
         Alias:
           type: STRING
           value: BossD
@@ -533,6 +600,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D21:
       kind: Primitive
@@ -540,6 +608,7 @@ objects:
         .:
           type: STRING
           value: board mounting boss diameter
+          expression: '''board mounting boss diameter'
       group: Base
     A22:
       kind: Primitive
@@ -547,6 +616,7 @@ objects:
         .:
           type: STRING
           value: BossTop
+          expression: '''BossTop'
       group: Base
     B22:
       kind: Primitive
@@ -554,6 +624,7 @@ objects:
         .:
           type: QUANTITY
           value: 10.0 mm
+          expression: =10 mm
         Alias:
           type: STRING
           value: BossTop
@@ -564,6 +635,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D22:
       kind: Primitive
@@ -571,6 +643,7 @@ objects:
         .:
           type: STRING
           value: boss top / PCB underside
+          expression: '''boss top / PCB underside'
       group: Base
     A23:
       kind: Primitive
@@ -578,6 +651,7 @@ objects:
         .:
           type: STRING
           value: ScrewAX
+          expression: '''ScrewAX'
       group: Base
     B23:
       kind: Primitive
@@ -585,6 +659,7 @@ objects:
         .:
           type: QUANTITY
           value: 301.5 mm
+          expression: =301.5 mm
         Alias:
           type: STRING
           value: ScrewAX
@@ -595,6 +670,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D23:
       kind: Primitive
@@ -602,6 +678,7 @@ objects:
         .:
           type: STRING
           value: PCB back screw A, X
+          expression: '''PCB back screw A, X'
       group: Base
     A24:
       kind: Primitive
@@ -609,6 +686,7 @@ objects:
         .:
           type: STRING
           value: ScrewAY
+          expression: '''ScrewAY'
       group: Base
     B24:
       kind: Primitive
@@ -616,6 +694,7 @@ objects:
         .:
           type: QUANTITY
           value: 145.5 mm
+          expression: =145.5 mm
         Alias:
           type: STRING
           value: ScrewAY
@@ -626,6 +705,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D24:
       kind: Primitive
@@ -633,6 +713,7 @@ objects:
         .:
           type: STRING
           value: PCB back screw A, Y
+          expression: '''PCB back screw A, Y'
       group: Base
     A25:
       kind: Primitive
@@ -640,6 +721,7 @@ objects:
         .:
           type: STRING
           value: ScrewBX
+          expression: '''ScrewBX'
       group: Base
     B25:
       kind: Primitive
@@ -647,6 +729,7 @@ objects:
         .:
           type: QUANTITY
           value: 301.5 mm
+          expression: =301.5 mm
         Alias:
           type: STRING
           value: ScrewBX
@@ -657,6 +740,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D25:
       kind: Primitive
@@ -664,6 +748,7 @@ objects:
         .:
           type: STRING
           value: PCB back screw B, X
+          expression: '''PCB back screw B, X'
       group: Base
     A26:
       kind: Primitive
@@ -671,6 +756,7 @@ objects:
         .:
           type: STRING
           value: ScrewBY
+          expression: '''ScrewBY'
       group: Base
     B26:
       kind: Primitive
@@ -678,6 +764,7 @@ objects:
         .:
           type: QUANTITY
           value: 155.5 mm
+          expression: =155.5 mm
         Alias:
           type: STRING
           value: ScrewBY
@@ -688,6 +775,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D26:
       kind: Primitive
@@ -695,6 +783,7 @@ objects:
         .:
           type: STRING
           value: PCB back screw B, Y
+          expression: '''PCB back screw B, Y'
       group: Base
     A27:
       kind: Primitive
@@ -702,6 +791,7 @@ objects:
         .:
           type: STRING
           value: ScrewCX
+          expression: '''ScrewCX'
       group: Base
     B27:
       kind: Primitive
@@ -709,6 +799,7 @@ objects:
         .:
           type: QUANTITY
           value: 10.5 mm
+          expression: =10.5 mm
         Alias:
           type: STRING
           value: ScrewCX
@@ -719,6 +810,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D27:
       kind: Primitive
@@ -726,6 +818,7 @@ objects:
         .:
           type: STRING
           value: port-end bracket screw C, X
+          expression: '''port-end bracket screw C, X'
       group: Base
     A28:
       kind: Primitive
@@ -733,6 +826,7 @@ objects:
         .:
           type: STRING
           value: ScrewCY
+          expression: '''ScrewCY'
       group: Base
     B28:
       kind: Primitive
@@ -740,6 +834,7 @@ objects:
         .:
           type: QUANTITY
           value: 61.5 mm
+          expression: =61.5 mm
         Alias:
           type: STRING
           value: ScrewCY
@@ -750,6 +845,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D28:
       kind: Primitive
@@ -757,6 +853,7 @@ objects:
         .:
           type: STRING
           value: port-end bracket screw C, Y
+          expression: '''port-end bracket screw C, Y'
       group: Base
     A29:
       kind: Primitive
@@ -764,6 +861,7 @@ objects:
         .:
           type: STRING
           value: ScrewDX
+          expression: '''ScrewDX'
       group: Base
     B29:
       kind: Primitive
@@ -771,6 +869,7 @@ objects:
         .:
           type: QUANTITY
           value: 10.5 mm
+          expression: =10.5 mm
         Alias:
           type: STRING
           value: ScrewDX
@@ -781,6 +880,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D29:
       kind: Primitive
@@ -788,6 +888,7 @@ objects:
         .:
           type: STRING
           value: port-end bracket screw D, X
+          expression: '''port-end bracket screw D, X'
       group: Base
     A30:
       kind: Primitive
@@ -795,6 +896,7 @@ objects:
         .:
           type: STRING
           value: ScrewDY
+          expression: '''ScrewDY'
       group: Base
     B30:
       kind: Primitive
@@ -802,6 +904,7 @@ objects:
         .:
           type: QUANTITY
           value: 162.0 mm
+          expression: =162 mm
         Alias:
           type: STRING
           value: ScrewDY
@@ -812,6 +915,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D30:
       kind: Primitive
@@ -819,6 +923,7 @@ objects:
         .:
           type: STRING
           value: port-end bracket screw D, Y
+          expression: '''port-end bracket screw D, Y'
       group: Base
     A31:
       kind: Primitive
@@ -826,6 +931,7 @@ objects:
         .:
           type: STRING
           value: BrdPilotD
+          expression: '''BrdPilotD'
       group: Base
     B31:
       kind: Primitive
@@ -833,6 +939,7 @@ objects:
         .:
           type: QUANTITY
           value: 4.0 mm
+          expression: =4 mm
         Alias:
           type: STRING
           value: BrdPilotD
@@ -843,6 +950,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D31:
       kind: Primitive
@@ -850,6 +958,7 @@ objects:
         .:
           type: STRING
           value: board insert pilot diameter
+          expression: '''board insert pilot diameter'
       group: Base
     A32:
       kind: Primitive
@@ -857,6 +966,7 @@ objects:
         .:
           type: STRING
           value: BrdPilotDepth
+          expression: '''BrdPilotDepth'
       group: Base
     B32:
       kind: Primitive
@@ -864,6 +974,7 @@ objects:
         .:
           type: QUANTITY
           value: 7.0 mm
+          expression: =7 mm
         Alias:
           type: STRING
           value: BrdPilotDepth
@@ -874,6 +985,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D32:
       kind: Primitive
@@ -881,6 +993,7 @@ objects:
         .:
           type: STRING
           value: board insert pilot depth
+          expression: '''board insert pilot depth'
       group: Base
     A33:
       kind: Primitive
@@ -888,6 +1001,7 @@ objects:
         .:
           type: STRING
           value: -- BOTTOM-HEATSINK CUTOUT --
+          expression: '''-- BOTTOM-HEATSINK CUTOUT --'
       group: Base
     A34:
       kind: Primitive
@@ -895,6 +1009,7 @@ objects:
         .:
           type: STRING
           value: HsX0
+          expression: '''HsX0'
       group: Base
     B34:
       kind: Primitive
@@ -902,6 +1017,7 @@ objects:
         .:
           type: QUANTITY
           value: 20.0 mm
+          expression: =20 mm
         Alias:
           type: STRING
           value: HsX0
@@ -912,6 +1028,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D34:
       kind: Primitive
@@ -919,6 +1036,7 @@ objects:
         .:
           type: STRING
           value: bottom heatsink footprint, low-X
+          expression: '''bottom heatsink footprint, low-X'
       group: Base
     A35:
       kind: Primitive
@@ -926,6 +1044,7 @@ objects:
         .:
           type: STRING
           value: HsX1
+          expression: '''HsX1'
       group: Base
     B35:
       kind: Primitive
@@ -933,6 +1052,7 @@ objects:
         .:
           type: QUANTITY
           value: 305.0 mm
+          expression: =305 mm
         Alias:
           type: STRING
           value: HsX1
@@ -943,6 +1063,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D35:
       kind: Primitive
@@ -950,6 +1071,7 @@ objects:
         .:
           type: STRING
           value: bottom heatsink footprint, high-X
+          expression: '''bottom heatsink footprint, high-X'
       group: Base
     A36:
       kind: Primitive
@@ -957,6 +1079,7 @@ objects:
         .:
           type: STRING
           value: HsY0
+          expression: '''HsY0'
       group: Base
     B36:
       kind: Primitive
@@ -964,6 +1087,7 @@ objects:
         .:
           type: QUANTITY
           value: 53.0 mm
+          expression: =53 mm
         Alias:
           type: STRING
           value: HsY0
@@ -974,6 +1098,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D36:
       kind: Primitive
@@ -981,6 +1106,7 @@ objects:
         .:
           type: STRING
           value: bottom heatsink footprint, low-Y
+          expression: '''bottom heatsink footprint, low-Y'
       group: Base
     A37:
       kind: Primitive
@@ -988,6 +1114,7 @@ objects:
         .:
           type: STRING
           value: HsY1
+          expression: '''HsY1'
       group: Base
     B37:
       kind: Primitive
@@ -995,6 +1122,7 @@ objects:
         .:
           type: QUANTITY
           value: 174.0 mm
+          expression: =174 mm
         Alias:
           type: STRING
           value: HsY1
@@ -1005,6 +1133,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D37:
       kind: Primitive
@@ -1012,6 +1141,7 @@ objects:
         .:
           type: STRING
           value: bottom heatsink footprint, high-Y
+          expression: '''bottom heatsink footprint, high-Y'
       group: Base
     A38:
       kind: Primitive
@@ -1019,6 +1149,7 @@ objects:
         .:
           type: STRING
           value: HsUnder
+          expression: '''HsUnder'
       group: Base
     B38:
       kind: Primitive
@@ -1026,6 +1157,7 @@ objects:
         .:
           type: QUANTITY
           value: 5.5 mm
+          expression: =5.5 mm
         Alias:
           type: STRING
           value: HsUnder
@@ -1036,6 +1168,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D38:
       kind: Primitive
@@ -1043,6 +1176,7 @@ objects:
         .:
           type: STRING
           value: heatsink underside / frame top
+          expression: '''heatsink underside / frame top'
       group: Base
     A39:
       kind: Primitive
@@ -1050,6 +1184,7 @@ objects:
         .:
           type: STRING
           value: FrameInset
+          expression: '''FrameInset'
       group: Base
     B39:
       kind: Primitive
@@ -1057,6 +1192,7 @@ objects:
         .:
           type: QUANTITY
           value: 1.0 mm
+          expression: =1 mm
         Alias:
           type: STRING
           value: FrameInset
@@ -1067,6 +1203,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D39:
       kind: Primitive
@@ -1074,6 +1211,7 @@ objects:
         .:
           type: STRING
           value: frame inset inside the footprint
+          expression: '''frame inset inside the footprint'
       group: Base
     A40:
       kind: Primitive
@@ -1081,6 +1219,7 @@ objects:
         .:
           type: STRING
           value: CutX0
+          expression: '''CutX0'
       group: Base
     B40:
       kind: Primitive
@@ -1088,6 +1227,7 @@ objects:
         .:
           type: QUANTITY
           value: 28.0 mm
+          expression: =28 mm
         Alias:
           type: STRING
           value: CutX0
@@ -1098,6 +1238,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D40:
       kind: Primitive
@@ -1105,6 +1246,7 @@ objects:
         .:
           type: STRING
           value: first window, low-X
+          expression: '''first window, low-X'
       group: Base
     A41:
       kind: Primitive
@@ -1112,6 +1254,7 @@ objects:
         .:
           type: STRING
           value: CutY0
+          expression: '''CutY0'
       group: Base
     B41:
       kind: Primitive
@@ -1119,6 +1262,7 @@ objects:
         .:
           type: QUANTITY
           value: 61.0 mm
+          expression: =61 mm
         Alias:
           type: STRING
           value: CutY0
@@ -1129,6 +1273,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D41:
       kind: Primitive
@@ -1136,6 +1281,7 @@ objects:
         .:
           type: STRING
           value: windows, low-Y
+          expression: '''windows, low-Y'
       group: Base
     A42:
       kind: Primitive
@@ -1143,6 +1289,7 @@ objects:
         .:
           type: STRING
           value: CutY1
+          expression: '''CutY1'
       group: Base
     B42:
       kind: Primitive
@@ -1150,6 +1297,7 @@ objects:
         .:
           type: QUANTITY
           value: 166.0 mm
+          expression: =166 mm
         Alias:
           type: STRING
           value: CutY1
@@ -1160,6 +1308,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D42:
       kind: Primitive
@@ -1167,6 +1316,7 @@ objects:
         .:
           type: STRING
           value: windows, high-Y
+          expression: '''windows, high-Y'
       group: Base
     A43:
       kind: Primitive
@@ -1174,6 +1324,7 @@ objects:
         .:
           type: STRING
           value: -- PSU BAY --
+          expression: '''-- PSU BAY --'
       group: Base
     A44:
       kind: Primitive
@@ -1181,6 +1332,7 @@ objects:
         .:
           type: STRING
           value: PartY0
+          expression: '''PartY0'
       group: Base
     B44:
       kind: Primitive
@@ -1188,6 +1340,7 @@ objects:
         .:
           type: QUANTITY
           value: 47.5 mm
+          expression: =47.5 mm
         Alias:
           type: STRING
           value: PartY0
@@ -1198,6 +1351,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D44:
       kind: Primitive
@@ -1205,6 +1359,7 @@ objects:
         .:
           type: STRING
           value: partition wall, low-Y face
+          expression: '''partition wall, low-Y face'
       group: Base
     A45:
       kind: Primitive
@@ -1212,6 +1367,7 @@ objects:
         .:
           type: STRING
           value: PartY1
+          expression: '''PartY1'
       group: Base
     B45:
       kind: Primitive
@@ -1219,6 +1375,7 @@ objects:
         .:
           type: QUANTITY
           value: 48.5 mm
+          expression: =48.5 mm
         Alias:
           type: STRING
           value: PartY1
@@ -1229,6 +1386,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D45:
       kind: Primitive
@@ -1236,6 +1394,7 @@ objects:
         .:
           type: STRING
           value: partition wall, high-Y face
+          expression: '''partition wall, high-Y face'
       group: Base
     A46:
       kind: Primitive
@@ -1243,6 +1402,7 @@ objects:
         .:
           type: STRING
           value: PartX1
+          expression: '''PartX1'
       group: Base
     B46:
       kind: Primitive
@@ -1250,6 +1410,7 @@ objects:
         .:
           type: QUANTITY
           value: 110.0 mm
+          expression: =110 mm
         Alias:
           type: STRING
           value: PartX1
@@ -1260,6 +1421,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D46:
       kind: Primitive
@@ -1267,6 +1429,7 @@ objects:
         .:
           type: STRING
           value: partition wall length from X=0
+          expression: '''partition wall length from X=0'
       group: Base
     A47:
       kind: Primitive
@@ -1274,6 +1437,7 @@ objects:
         .:
           type: STRING
           value: PsuY0
+          expression: '''PsuY0'
       group: Base
     B47:
       kind: Primitive
@@ -1281,6 +1445,7 @@ objects:
         .:
           type: QUANTITY
           value: 5.5 mm
+          expression: =5.5 mm
         Alias:
           type: STRING
           value: PsuY0
@@ -1291,6 +1456,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D47:
       kind: Primitive
@@ -1298,6 +1464,7 @@ objects:
         .:
           type: STRING
           value: PSU low-Y face (reference)
+          expression: '''PSU low-Y face (reference)'
       group: Base
     A48:
       kind: Primitive
@@ -1305,6 +1472,7 @@ objects:
         .:
           type: STRING
           value: PsuY1
+          expression: '''PsuY1'
       group: Base
     B48:
       kind: Primitive
@@ -1312,6 +1480,7 @@ objects:
         .:
           type: QUANTITY
           value: 47.0 mm
+          expression: =47 mm
         Alias:
           type: STRING
           value: PsuY1
@@ -1322,6 +1491,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D48:
       kind: Primitive
@@ -1329,6 +1499,7 @@ objects:
         .:
           type: STRING
           value: PSU high-Y face (reference)
+          expression: '''PSU high-Y face (reference)'
       group: Base
     A49:
       kind: Primitive
@@ -1336,6 +1507,7 @@ objects:
         .:
           type: STRING
           value: PsuLen
+          expression: '''PsuLen'
       group: Base
     B49:
       kind: Primitive
@@ -1343,6 +1515,7 @@ objects:
         .:
           type: QUANTITY
           value: 165.2 mm
+          expression: =165.2 mm
         Alias:
           type: STRING
           value: PsuLen
@@ -1353,6 +1526,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D49:
       kind: Primitive
@@ -1360,6 +1534,7 @@ objects:
         .:
           type: STRING
           value: PSU length along X (reference)
+          expression: '''PSU length along X (reference)'
       group: Base
     A50:
       kind: Primitive
@@ -1367,6 +1542,7 @@ objects:
         .:
           type: STRING
           value: PsuTopZ
+          expression: '''PsuTopZ'
       group: Base
     B50:
       kind: Primitive
@@ -1374,6 +1550,7 @@ objects:
         .:
           type: QUANTITY
           value: 84.5 mm
+          expression: =84.5 mm
         Alias:
           type: STRING
           value: PsuTopZ
@@ -1384,6 +1561,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D50:
       kind: Primitive
@@ -1391,6 +1569,7 @@ objects:
         .:
           type: STRING
           value: PSU top surface (reference)
+          expression: '''PSU top surface (reference)'
       group: Base
     A51:
       kind: Primitive
@@ -1398,6 +1577,7 @@ objects:
         .:
           type: STRING
           value: PsSideScrewGrooveLen
+          expression: '''PsSideScrewGrooveLen'
       group: Base
     B51:
       kind: Primitive
@@ -1405,6 +1585,7 @@ objects:
         .:
           type: QUANTITY
           value: 30.0 mm
+          expression: =30 mm
         Alias:
           type: STRING
           value: PsSideScrewGrooveLen
@@ -1415,6 +1596,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D51:
       kind: Primitive
@@ -1422,6 +1604,7 @@ objects:
         .:
           type: STRING
           value: Length of PS side screw groove
+          expression: '''Length of PS side screw groove'
       group: Base
     A52:
       kind: Primitive
@@ -1429,6 +1612,7 @@ objects:
         .:
           type: STRING
           value: PsSideScrewGrooveHeight
+          expression: '''PsSideScrewGrooveHeight'
       group: Base
     B52:
       kind: Primitive
@@ -1436,6 +1620,7 @@ objects:
         .:
           type: QUANTITY
           value: 15.0 mm
+          expression: =15 mm
         Alias:
           type: STRING
           value: PsSideScrewGrooveHeight
@@ -1446,6 +1631,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D52:
       kind: Primitive
@@ -1453,6 +1639,7 @@ objects:
         .:
           type: STRING
           value: Height of PS side screw groove
+          expression: '''Height of PS side screw groove'
       group: Base
     A53:
       kind: Primitive
@@ -1460,6 +1647,7 @@ objects:
         .:
           type: STRING
           value: PsSideScrewGrooveDepth
+          expression: '''PsSideScrewGrooveDepth'
       group: Base
     B53:
       kind: Primitive
@@ -1467,6 +1655,7 @@ objects:
         .:
           type: QUANTITY
           value: 0.5 mm
+          expression: =0.5 mm
         Alias:
           type: STRING
           value: PsSideScrewGrooveDepth
@@ -1477,6 +1666,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D53:
       kind: Primitive
@@ -1484,6 +1674,7 @@ objects:
         .:
           type: STRING
           value: Depth of PS side screw groove
+          expression: '''Depth of PS side screw groove'
       group: Base
     A54:
       kind: Primitive
@@ -1491,6 +1682,7 @@ objects:
         .:
           type: STRING
           value: PsBackScrewGrooveLen
+          expression: '''PsBackScrewGrooveLen'
       group: Base
     B54:
       kind: Primitive
@@ -1498,6 +1690,7 @@ objects:
         .:
           type: QUANTITY
           value: 30.0 mm
+          expression: =30 mm
         Alias:
           type: STRING
           value: PsBackScrewGrooveLen
@@ -1508,6 +1701,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D54:
       kind: Primitive
@@ -1515,6 +1709,7 @@ objects:
         .:
           type: STRING
           value: Length of PS back side screw groove
+          expression: '''Length of PS back side screw groove'
       group: Base
     A55:
       kind: Primitive
@@ -1522,6 +1717,7 @@ objects:
         .:
           type: STRING
           value: PsBackScrewGrooveHeight
+          expression: '''PsBackScrewGrooveHeight'
       group: Base
     B55:
       kind: Primitive
@@ -1529,6 +1725,7 @@ objects:
         .:
           type: QUANTITY
           value: 20.0 mm
+          expression: =20 mm
         Alias:
           type: STRING
           value: PsBackScrewGrooveHeight
@@ -1539,6 +1736,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D55:
       kind: Primitive
@@ -1546,6 +1744,7 @@ objects:
         .:
           type: STRING
           value: Height of PS back side screw groove
+          expression: '''Height of PS back side screw groove'
       group: Base
     A56:
       kind: Primitive
@@ -1553,6 +1752,7 @@ objects:
         .:
           type: STRING
           value: PsFanScrewHeadDia
+          expression: '''PsFanScrewHeadDia'
       group: Base
     B56:
       kind: Primitive
@@ -1560,6 +1760,7 @@ objects:
         .:
           type: QUANTITY
           value: 6.5 mm
+          expression: =6.5 mm
         Alias:
           type: STRING
           value: PsFanScrewHeadDia
@@ -1570,6 +1771,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D56:
       kind: Primitive
@@ -1577,6 +1779,7 @@ objects:
         .:
           type: STRING
           value: Diameter of hole/recess for PS fan screw
+          expression: '''Diameter of hole/recess for PS fan screw'
       group: Base
     A57:
       kind: Primitive
@@ -1584,6 +1787,7 @@ objects:
         .:
           type: STRING
           value: -- AIRFLOW --
+          expression: '''-- AIRFLOW --'
       group: Base
     A58:
       kind: Primitive
@@ -1591,6 +1795,7 @@ objects:
         .:
           type: STRING
           value: DirZ
+          expression: '''DirZ'
       group: Base
     B58:
       kind: Primitive
@@ -1598,6 +1803,7 @@ objects:
         .:
           type: QUANTITY
           value: 36.6 mm
+          expression: =36.6 mm
         Alias:
           type: STRING
           value: DirZ
@@ -1608,6 +1814,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D58:
       kind: Primitive
@@ -1615,6 +1822,7 @@ objects:
         .:
           type: STRING
           value: director plate lowest start point (top of heatsink)
+          expression: '''director plate lowest start point (top of heatsink)'
       group: Base
     A59:
       kind: Primitive
@@ -1622,6 +1830,7 @@ objects:
         .:
           type: STRING
           value: DirT
+          expression: '''DirT'
       group: Base
     B59:
       kind: Primitive
@@ -1629,6 +1838,7 @@ objects:
         .:
           type: QUANTITY
           value: 1.0 mm
+          expression: =1 mm
         Alias:
           type: STRING
           value: DirT
@@ -1639,6 +1849,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D59:
       kind: Primitive
@@ -1646,6 +1857,7 @@ objects:
         .:
           type: STRING
           value: director plate thickness
+          expression: '''director plate thickness'
       group: Base
     A60:
       kind: Primitive
@@ -1653,6 +1865,7 @@ objects:
         .:
           type: STRING
           value: DirX0
+          expression: '''DirX0'
       group: Base
     B60:
       kind: Primitive
@@ -1660,6 +1873,7 @@ objects:
         .:
           type: QUANTITY
           value: 22.0 mm
+          expression: =22 mm
         Alias:
           type: STRING
           value: DirX0
@@ -1670,6 +1884,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D60:
       kind: Primitive
@@ -1677,6 +1892,7 @@ objects:
         .:
           type: STRING
           value: director plate, low-X edge
+          expression: '''director plate, low-X edge'
       group: Base
     A61:
       kind: Primitive
@@ -1684,6 +1900,7 @@ objects:
         .:
           type: STRING
           value: DirX1
+          expression: '''DirX1'
       group: Base
     B61:
       kind: Primitive
@@ -1691,6 +1908,7 @@ objects:
         .:
           type: QUANTITY
           value: 109.0 mm
+          expression: =109 mm
         Alias:
           type: STRING
           value: DirX1
@@ -1701,6 +1919,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D61:
       kind: Primitive
@@ -1708,6 +1927,7 @@ objects:
         .:
           type: STRING
           value: director plate, high-X edge / riser
+          expression: '''director plate, high-X edge / riser'
       group: Base
     A62:
       kind: Primitive
@@ -1715,6 +1935,7 @@ objects:
         .:
           type: STRING
           value: DirY0
+          expression: '''DirY0'
       group: Base
     B62:
       kind: Primitive
@@ -1722,6 +1943,7 @@ objects:
         .:
           type: QUANTITY
           value: 48.5 mm
+          expression: =48.5 mm
         Alias:
           type: STRING
           value: DirY0
@@ -1732,6 +1954,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D62:
       kind: Primitive
@@ -1739,6 +1962,7 @@ objects:
         .:
           type: STRING
           value: director plate, low-Y edge
+          expression: '''director plate, low-Y edge'
       group: Base
     A63:
       kind: Primitive
@@ -1746,6 +1970,7 @@ objects:
         .:
           type: STRING
           value: DirY1
+          expression: '''DirY1'
       group: Base
     B63:
       kind: Primitive
@@ -1753,6 +1978,7 @@ objects:
         .:
           type: QUANTITY
           value: 179.0 mm
+          expression: =179 mm
         Alias:
           type: STRING
           value: DirY1
@@ -1763,6 +1989,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D63:
       kind: Primitive
@@ -1770,6 +1997,7 @@ objects:
         .:
           type: STRING
           value: director plate, high-Y edge
+          expression: '''director plate, high-Y edge'
       group: Base
     A64:
       kind: Primitive
@@ -1777,6 +2005,7 @@ objects:
         .:
           type: STRING
           value: RiserT
+          expression: '''RiserT'
       group: Base
     B64:
       kind: Primitive
@@ -1784,6 +2013,7 @@ objects:
         .:
           type: QUANTITY
           value: 1.0 mm
+          expression: =1 mm
         Alias:
           type: STRING
           value: RiserT
@@ -1794,6 +2024,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D64:
       kind: Primitive
@@ -1801,6 +2032,7 @@ objects:
         .:
           type: STRING
           value: director riser thickness
+          expression: '''director riser thickness'
       group: Base
     A65:
       kind: Primitive
@@ -1808,6 +2040,7 @@ objects:
         .:
           type: STRING
           value: RiserTop
+          expression: '''RiserTop'
       group: Base
     B65:
       kind: Primitive
@@ -1815,6 +2048,7 @@ objects:
         .:
           type: QUANTITY
           value: 91.5 mm
+          expression: =91.5 mm
         Alias:
           type: STRING
           value: RiserTop
@@ -1825,6 +2059,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D65:
       kind: Primitive
@@ -1832,6 +2067,7 @@ objects:
         .:
           type: STRING
           value: director riser top
+          expression: '''director riser top'
       group: Base
     A66:
       kind: Primitive
@@ -1839,6 +2075,7 @@ objects:
         .:
           type: STRING
           value: LedgeZ0
+          expression: '''LedgeZ0'
       group: Base
     B66:
       kind: Primitive
@@ -1846,6 +2083,7 @@ objects:
         .:
           type: QUANTITY
           value: 43.0 mm
+          expression: =43 mm
         Alias:
           type: STRING
           value: LedgeZ0
@@ -1856,6 +2094,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D66:
       kind: Primitive
@@ -1863,6 +2102,7 @@ objects:
         .:
           type: STRING
           value: director ledge underside
+          expression: '''director ledge underside'
       group: Base
     A67:
       kind: Primitive
@@ -1870,6 +2110,7 @@ objects:
         .:
           type: STRING
           value: LedgeW
+          expression: '''LedgeW'
       group: Base
     B67:
       kind: Primitive
@@ -1877,6 +2118,7 @@ objects:
         .:
           type: QUANTITY
           value: 5.0 mm
+          expression: =5 mm
         Alias:
           type: STRING
           value: LedgeW
@@ -1887,6 +2129,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D67:
       kind: Primitive
@@ -1894,6 +2137,7 @@ objects:
         .:
           type: STRING
           value: director ledge width
+          expression: '''director ledge width'
       group: Base
     A68:
       kind: Primitive
@@ -1901,6 +2145,7 @@ objects:
         .:
           type: STRING
           value: FanCX
+          expression: '''FanCX'
       group: Base
     B68:
       kind: Primitive
@@ -1908,6 +2153,7 @@ objects:
         .:
           type: QUANTITY
           value: 251.5 mm
+          expression: =251.5 mm
         Alias:
           type: STRING
           value: FanCX
@@ -1918,6 +2164,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D68:
       kind: Primitive
@@ -1925,6 +2172,7 @@ objects:
         .:
           type: STRING
           value: Fan center, X
+          expression: '''Fan center, X'
       group: Base
     A69:
       kind: Primitive
@@ -1932,6 +2180,7 @@ objects:
         .:
           type: STRING
           value: FanCY
+          expression: '''FanCY'
       group: Base
     B69:
       kind: Primitive
@@ -1939,6 +2188,7 @@ objects:
         .:
           type: QUANTITY
           value: 90.25 mm
+          expression: =90.25 mm
         Alias:
           type: STRING
           value: FanCY
@@ -1949,6 +2199,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D69:
       kind: Primitive
@@ -1956,6 +2207,7 @@ objects:
         .:
           type: STRING
           value: Fan center Y
+          expression: '''Fan center Y'
       group: Base
     A70:
       kind: Primitive
@@ -1963,6 +2215,7 @@ objects:
         .:
           type: STRING
           value: FanBore
+          expression: '''FanBore'
       group: Base
     B70:
       kind: Primitive
@@ -1970,6 +2223,7 @@ objects:
         .:
           type: QUANTITY
           value: 116.0 mm
+          expression: =116 mm
         Alias:
           type: STRING
           value: FanBore
@@ -1980,6 +2234,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D70:
       kind: Primitive
@@ -1987,6 +2242,7 @@ objects:
         .:
           type: STRING
           value: Fan bore
+          expression: '''Fan bore'
       group: Base
     A71:
       kind: Primitive
@@ -1994,6 +2250,7 @@ objects:
         .:
           type: STRING
           value: FanPitch
+          expression: '''FanPitch'
       group: Base
     B71:
       kind: Primitive
@@ -2001,6 +2258,7 @@ objects:
         .:
           type: QUANTITY
           value: 104.8 mm
+          expression: =104.8 mm
         Alias:
           type: STRING
           value: FanPitch
@@ -2011,6 +2269,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D71:
       kind: Primitive
@@ -2018,6 +2277,7 @@ objects:
         .:
           type: STRING
           value: Fan screw pitch
+          expression: '''Fan screw pitch'
       group: Base
     A72:
       kind: Primitive
@@ -2025,6 +2285,7 @@ objects:
         .:
           type: STRING
           value: FanScrewD
+          expression: '''FanScrewD'
       group: Base
     B72:
       kind: Primitive
@@ -2032,6 +2293,7 @@ objects:
         .:
           type: QUANTITY
           value: 5.0 mm
+          expression: =5 mm
         Alias:
           type: STRING
           value: FanScrewD
@@ -2042,6 +2304,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D72:
       kind: Primitive
@@ -2049,6 +2312,7 @@ objects:
         .:
           type: STRING
           value: clearance over the fan's own holes
+          expression: '''clearance over the fan''s own holes'
       group: Base
     A73:
       kind: Primitive
@@ -2056,6 +2320,7 @@ objects:
         .:
           type: STRING
           value: FanScrewHeadD
+          expression: '''FanScrewHeadD'
       group: Base
     B73:
       kind: Primitive
@@ -2063,6 +2328,7 @@ objects:
         .:
           type: QUANTITY
           value: 6.7 mm
+          expression: =6.7 mm
         Alias:
           type: STRING
           value: FanScrewHeadD
@@ -2073,6 +2339,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D73:
       kind: Primitive
@@ -2080,6 +2347,7 @@ objects:
         .:
           type: STRING
           value: Fan screw head diameter
+          expression: '''Fan screw head diameter'
       group: Base
     A74:
       kind: Primitive
@@ -2087,6 +2355,7 @@ objects:
         .:
           type: STRING
           value: FanScrewHeadDepth
+          expression: '''FanScrewHeadDepth'
       group: Base
     B74:
       kind: Primitive
@@ -2094,6 +2363,7 @@ objects:
         .:
           type: QUANTITY
           value: 1.56 mm
+          expression: =1.56 mm
         Alias:
           type: STRING
           value: FanScrewHeadDepth
@@ -2104,6 +2374,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D74:
       kind: Primitive
@@ -2111,6 +2382,7 @@ objects:
         .:
           type: STRING
           value: Fan screw head depth
+          expression: '''Fan screw head depth'
       group: Base
     A75:
       kind: Primitive
@@ -2118,6 +2390,7 @@ objects:
         .:
           type: STRING
           value: FanScrewHeadAngle
+          expression: '''FanScrewHeadAngle'
       group: Base
     B75:
       kind: Primitive
@@ -2125,6 +2398,7 @@ objects:
         .:
           type: QUANTITY
           value: 130.0 deg
+          expression: =130 °
         Alias:
           type: STRING
           value: FanScrewHeadAngle
@@ -2135,6 +2409,7 @@ objects:
         .:
           type: STRING
           value: °
+          expression: '''°'
       group: Base
     D75:
       kind: Primitive
@@ -2142,6 +2417,7 @@ objects:
         .:
           type: STRING
           value: Fan screw head countersink angle
+          expression: '''Fan screw head countersink angle'
       group: Base
     A76:
       kind: Primitive
@@ -2149,6 +2425,7 @@ objects:
         .:
           type: STRING
           value: FanThk
+          expression: '''FanThk'
       group: Base
     B76:
       kind: Primitive
@@ -2156,6 +2433,7 @@ objects:
         .:
           type: QUANTITY
           value: 25.0 mm
+          expression: =25 mm
         Alias:
           type: STRING
           value: FanThk
@@ -2166,6 +2444,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D76:
       kind: Primitive
@@ -2173,6 +2452,7 @@ objects:
         .:
           type: STRING
           value: fan thickness
+          expression: '''fan thickness'
       group: Base
     A77:
       kind: Primitive
@@ -2180,6 +2460,7 @@ objects:
         .:
           type: STRING
           value: FanOffX
+          expression: '''FanOffX'
       group: Base
     B77:
       kind: Primitive
@@ -2187,6 +2468,7 @@ objects:
         .:
           type: QUANTITY
           value: 251.5 mm
+          expression: =251.5 mm
         Alias:
           type: STRING
           value: FanOffX
@@ -2197,6 +2479,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D77:
       kind: Primitive
@@ -2204,6 +2487,7 @@ objects:
         .:
           type: STRING
           value: fan placement, X
+          expression: '''fan placement, X'
       group: Base
     A78:
       kind: Primitive
@@ -2211,6 +2495,7 @@ objects:
         .:
           type: STRING
           value: FanOffY
+          expression: '''FanOffY'
       group: Base
     B78:
       kind: Primitive
@@ -2218,6 +2503,7 @@ objects:
         .:
           type: QUANTITY
           value: 90.25 mm
+          expression: =90.25 mm
         Alias:
           type: STRING
           value: FanOffY
@@ -2228,6 +2514,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D78:
       kind: Primitive
@@ -2235,6 +2522,7 @@ objects:
         .:
           type: STRING
           value: fan placement, Y
+          expression: '''fan placement, Y'
       group: Base
     A79:
       kind: Primitive
@@ -2242,6 +2530,7 @@ objects:
         .:
           type: STRING
           value: FanOffZ
+          expression: '''FanOffZ'
       group: Base
     B79:
       kind: Primitive
@@ -2249,6 +2538,7 @@ objects:
         .:
           type: QUANTITY
           value: 79.5 mm
+          expression: =79.5 mm
         Alias:
           type: STRING
           value: FanOffZ
@@ -2259,6 +2549,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D79:
       kind: Primitive
@@ -2266,6 +2557,7 @@ objects:
         .:
           type: STRING
           value: fan placement, Z (top face at SplitZ)
+          expression: '''fan placement, Z (top face at SplitZ)'
       group: Base
     A80:
       kind: Primitive
@@ -2273,6 +2565,7 @@ objects:
         .:
           type: STRING
           value: FanBoreTrimDia
+          expression: '''FanBoreTrimDia'
       group: Base
     B80:
       kind: Primitive
@@ -2280,6 +2573,7 @@ objects:
         .:
           type: QUANTITY
           value: 18.0 mm
+          expression: =18 mm
         Alias:
           type: STRING
           value: FanBoreTrimDia
@@ -2290,6 +2584,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D80:
       kind: Primitive
@@ -2297,6 +2592,7 @@ objects:
         .:
           type: STRING
           value: Extra diameter of trim around fan bore
+          expression: '''Extra diameter of trim around fan bore'
       group: Base
     A81:
       kind: Primitive
@@ -2304,6 +2600,7 @@ objects:
         .:
           type: STRING
           value: FanBoreTrimPad
+          expression: '''FanBoreTrimPad'
       group: Base
     B81:
       kind: Primitive
@@ -2311,6 +2608,7 @@ objects:
         .:
           type: QUANTITY
           value: 1.5 mm
+          expression: =1.5 mm
         Alias:
           type: STRING
           value: FanBoreTrimPad
@@ -2321,6 +2619,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D81:
       kind: Primitive
@@ -2328,6 +2627,7 @@ objects:
         .:
           type: STRING
           value: Thickness of fan bore trim pad
+          expression: '''Thickness of fan bore trim pad'
       group: Base
     A82:
       kind: Primitive
@@ -2335,6 +2635,7 @@ objects:
         .:
           type: STRING
           value: LidRecessDrop
+          expression: '''LidRecessDrop'
       group: Base
     B82:
       kind: Primitive
@@ -2342,6 +2643,7 @@ objects:
         .:
           type: QUANTITY
           value: 3.5 mm
+          expression: =3.5 mm
         Alias:
           type: STRING
           value: LidRecessDrop
@@ -2352,6 +2654,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D82:
       kind: Primitive
@@ -2359,6 +2662,7 @@ objects:
         .:
           type: STRING
           value: Recess of the pad on the lid
+          expression: '''Recess of the pad on the lid'
       group: Base
     A83:
       kind: Primitive
@@ -2366,6 +2670,7 @@ objects:
         .:
           type: STRING
           value: -- HEX INTAKE VENTS --
+          expression: '''-- HEX INTAKE VENTS --'
       group: Base
     A84:
       kind: Primitive
@@ -2373,6 +2678,7 @@ objects:
         .:
           type: STRING
           value: HexF
+          expression: '''HexF'
       group: Base
     B84:
       kind: Primitive
@@ -2380,6 +2686,7 @@ objects:
         .:
           type: QUANTITY
           value: 13.0 mm
+          expression: =13 mm
         Alias:
           type: STRING
           value: HexF
@@ -2390,6 +2697,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D84:
       kind: Primitive
@@ -2397,6 +2705,7 @@ objects:
         .:
           type: STRING
           value: hex cell across flats
+          expression: '''hex cell across flats'
       group: Base
     A85:
       kind: Primitive
@@ -2404,6 +2713,7 @@ objects:
         .:
           type: STRING
           value: HexWeb
+          expression: '''HexWeb'
       group: Base
     B85:
       kind: Primitive
@@ -2411,6 +2721,7 @@ objects:
         .:
           type: QUANTITY
           value: 2.25 mm
+          expression: =2.25 mm
         Alias:
           type: STRING
           value: HexWeb
@@ -2421,6 +2732,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D85:
       kind: Primitive
@@ -2428,6 +2740,7 @@ objects:
         .:
           type: STRING
           value: material between hex cells
+          expression: '''material between hex cells'
       group: Base
     A86:
       kind: Primitive
@@ -2435,6 +2748,7 @@ objects:
         .:
           type: STRING
           value: HexY0
+          expression: '''HexY0'
       group: Base
     B86:
       kind: Primitive
@@ -2442,6 +2756,7 @@ objects:
         .:
           type: QUANTITY
           value: 52.0 mm
+          expression: =52 mm
         Alias:
           type: STRING
           value: HexY0
@@ -2452,6 +2767,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D86:
       kind: Primitive
@@ -2459,6 +2775,7 @@ objects:
         .:
           type: STRING
           value: hex field, low-Y
+          expression: '''hex field, low-Y'
       group: Base
     A87:
       kind: Primitive
@@ -2466,6 +2783,7 @@ objects:
         .:
           type: STRING
           value: HexZ0
+          expression: '''HexZ0'
       group: Base
     B87:
       kind: Primitive
@@ -2473,6 +2791,7 @@ objects:
         .:
           type: QUANTITY
           value: 36.0 mm
+          expression: =36 mm
         Alias:
           type: STRING
           value: HexZ0
@@ -2483,6 +2802,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D87:
       kind: Primitive
@@ -2490,6 +2810,7 @@ objects:
         .:
           type: STRING
           value: hex field, low-Z
+          expression: '''hex field, low-Z'
       group: Base
     A88:
       kind: Primitive
@@ -2497,6 +2818,7 @@ objects:
         .:
           type: STRING
           value: HexY1
+          expression: '''HexY1'
       group: Base
     B88:
       kind: Primitive
@@ -2504,6 +2826,7 @@ objects:
         .:
           type: QUANTITY
           value: 172.0 mm
+          expression: =172 mm
         Alias:
           type: STRING
           value: HexY1
@@ -2514,6 +2837,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D88:
       kind: Primitive
@@ -2521,6 +2845,7 @@ objects:
         .:
           type: STRING
           value: hex field, high-Y
+          expression: '''hex field, high-Y'
       group: Base
     A89:
       kind: Primitive
@@ -2528,6 +2853,7 @@ objects:
         .:
           type: STRING
           value: HexZ1
+          expression: '''HexZ1'
       group: Base
     B89:
       kind: Primitive
@@ -2535,6 +2861,7 @@ objects:
         .:
           type: QUANTITY
           value: 85.5 mm
+          expression: =SplitZ - GussetDrop
         Alias:
           type: STRING
           value: HexZ1
@@ -2545,6 +2872,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D89:
       kind: Primitive
@@ -2552,6 +2880,7 @@ objects:
         .:
           type: STRING
           value: hex field, high-Z
+          expression: '''hex field, high-Z'
       group: Base
     A90:
       kind: Primitive
@@ -2559,6 +2888,7 @@ objects:
         .:
           type: STRING
           value: -- REFERENCE GEOMETRY PLACEMENT --
+          expression: '''-- REFERENCE GEOMETRY PLACEMENT --'
       group: Base
     A91:
       kind: Primitive
@@ -2566,6 +2896,7 @@ objects:
         .:
           type: STRING
           value: BoardOffX
+          expression: '''BoardOffX'
       group: Base
     B91:
       kind: Primitive
@@ -2573,6 +2904,7 @@ objects:
         .:
           type: QUANTITY
           value: 3.0 mm
+          expression: =3 mm
         Alias:
           type: STRING
           value: BoardOffX
@@ -2583,6 +2915,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D91:
       kind: Primitive
@@ -2590,6 +2923,7 @@ objects:
         .:
           type: STRING
           value: board assembly origin offset, X
+          expression: '''board assembly origin offset, X'
       group: Base
     A92:
       kind: Primitive
@@ -2597,6 +2931,7 @@ objects:
         .:
           type: STRING
           value: BoardOffY
+          expression: '''BoardOffY'
       group: Base
     B92:
       kind: Primitive
@@ -2604,6 +2939,7 @@ objects:
         .:
           type: QUANTITY
           value: 52.0 mm
+          expression: =52 mm
         Alias:
           type: STRING
           value: BoardOffY
@@ -2614,6 +2950,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D92:
       kind: Primitive
@@ -2621,6 +2958,7 @@ objects:
         .:
           type: STRING
           value: board assembly origin offset, Y
+          expression: '''board assembly origin offset, Y'
       group: Base
     A93:
       kind: Primitive
@@ -2628,6 +2966,7 @@ objects:
         .:
           type: STRING
           value: BoardOffZ
+          expression: '''BoardOffZ'
       group: Base
     B93:
       kind: Primitive
@@ -2635,6 +2974,7 @@ objects:
         .:
           type: QUANTITY
           value: 10.0 mm
+          expression: =10 mm
         Alias:
           type: STRING
           value: BoardOffZ
@@ -2645,6 +2985,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D93:
       kind: Primitive
@@ -2652,6 +2993,7 @@ objects:
         .:
           type: STRING
           value: board assembly origin offset, Z
+          expression: '''board assembly origin offset, Z'
       group: Base
     A94:
       kind: Primitive
@@ -2659,6 +3001,7 @@ objects:
         .:
           type: STRING
           value: PsuOffX
+          expression: '''PsuOffX'
       group: Base
     B94:
       kind: Primitive
@@ -2666,6 +3009,7 @@ objects:
         .:
           type: QUANTITY
           value: 3.0 mm
+          expression: =3 mm
         Alias:
           type: STRING
           value: PsuOffX
@@ -2676,6 +3020,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D94:
       kind: Primitive
@@ -2683,6 +3028,7 @@ objects:
         .:
           type: STRING
           value: PSU assembly origin offset, X
+          expression: '''PSU assembly origin offset, X'
       group: Base
     A95:
       kind: Primitive
@@ -2690,6 +3036,7 @@ objects:
         .:
           type: STRING
           value: PsuOffY
+          expression: '''PsuOffY'
       group: Base
     B95:
       kind: Primitive
@@ -2697,6 +3044,7 @@ objects:
         .:
           type: QUANTITY
           value: 5.5 mm
+          expression: =5.5 mm
         Alias:
           type: STRING
           value: PsuOffY
@@ -2707,6 +3055,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D95:
       kind: Primitive
@@ -2714,6 +3063,7 @@ objects:
         .:
           type: STRING
           value: PSU assembly origin offset, Y
+          expression: '''PSU assembly origin offset, Y'
       group: Base
     A96:
       kind: Primitive
@@ -2721,6 +3071,7 @@ objects:
         .:
           type: STRING
           value: PsuOffZ
+          expression: '''PsuOffZ'
       group: Base
     B96:
       kind: Primitive
@@ -2728,6 +3079,7 @@ objects:
         .:
           type: QUANTITY
           value: 3.0 mm
+          expression: =3 mm
         Alias:
           type: STRING
           value: PsuOffZ
@@ -2738,6 +3090,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D96:
       kind: Primitive
@@ -2745,6 +3098,7 @@ objects:
         .:
           type: STRING
           value: PSU assembly origin offset, Z
+          expression: '''PSU assembly origin offset, Z'
       group: Base
     A97:
       kind: Primitive
@@ -2752,6 +3106,7 @@ objects:
         .:
           type: STRING
           value: -- END-WALL OPENINGS --
+          expression: '''-- END-WALL OPENINGS --'
       group: Base
     A98:
       kind: Primitive
@@ -2759,6 +3114,7 @@ objects:
         .:
           type: STRING
           value: PsuFanBoreD
+          expression: '''PsuFanBoreD'
       group: Base
     B98:
       kind: Primitive
@@ -2766,6 +3122,7 @@ objects:
         .:
           type: QUANTITY
           value: 40.0 mm
+          expression: =40 mm
         Alias:
           type: STRING
           value: PsuFanBoreD
@@ -2776,6 +3133,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D98:
       kind: Primitive
@@ -2783,6 +3141,7 @@ objects:
         .:
           type: STRING
           value: PSU fan bore
+          expression: '''PSU fan bore'
       group: Base
     A99:
       kind: Primitive
@@ -2790,6 +3149,7 @@ objects:
         .:
           type: STRING
           value: PsuFanCY
+          expression: '''PsuFanCY'
       group: Base
     B99:
       kind: Primitive
@@ -2797,6 +3157,7 @@ objects:
         .:
           type: QUANTITY
           value: 25.75 mm
+          expression: =25.75 mm
         Alias:
           type: STRING
           value: PsuFanCY
@@ -2807,6 +3168,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D99:
       kind: Primitive
@@ -2814,6 +3176,7 @@ objects:
         .:
           type: STRING
           value: PSU fan bore centre, Y
+          expression: '''PSU fan bore centre, Y'
       group: Base
     A100:
       kind: Primitive
@@ -2821,6 +3184,7 @@ objects:
         .:
           type: STRING
           value: PsuFanCZ
+          expression: '''PsuFanCZ'
       group: Base
     B100:
       kind: Primitive
@@ -2828,6 +3192,7 @@ objects:
         .:
           type: QUANTITY
           value: 55.0 mm
+          expression: =55 mm
         Alias:
           type: STRING
           value: PsuFanCZ
@@ -2838,6 +3203,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D100:
       kind: Primitive
@@ -2845,6 +3211,7 @@ objects:
         .:
           type: STRING
           value: PSU fan bore centre, Z
+          expression: '''PSU fan bore centre, Z'
       group: Base
     A101:
       kind: Primitive
@@ -2852,6 +3219,7 @@ objects:
         .:
           type: STRING
           value: PsuScrewD
+          expression: '''PsuScrewD'
       group: Base
     B101:
       kind: Primitive
@@ -2859,6 +3227,7 @@ objects:
         .:
           type: QUANTITY
           value: 3.8 mm
+          expression: =3.8 mm
         Alias:
           type: STRING
           value: PsuScrewD
@@ -2869,6 +3238,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D101:
       kind: Primitive
@@ -2876,6 +3246,7 @@ objects:
         .:
           type: STRING
           value: PSU face screw clearance diameter
+          expression: '''PSU face screw clearance diameter'
       group: Base
     A102:
       kind: Primitive
@@ -2883,6 +3254,7 @@ objects:
         .:
           type: STRING
           value: IecY0
+          expression: '''IecY0'
       group: Base
     B102:
       kind: Primitive
@@ -2890,6 +3262,7 @@ objects:
         .:
           type: QUANTITY
           value: 7.3 mm
+          expression: =7.3 mm
         Alias:
           type: STRING
           value: IecY0
@@ -2900,6 +3273,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D102:
       kind: Primitive
@@ -2907,6 +3281,7 @@ objects:
         .:
           type: STRING
           value: IEC opening, low-Y
+          expression: '''IEC opening, low-Y'
       group: Base
     A103:
       kind: Primitive
@@ -2914,6 +3289,7 @@ objects:
         .:
           type: STRING
           value: IecY1
+          expression: '''IecY1'
       group: Base
     B103:
       kind: Primitive
@@ -2921,6 +3297,7 @@ objects:
         .:
           type: QUANTITY
           value: 39.3 mm
+          expression: =39.3 mm
         Alias:
           type: STRING
           value: IecY1
@@ -2931,6 +3308,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D103:
       kind: Primitive
@@ -2938,6 +3316,7 @@ objects:
         .:
           type: STRING
           value: IEC opening, high-Y
+          expression: '''IEC opening, high-Y'
       group: Base
     A104:
       kind: Primitive
@@ -2945,6 +3324,7 @@ objects:
         .:
           type: STRING
           value: IecZ0
+          expression: '''IecZ0'
       group: Base
     B104:
       kind: Primitive
@@ -2952,6 +3332,7 @@ objects:
         .:
           type: QUANTITY
           value: 4.75 mm
+          expression: =4.75 mm
         Alias:
           type: STRING
           value: IecZ0
@@ -2962,6 +3343,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D104:
       kind: Primitive
@@ -2969,6 +3351,7 @@ objects:
         .:
           type: STRING
           value: IEC opening, low-Z
+          expression: '''IEC opening, low-Z'
       group: Base
     A105:
       kind: Primitive
@@ -2976,6 +3359,7 @@ objects:
         .:
           type: STRING
           value: IecZ1
+          expression: '''IecZ1'
       group: Base
     B105:
       kind: Primitive
@@ -2983,6 +3367,7 @@ objects:
         .:
           type: QUANTITY
           value: 32.0 mm
+          expression: =32 mm
         Alias:
           type: STRING
           value: IecZ1
@@ -2993,6 +3378,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D105:
       kind: Primitive
@@ -3000,6 +3386,7 @@ objects:
         .:
           type: STRING
           value: IEC opening, high-Z
+          expression: '''IEC opening, high-Z'
       group: Base
     A106:
       kind: Primitive
@@ -3007,6 +3394,7 @@ objects:
         .:
           type: STRING
           value: ConnClr
+          expression: '''ConnClr'
       group: Base
     B106:
       kind: Primitive
@@ -3014,6 +3402,7 @@ objects:
         .:
           type: QUANTITY
           value: 0.75 mm
+          expression: =0.75 mm
         Alias:
           type: STRING
           value: ConnClr
@@ -3024,6 +3413,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D106:
       kind: Primitive
@@ -3031,6 +3421,7 @@ objects:
         .:
           type: STRING
           value: clearance around each connector
+          expression: '''clearance around each connector'
       group: Base
     A107:
       kind: Primitive
@@ -3038,6 +3429,7 @@ objects:
         .:
           type: STRING
           value: Conn1Y0
+          expression: '''Conn1Y0'
       group: Base
     B107:
       kind: Primitive
@@ -3045,6 +3437,7 @@ objects:
         .:
           type: QUANTITY
           value: 66.5 mm
+          expression: =66.5 mm
         Alias:
           type: STRING
           value: Conn1Y0
@@ -3055,6 +3448,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D107:
       kind: Primitive
@@ -3062,6 +3456,7 @@ objects:
         .:
           type: STRING
           value: connector 1, low-Y
+          expression: '''connector 1, low-Y'
       group: Base
     A108:
       kind: Primitive
@@ -3069,6 +3464,7 @@ objects:
         .:
           type: STRING
           value: Conn1Y1
+          expression: '''Conn1Y1'
       group: Base
     B108:
       kind: Primitive
@@ -3076,6 +3472,7 @@ objects:
         .:
           type: QUANTITY
           value: 84.0 mm
+          expression: =84 mm
         Alias:
           type: STRING
           value: Conn1Y1
@@ -3086,6 +3483,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D108:
       kind: Primitive
@@ -3093,6 +3491,7 @@ objects:
         .:
           type: STRING
           value: connector 1, high-Y
+          expression: '''connector 1, high-Y'
       group: Base
     A109:
       kind: Primitive
@@ -3100,6 +3499,7 @@ objects:
         .:
           type: STRING
           value: Conn1Z0
+          expression: '''Conn1Z0'
       group: Base
     B109:
       kind: Primitive
@@ -3107,6 +3507,7 @@ objects:
         .:
           type: QUANTITY
           value: 11.6 mm
+          expression: =11.6 mm
         Alias:
           type: STRING
           value: Conn1Z0
@@ -3117,6 +3518,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D109:
       kind: Primitive
@@ -3124,6 +3526,7 @@ objects:
         .:
           type: STRING
           value: connector 1, low-Z
+          expression: '''connector 1, low-Z'
       group: Base
     A110:
       kind: Primitive
@@ -3131,6 +3534,7 @@ objects:
         .:
           type: STRING
           value: Conn1Z1
+          expression: '''Conn1Z1'
       group: Base
     B110:
       kind: Primitive
@@ -3138,6 +3542,7 @@ objects:
         .:
           type: QUANTITY
           value: 25.6 mm
+          expression: =25.6 mm
         Alias:
           type: STRING
           value: Conn1Z1
@@ -3148,6 +3553,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D110:
       kind: Primitive
@@ -3155,6 +3561,7 @@ objects:
         .:
           type: STRING
           value: connector 1, high-Z
+          expression: '''connector 1, high-Z'
       group: Base
     A111:
       kind: Primitive
@@ -3162,6 +3569,7 @@ objects:
         .:
           type: STRING
           value: Conn2Y0
+          expression: '''Conn2Y0'
       group: Base
     B111:
       kind: Primitive
@@ -3169,6 +3577,7 @@ objects:
         .:
           type: QUANTITY
           value: 89.5 mm
+          expression: =89.5 mm
         Alias:
           type: STRING
           value: Conn2Y0
@@ -3179,6 +3588,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D111:
       kind: Primitive
@@ -3186,6 +3596,7 @@ objects:
         .:
           type: STRING
           value: connector 2, low-Y
+          expression: '''connector 2, low-Y'
       group: Base
     A112:
       kind: Primitive
@@ -3193,6 +3604,7 @@ objects:
         .:
           type: STRING
           value: Conn2Y1
+          expression: '''Conn2Y1'
       group: Base
     B112:
       kind: Primitive
@@ -3200,6 +3612,7 @@ objects:
         .:
           type: QUANTITY
           value: 104.2 mm
+          expression: =104.2 mm
         Alias:
           type: STRING
           value: Conn2Y1
@@ -3210,6 +3623,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D112:
       kind: Primitive
@@ -3217,6 +3631,7 @@ objects:
         .:
           type: STRING
           value: connector 2, high-Y
+          expression: '''connector 2, high-Y'
       group: Base
     A113:
       kind: Primitive
@@ -3224,6 +3639,7 @@ objects:
         .:
           type: STRING
           value: Conn2Z0
+          expression: '''Conn2Z0'
       group: Base
     B113:
       kind: Primitive
@@ -3231,6 +3647,7 @@ objects:
         .:
           type: QUANTITY
           value: 11.6 mm
+          expression: =11.6 mm
         Alias:
           type: STRING
           value: Conn2Z0
@@ -3241,6 +3658,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D113:
       kind: Primitive
@@ -3248,6 +3666,7 @@ objects:
         .:
           type: STRING
           value: connector 2, low-Z
+          expression: '''connector 2, low-Z'
       group: Base
     A114:
       kind: Primitive
@@ -3255,6 +3674,7 @@ objects:
         .:
           type: STRING
           value: Conn2Z1
+          expression: '''Conn2Z1'
       group: Base
     B114:
       kind: Primitive
@@ -3262,6 +3682,7 @@ objects:
         .:
           type: QUANTITY
           value: 27.6 mm
+          expression: =27.6 mm
         Alias:
           type: STRING
           value: Conn2Z1
@@ -3272,6 +3693,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D114:
       kind: Primitive
@@ -3279,6 +3701,7 @@ objects:
         .:
           type: STRING
           value: connector 2, high-Z
+          expression: '''connector 2, high-Z'
       group: Base
     A115:
       kind: Primitive
@@ -3286,6 +3709,7 @@ objects:
         .:
           type: STRING
           value: Conn3Y0
+          expression: '''Conn3Y0'
       group: Base
     B115:
       kind: Primitive
@@ -3293,6 +3717,7 @@ objects:
         .:
           type: QUANTITY
           value: 107.5 mm
+          expression: =107.5 mm
         Alias:
           type: STRING
           value: Conn3Y0
@@ -3303,6 +3728,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D115:
       kind: Primitive
@@ -3310,6 +3736,7 @@ objects:
         .:
           type: STRING
           value: connector 3, low-Y
+          expression: '''connector 3, low-Y'
       group: Base
     A116:
       kind: Primitive
@@ -3317,6 +3744,7 @@ objects:
         .:
           type: STRING
           value: Conn3Y1
+          expression: '''Conn3Y1'
       group: Base
     B116:
       kind: Primitive
@@ -3324,6 +3752,7 @@ objects:
         .:
           type: QUANTITY
           value: 124.5 mm
+          expression: =124.5 mm
         Alias:
           type: STRING
           value: Conn3Y1
@@ -3334,6 +3763,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D116:
       kind: Primitive
@@ -3341,6 +3771,7 @@ objects:
         .:
           type: STRING
           value: connector 3, high-Y
+          expression: '''connector 3, high-Y'
       group: Base
     A117:
       kind: Primitive
@@ -3348,6 +3779,7 @@ objects:
         .:
           type: STRING
           value: Conn3Z0
+          expression: '''Conn3Z0'
       group: Base
     B117:
       kind: Primitive
@@ -3355,6 +3787,7 @@ objects:
         .:
           type: QUANTITY
           value: 11.6 mm
+          expression: =11.6 mm
         Alias:
           type: STRING
           value: Conn3Z0
@@ -3365,6 +3798,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D117:
       kind: Primitive
@@ -3372,6 +3806,7 @@ objects:
         .:
           type: STRING
           value: connector 3, low-Z
+          expression: '''connector 3, low-Z'
       group: Base
     A118:
       kind: Primitive
@@ -3379,6 +3814,7 @@ objects:
         .:
           type: STRING
           value: Conn3Z1
+          expression: '''Conn3Z1'
       group: Base
     B118:
       kind: Primitive
@@ -3386,6 +3822,7 @@ objects:
         .:
           type: QUANTITY
           value: 18.6 mm
+          expression: =18.6 mm
         Alias:
           type: STRING
           value: Conn3Z1
@@ -3396,6 +3833,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D118:
       kind: Primitive
@@ -3403,6 +3841,7 @@ objects:
         .:
           type: STRING
           value: connector 3, high-Z
+          expression: '''connector 3, high-Z'
       group: Base
     A119:
       kind: Primitive
@@ -3410,6 +3849,7 @@ objects:
         .:
           type: STRING
           value: Conn4Y0
+          expression: '''Conn4Y0'
       group: Base
     B119:
       kind: Primitive
@@ -3417,6 +3857,7 @@ objects:
         .:
           type: QUANTITY
           value: 128.5 mm
+          expression: =128.5 mm
         Alias:
           type: STRING
           value: Conn4Y0
@@ -3427,6 +3868,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D119:
       kind: Primitive
@@ -3434,6 +3876,7 @@ objects:
         .:
           type: STRING
           value: connector 4, low-Y
+          expression: '''connector 4, low-Y'
       group: Base
     A120:
       kind: Primitive
@@ -3441,6 +3884,7 @@ objects:
         .:
           type: STRING
           value: Conn4Y1
+          expression: '''Conn4Y1'
       group: Base
     B120:
       kind: Primitive
@@ -3448,6 +3892,7 @@ objects:
         .:
           type: QUANTITY
           value: 143.2 mm
+          expression: =143.2 mm
         Alias:
           type: STRING
           value: Conn4Y1
@@ -3458,6 +3903,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D120:
       kind: Primitive
@@ -3465,6 +3911,7 @@ objects:
         .:
           type: STRING
           value: connector 4, high-Y
+          expression: '''connector 4, high-Y'
       group: Base
     A121:
       kind: Primitive
@@ -3472,6 +3919,7 @@ objects:
         .:
           type: STRING
           value: Conn4Z0
+          expression: '''Conn4Z0'
       group: Base
     B121:
       kind: Primitive
@@ -3479,6 +3927,7 @@ objects:
         .:
           type: QUANTITY
           value: 11.6 mm
+          expression: =11.6 mm
         Alias:
           type: STRING
           value: Conn4Z0
@@ -3489,6 +3938,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D121:
       kind: Primitive
@@ -3496,6 +3946,7 @@ objects:
         .:
           type: STRING
           value: connector 4, low-Z
+          expression: '''connector 4, low-Z'
       group: Base
     A122:
       kind: Primitive
@@ -3503,6 +3954,7 @@ objects:
         .:
           type: STRING
           value: Conn4Z1
+          expression: '''Conn4Z1'
       group: Base
     B122:
       kind: Primitive
@@ -3510,6 +3962,7 @@ objects:
         .:
           type: QUANTITY
           value: 27.6 mm
+          expression: =27.6 mm
         Alias:
           type: STRING
           value: Conn4Z1
@@ -3520,6 +3973,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D122:
       kind: Primitive
@@ -3527,6 +3981,7 @@ objects:
         .:
           type: STRING
           value: connector 4, high-Z
+          expression: '''connector 4, high-Z'
       group: Base
     A123:
       kind: Primitive
@@ -3534,6 +3989,7 @@ objects:
         .:
           type: STRING
           value: BtnY
+          expression: '''BtnY'
       group: Base
     B123:
       kind: Primitive
@@ -3541,6 +3997,7 @@ objects:
         .:
           type: QUANTITY
           value: 151.5 mm
+          expression: =151.5 mm
         Alias:
           type: STRING
           value: BtnY
@@ -3551,6 +4008,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D123:
       kind: Primitive
@@ -3558,6 +4016,7 @@ objects:
         .:
           type: STRING
           value: both buttons, Y
+          expression: '''both buttons, Y'
       group: Base
     A124:
       kind: Primitive
@@ -3565,6 +4024,7 @@ objects:
         .:
           type: STRING
           value: Btn1Z
+          expression: '''Btn1Z'
       group: Base
     B124:
       kind: Primitive
@@ -3572,6 +4032,7 @@ objects:
         .:
           type: QUANTITY
           value: 17.6 mm
+          expression: =17.6 mm
         Alias:
           type: STRING
           value: Btn1Z
@@ -3582,6 +4043,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D124:
       kind: Primitive
@@ -3589,6 +4051,7 @@ objects:
         .:
           type: STRING
           value: lower button, Z
+          expression: '''lower button, Z'
       group: Base
     A125:
       kind: Primitive
@@ -3596,6 +4059,7 @@ objects:
         .:
           type: STRING
           value: Btn2Z
+          expression: '''Btn2Z'
       group: Base
     B125:
       kind: Primitive
@@ -3603,6 +4067,7 @@ objects:
         .:
           type: QUANTITY
           value: 30.6 mm
+          expression: =30.6 mm
         Alias:
           type: STRING
           value: Btn2Z
@@ -3613,6 +4078,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D125:
       kind: Primitive
@@ -3620,6 +4086,7 @@ objects:
         .:
           type: STRING
           value: upper button, Z
+          expression: '''upper button, Z'
       group: Base
     A126:
       kind: Primitive
@@ -3627,6 +4094,7 @@ objects:
         .:
           type: STRING
           value: BtnD
+          expression: '''BtnD'
       group: Base
     B126:
       kind: Primitive
@@ -3634,6 +4102,7 @@ objects:
         .:
           type: QUANTITY
           value: 5.0 mm
+          expression: =5 mm
         Alias:
           type: STRING
           value: BtnD
@@ -3644,6 +4113,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D126:
       kind: Primitive
@@ -3651,6 +4121,7 @@ objects:
         .:
           type: STRING
           value: button shaft diameter
+          expression: '''button shaft diameter'
       group: Base
     A127:
       kind: Primitive
@@ -3658,6 +4129,7 @@ objects:
         .:
           type: STRING
           value: BtnClr
+          expression: '''BtnClr'
       group: Base
     B127:
       kind: Primitive
@@ -3665,6 +4137,7 @@ objects:
         .:
           type: QUANTITY
           value: 1.0 mm
+          expression: =1 mm
         Alias:
           type: STRING
           value: BtnClr
@@ -3675,6 +4148,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D127:
       kind: Primitive
@@ -3682,6 +4156,7 @@ objects:
         .:
           type: STRING
           value: clearance around each button
+          expression: '''clearance around each button'
       group: Base
     A128:
       kind: Primitive
@@ -3689,6 +4164,7 @@ objects:
         .:
           type: STRING
           value: -- PSU FACE SCREWS --
+          expression: '''-- PSU FACE SCREWS --'
       group: Base
     A129:
       kind: Primitive
@@ -3696,6 +4172,7 @@ objects:
         .:
           type: STRING
           value: PsuScrew1Y
+          expression: '''PsuScrew1Y'
       group: Base
     B129:
       kind: Primitive
@@ -3703,6 +4180,7 @@ objects:
         .:
           type: QUANTITY
           value: 9.75 mm
+          expression: =9.75 mm
         Alias:
           type: STRING
           value: PsuScrew1Y
@@ -3713,6 +4191,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D129:
       kind: Primitive
@@ -3720,6 +4199,7 @@ objects:
         .:
           type: STRING
           value: PSU face screw 1, Y
+          expression: '''PSU face screw 1, Y'
       group: Base
     A130:
       kind: Primitive
@@ -3727,6 +4207,7 @@ objects:
         .:
           type: STRING
           value: PsuScrew1Z
+          expression: '''PsuScrew1Z'
       group: Base
     B130:
       kind: Primitive
@@ -3734,6 +4215,7 @@ objects:
         .:
           type: QUANTITY
           value: 78.7 mm
+          expression: =78.7 mm
         Alias:
           type: STRING
           value: PsuScrew1Z
@@ -3744,6 +4226,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D130:
       kind: Primitive
@@ -3751,6 +4234,7 @@ objects:
         .:
           type: STRING
           value: PSU face screw 1, Z
+          expression: '''PSU face screw 1, Z'
       group: Base
     A131:
       kind: Primitive
@@ -3758,6 +4242,7 @@ objects:
         .:
           type: STRING
           value: PsuScrew2Y
+          expression: '''PsuScrew2Y'
       group: Base
     B131:
       kind: Primitive
@@ -3765,6 +4250,7 @@ objects:
         .:
           type: QUANTITY
           value: 41.8 mm
+          expression: =41.8 mm
         Alias:
           type: STRING
           value: PsuScrew2Y
@@ -3775,6 +4261,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D131:
       kind: Primitive
@@ -3782,6 +4269,7 @@ objects:
         .:
           type: STRING
           value: PSU face screw 2, Y
+          expression: '''PSU face screw 2, Y'
       group: Base
     A132:
       kind: Primitive
@@ -3789,6 +4277,7 @@ objects:
         .:
           type: STRING
           value: PsuScrew2Z
+          expression: '''PsuScrew2Z'
       group: Base
     B132:
       kind: Primitive
@@ -3796,6 +4285,7 @@ objects:
         .:
           type: QUANTITY
           value: 78.8 mm
+          expression: =78.8 mm
         Alias:
           type: STRING
           value: PsuScrew2Z
@@ -3806,6 +4296,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D132:
       kind: Primitive
@@ -3813,6 +4304,7 @@ objects:
         .:
           type: STRING
           value: PSU face screw 2, Z
+          expression: '''PSU face screw 2, Z'
       group: Base
     A133:
       kind: Primitive
@@ -3820,6 +4312,7 @@ objects:
         .:
           type: STRING
           value: PsuScrew3Y
+          expression: '''PsuScrew3Y'
       group: Base
     B133:
       kind: Primitive
@@ -3827,6 +4320,7 @@ objects:
         .:
           type: QUANTITY
           value: 43.1 mm
+          expression: =43.1 mm
         Alias:
           type: STRING
           value: PsuScrew3Y
@@ -3837,6 +4331,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D133:
       kind: Primitive
@@ -3844,6 +4339,7 @@ objects:
         .:
           type: STRING
           value: PSU face screw 3, Y
+          expression: '''PSU face screw 3, Y'
       group: Base
     A134:
       kind: Primitive
@@ -3851,6 +4347,7 @@ objects:
         .:
           type: STRING
           value: PsuScrew3Z
+          expression: '''PsuScrew3Z'
       group: Base
     B134:
       kind: Primitive
@@ -3858,6 +4355,7 @@ objects:
         .:
           type: QUANTITY
           value: 18.8 mm
+          expression: =18.8 mm
         Alias:
           type: STRING
           value: PsuScrew3Z
@@ -3868,6 +4366,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D134:
       kind: Primitive
@@ -3875,6 +4374,7 @@ objects:
         .:
           type: STRING
           value: PSU face screw 3, Z
+          expression: '''PSU face screw 3, Z'
       group: Base
     A135:
       kind: Primitive
@@ -3882,6 +4382,7 @@ objects:
         .:
           type: STRING
           value: PsuScrew4Y
+          expression: '''PsuScrew4Y'
       group: Base
     B135:
       kind: Primitive
@@ -3889,6 +4390,7 @@ objects:
         .:
           type: QUANTITY
           value: 42.0 mm
+          expression: =42 mm
         Alias:
           type: STRING
           value: PsuScrew4Y
@@ -3899,6 +4401,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D135:
       kind: Primitive
@@ -3906,6 +4409,7 @@ objects:
         .:
           type: STRING
           value: PSU face screw 4, Y
+          expression: '''PSU face screw 4, Y'
       group: Base
     A136:
       kind: Primitive
@@ -3913,6 +4417,7 @@ objects:
         .:
           type: STRING
           value: PsuScrew4Z
+          expression: '''PsuScrew4Z'
       group: Base
     B136:
       kind: Primitive
@@ -3920,6 +4425,7 @@ objects:
         .:
           type: QUANTITY
           value: 8.0 mm
+          expression: =8 mm
         Alias:
           type: STRING
           value: PsuScrew4Z
@@ -3930,6 +4436,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D136:
       kind: Primitive
@@ -3937,6 +4444,7 @@ objects:
         .:
           type: STRING
           value: PSU face screw 4, Z
+          expression: '''PSU face screw 4, Z'
       group: Base
     A137:
       kind: Primitive
@@ -3944,6 +4452,7 @@ objects:
         .:
           type: STRING
           value: -- STAGGERED SPLIT --
+          expression: '''-- STAGGERED SPLIT --'
       group: Base
     A138:
       kind: Primitive
@@ -3951,6 +4460,7 @@ objects:
         .:
           type: STRING
           value: TraySplitX
+          expression: '''TraySplitX'
       group: Base
     B138:
       kind: Primitive
@@ -3958,6 +4468,7 @@ objects:
         .:
           type: QUANTITY
           value: 180.0 mm
+          expression: =180 mm
         Alias:
           type: STRING
           value: TraySplitX
@@ -3968,6 +4479,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D138:
       kind: Primitive
@@ -3975,6 +4487,7 @@ objects:
         .:
           type: STRING
           value: tray cut plane
+          expression: '''tray cut plane'
       group: Base
     A139:
       kind: Primitive
@@ -3982,6 +4495,7 @@ objects:
         .:
           type: STRING
           value: LidSplitX
+          expression: '''LidSplitX'
       group: Base
     B139:
       kind: Primitive
@@ -3989,6 +4503,7 @@ objects:
         .:
           type: QUANTITY
           value: 158.0 mm
+          expression: =158 mm
         Alias:
           type: STRING
           value: LidSplitX
@@ -3999,6 +4514,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D139:
       kind: Primitive
@@ -4006,6 +4522,7 @@ objects:
         .:
           type: STRING
           value: lid cut plane
+          expression: '''lid cut plane'
       group: Base
     A140:
       kind: Primitive
@@ -4013,6 +4530,7 @@ objects:
         .:
           type: STRING
           value: SeamX1
+          expression: '''SeamX1'
       group: Base
     B140:
       kind: Primitive
@@ -4020,6 +4538,7 @@ objects:
         .:
           type: QUANTITY
           value: 30.0 mm
+          expression: =30 mm
         Alias:
           type: STRING
           value: SeamX1
@@ -4030,6 +4549,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D140:
       kind: Primitive
@@ -4037,6 +4557,7 @@ objects:
         .:
           type: STRING
           value: seam 1
+          expression: '''seam 1'
       group: Base
     A141:
       kind: Primitive
@@ -4044,6 +4565,7 @@ objects:
         .:
           type: STRING
           value: SeamX2
+          expression: '''SeamX2'
       group: Base
     B141:
       kind: Primitive
@@ -4051,6 +4573,7 @@ objects:
         .:
           type: QUANTITY
           value: 125.0 mm
+          expression: =125 mm
         Alias:
           type: STRING
           value: SeamX2
@@ -4061,6 +4584,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D141:
       kind: Primitive
@@ -4068,6 +4592,7 @@ objects:
         .:
           type: STRING
           value: seam 2
+          expression: '''seam 2'
       group: Base
     A142:
       kind: Primitive
@@ -4075,6 +4600,7 @@ objects:
         .:
           type: STRING
           value: SeamX3
+          expression: '''SeamX3'
       group: Base
     B142:
       kind: Primitive
@@ -4082,6 +4608,7 @@ objects:
         .:
           type: QUANTITY
           value: 170.0 mm
+          expression: =170 mm
         Alias:
           type: STRING
           value: SeamX3
@@ -4092,6 +4619,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D142:
       kind: Primitive
@@ -4099,6 +4627,7 @@ objects:
         .:
           type: STRING
           value: seam 3
+          expression: '''seam 3'
       group: Base
     A143:
       kind: Primitive
@@ -4106,6 +4635,7 @@ objects:
         .:
           type: STRING
           value: SeamX4
+          expression: '''SeamX4'
       group: Base
     B143:
       kind: Primitive
@@ -4113,6 +4643,7 @@ objects:
         .:
           type: QUANTITY
           value: 205.0 mm
+          expression: =205 mm
         Alias:
           type: STRING
           value: SeamX4
@@ -4123,6 +4654,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D143:
       kind: Primitive
@@ -4130,6 +4662,7 @@ objects:
         .:
           type: STRING
           value: seam 4
+          expression: '''seam 4'
       group: Base
     A144:
       kind: Primitive
@@ -4137,6 +4670,7 @@ objects:
         .:
           type: STRING
           value: SeamX5
+          expression: '''SeamX5'
       group: Base
     B144:
       kind: Primitive
@@ -4144,6 +4678,7 @@ objects:
         .:
           type: QUANTITY
           value: 300.0 mm
+          expression: =300 mm
         Alias:
           type: STRING
           value: SeamX5
@@ -4154,6 +4689,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D144:
       kind: Primitive
@@ -4161,6 +4697,7 @@ objects:
         .:
           type: STRING
           value: seam 5
+          expression: '''seam 5'
       group: Base
     A145:
       kind: Primitive
@@ -4168,6 +4705,7 @@ objects:
         .:
           type: STRING
           value: SeamEndY1
+          expression: '''SeamEndY1'
       group: Base
     B145:
       kind: Primitive
@@ -4175,6 +4713,7 @@ objects:
         .:
           type: QUANTITY
           value: 45.0 mm
+          expression: =45 mm
         Alias:
           type: STRING
           value: SeamEndY1
@@ -4185,6 +4724,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D145:
       kind: Primitive
@@ -4192,6 +4732,7 @@ objects:
         .:
           type: STRING
           value: end seam 1
+          expression: '''end seam 1'
       group: Base
     A146:
       kind: Primitive
@@ -4199,6 +4740,7 @@ objects:
         .:
           type: STRING
           value: SeamEndY2
+          expression: '''SeamEndY2'
       group: Base
     B146:
       kind: Primitive
@@ -4206,6 +4748,7 @@ objects:
         .:
           type: QUANTITY
           value: 135.0 mm
+          expression: =135 mm
         Alias:
           type: STRING
           value: SeamEndY2
@@ -4216,6 +4759,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D146:
       kind: Primitive
@@ -4223,6 +4767,7 @@ objects:
         .:
           type: STRING
           value: end seam 2
+          expression: '''end seam 2'
       group: Base
     A147:
       kind: Primitive
@@ -4230,6 +4775,7 @@ objects:
         .:
           type: STRING
           value: BossOvalL
+          expression: '''BossOvalL'
       group: Base
     B147:
       kind: Primitive
@@ -4237,6 +4783,7 @@ objects:
         .:
           type: QUANTITY
           value: 20.0 mm
+          expression: =20 mm
         Alias:
           type: STRING
           value: BossOvalL
@@ -4247,6 +4794,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D147:
       kind: Primitive
@@ -4254,6 +4802,7 @@ objects:
         .:
           type: STRING
           value: oval boss length along the wall
+          expression: '''oval boss length along the wall'
       group: Base
     A148:
       kind: Primitive
@@ -4261,6 +4810,7 @@ objects:
         .:
           type: STRING
           value: BossOvalD
+          expression: '''BossOvalD'
       group: Base
     B148:
       kind: Primitive
@@ -4268,6 +4818,7 @@ objects:
         .:
           type: QUANTITY
           value: 8.0 mm
+          expression: =8 mm
         Alias:
           type: STRING
           value: BossOvalD
@@ -4278,6 +4829,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D148:
       kind: Primitive
@@ -4285,6 +4837,7 @@ objects:
         .:
           type: STRING
           value: oval boss depth into the cavity
+          expression: '''oval boss depth into the cavity'
       group: Base
     A149:
       kind: Primitive
@@ -4292,6 +4845,7 @@ objects:
         .:
           type: STRING
           value: BossRoundD
+          expression: '''BossRoundD'
       group: Base
     B149:
       kind: Primitive
@@ -4299,6 +4853,7 @@ objects:
         .:
           type: QUANTITY
           value: 8.0 mm
+          expression: =8 mm
         Alias:
           type: STRING
           value: BossRoundD
@@ -4309,6 +4864,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D149:
       kind: Primitive
@@ -4316,6 +4872,7 @@ objects:
         .:
           type: STRING
           value: round boss dia
+          expression: '''round boss dia'
       group: Base
     A150:
       kind: Primitive
@@ -4323,6 +4880,7 @@ objects:
         .:
           type: STRING
           value: GussetDrop
+          expression: '''GussetDrop'
       group: Base
     B150:
       kind: Primitive
@@ -4330,6 +4888,7 @@ objects:
         .:
           type: QUANTITY
           value: 6.5 mm
+          expression: =BossRoundD - Wall
         Alias:
           type: STRING
           value: GussetDrop
@@ -4340,6 +4899,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D150:
       kind: Primitive
@@ -4347,6 +4907,7 @@ objects:
         .:
           type: STRING
           value: 45 deg gusset drop / boss reach past the cavity face
+          expression: '''45 deg gusset drop / boss reach past the cavity face'
       group: Base
     A151:
       kind: Primitive
@@ -4354,6 +4915,7 @@ objects:
         .:
           type: STRING
           value: -- TRAY SPLICE --
+          expression: '''-- TRAY SPLICE --'
       group: Base
     A152:
       kind: Primitive
@@ -4361,6 +4923,7 @@ objects:
         .:
           type: STRING
           value: SpliceScrewD
+          expression: '''SpliceScrewD'
       group: Base
     B152:
       kind: Primitive
@@ -4368,6 +4931,7 @@ objects:
         .:
           type: QUANTITY
           value: 3.4 mm
+          expression: =3.4 mm
         Alias:
           type: STRING
           value: SpliceScrewD
@@ -4378,6 +4942,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D152:
       kind: Primitive
@@ -4385,6 +4950,7 @@ objects:
         .:
           type: STRING
           value: M3 clearance
+          expression: '''M3 clearance'
       group: Base
     A153:
       kind: Primitive
@@ -4392,6 +4958,7 @@ objects:
         .:
           type: STRING
           value: SplicePilotD
+          expression: '''SplicePilotD'
       group: Base
     B153:
       kind: Primitive
@@ -4399,6 +4966,7 @@ objects:
         .:
           type: QUANTITY
           value: 4.0 mm
+          expression: =4 mm
         Alias:
           type: STRING
           value: SplicePilotD
@@ -4409,6 +4977,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D153:
       kind: Primitive
@@ -4416,6 +4985,7 @@ objects:
         .:
           type: STRING
           value: insert pilot
+          expression: '''insert pilot'
       group: Base
     A154:
       kind: Primitive
@@ -4423,6 +4993,7 @@ objects:
         .:
           type: STRING
           value: SplicePilotDepth
+          expression: '''SplicePilotDepth'
       group: Base
     B154:
       kind: Primitive
@@ -4430,6 +5001,7 @@ objects:
         .:
           type: QUANTITY
           value: 16.0 mm
+          expression: =16 mm
         Alias:
           type: STRING
           value: SplicePilotDepth
@@ -4440,6 +5012,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D154:
       kind: Primitive
@@ -4447,6 +5020,7 @@ objects:
         .:
           type: STRING
           value: insert pilot depth
+          expression: '''insert pilot depth'
       group: Base
     A155:
       kind: Primitive
@@ -4454,6 +5028,7 @@ objects:
         .:
           type: STRING
           value: SpliceCboreD
+          expression: '''SpliceCboreD'
       group: Base
     B155:
       kind: Primitive
@@ -4461,6 +5036,7 @@ objects:
         .:
           type: QUANTITY
           value: 6.2 mm
+          expression: =6.2 mm
         Alias:
           type: STRING
           value: SpliceCboreD
@@ -4471,6 +5047,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D155:
       kind: Primitive
@@ -4478,6 +5055,7 @@ objects:
         .:
           type: STRING
           value: head counterbore
+          expression: '''head counterbore'
       group: Base
     A156:
       kind: Primitive
@@ -4485,6 +5063,7 @@ objects:
         .:
           type: STRING
           value: SpliceCboreDepth
+          expression: '''SpliceCboreDepth'
       group: Base
     B156:
       kind: Primitive
@@ -4492,6 +5071,7 @@ objects:
         .:
           type: QUANTITY
           value: 3.0 mm
+          expression: =3 mm
         Alias:
           type: STRING
           value: SpliceCboreDepth
@@ -4502,6 +5082,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D156:
       kind: Primitive
@@ -4509,6 +5090,7 @@ objects:
         .:
           type: STRING
           value: counterbore depth
+          expression: '''counterbore depth'
       group: Base
     A157:
       kind: Primitive
@@ -4516,6 +5098,7 @@ objects:
         .:
           type: STRING
           value: SpliceBandW
+          expression: '''SpliceBandW'
       group: Base
     B157:
       kind: Primitive
@@ -4523,6 +5106,7 @@ objects:
         .:
           type: QUANTITY
           value: 10.0 mm
+          expression: =10 mm
         Alias:
           type: STRING
           value: SpliceBandW
@@ -4533,6 +5117,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D157:
       kind: Primitive
@@ -4540,6 +5125,7 @@ objects:
         .:
           type: STRING
           value: solid floor band across the cut
+          expression: '''solid floor band across the cut'
       group: Base
     A158:
       kind: Primitive
@@ -4547,6 +5133,7 @@ objects:
         .:
           type: STRING
           value: -- SHELL --
+          expression: '''-- SHELL --'
       group: Base
     A159:
       kind: Primitive
@@ -4554,6 +5141,7 @@ objects:
         .:
           type: STRING
           value: OuterX0
+          expression: '''OuterX0'
       group: Base
     B159:
       kind: Primitive
@@ -4561,6 +5149,7 @@ objects:
         .:
           type: QUANTITY
           value: 0.0 mm
+          expression: =0 mm
         Alias:
           type: STRING
           value: OuterX0
@@ -4571,6 +5160,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D159:
       kind: Primitive
@@ -4578,6 +5168,7 @@ objects:
         .:
           type: STRING
           value: outer profile origin, X
+          expression: '''outer profile origin, X'
       group: Base
     A160:
       kind: Primitive
@@ -4585,6 +5176,7 @@ objects:
         .:
           type: STRING
           value: OuterY0
+          expression: '''OuterY0'
       group: Base
     B160:
       kind: Primitive
@@ -4592,6 +5184,7 @@ objects:
         .:
           type: QUANTITY
           value: 0.0 mm
+          expression: =0 mm
         Alias:
           type: STRING
           value: OuterY0
@@ -4602,6 +5195,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D160:
       kind: Primitive
@@ -4609,6 +5203,7 @@ objects:
         .:
           type: STRING
           value: outer profile origin, Y
+          expression: '''outer profile origin, Y'
       group: Base
     A161:
       kind: Primitive
@@ -4616,6 +5211,7 @@ objects:
         .:
           type: STRING
           value: Floor
+          expression: '''Floor'
       group: Base
     B161:
       kind: Primitive
@@ -4623,6 +5219,7 @@ objects:
         .:
           type: QUANTITY
           value: 1.0 mm
+          expression: =1 mm
         Alias:
           type: STRING
           value: Floor
@@ -4633,6 +5230,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D161:
       kind: Primitive
@@ -4640,6 +5238,7 @@ objects:
         .:
           type: STRING
           value: floor thickness
+          expression: '''floor thickness'
       group: Base
     A162:
       kind: Primitive
@@ -4647,6 +5246,7 @@ objects:
         .:
           type: STRING
           value: -- SPLICE --
+          expression: '''-- SPLICE --'
       group: Base
     A163:
       kind: Primitive
@@ -4654,6 +5254,7 @@ objects:
         .:
           type: STRING
           value: SpliceBossD
+          expression: '''SpliceBossD'
       group: Base
     B163:
       kind: Primitive
@@ -4661,6 +5262,7 @@ objects:
         .:
           type: QUANTITY
           value: 12.0 mm
+          expression: =12 mm
         Alias:
           type: STRING
           value: SpliceBossD
@@ -4671,6 +5273,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D163:
       kind: Primitive
@@ -4678,6 +5281,7 @@ objects:
         .:
           type: STRING
           value: splice boss diameter
+          expression: '''splice boss diameter'
       group: Base
     A164:
       kind: Primitive
@@ -4685,6 +5289,7 @@ objects:
         .:
           type: STRING
           value: SpliceBossL
+          expression: '''SpliceBossL'
       group: Base
     B164:
       kind: Primitive
@@ -4692,6 +5297,7 @@ objects:
         .:
           type: QUANTITY
           value: 20.0 mm
+          expression: =20 mm
         Alias:
           type: STRING
           value: SpliceBossL
@@ -4702,6 +5308,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D164:
       kind: Primitive
@@ -4709,6 +5316,7 @@ objects:
         .:
           type: STRING
           value: splice boss length, straddling the cut plane
+          expression: '''splice boss length, straddling the cut plane'
       group: Base
     A165:
       kind: Primitive
@@ -4716,6 +5324,7 @@ objects:
         .:
           type: STRING
           value: SpliceBossInset
+          expression: '''SpliceBossInset'
       group: Base
     B165:
       kind: Primitive
@@ -4723,6 +5332,7 @@ objects:
         .:
           type: QUANTITY
           value: 1.0 mm
+          expression: =1 mm
         Alias:
           type: STRING
           value: SpliceBossInset
@@ -4733,6 +5343,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D165:
       kind: Primitive
@@ -4740,6 +5351,7 @@ objects:
         .:
           type: STRING
           value: boss centre offset from the inner face it hugs
+          expression: '''boss centre offset from the inner face it hugs'
       group: Base
     A166:
       kind: Primitive
@@ -4747,6 +5359,7 @@ objects:
         .:
           type: STRING
           value: SpliceBossShift
+          expression: '''SpliceBossShift'
       group: Base
     B166:
       kind: Primitive
@@ -4754,6 +5367,7 @@ objects:
         .:
           type: QUANTITY
           value: 35.0 mm
+          expression: =35 mm
         Alias:
           type: STRING
           value: SpliceBossShift
@@ -4764,6 +5378,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D166:
       kind: Primitive
@@ -4771,6 +5386,7 @@ objects:
         .:
           type: STRING
           value: shift boss from corner
+          expression: '''shift boss from corner'
       group: Base
     A167:
       kind: Primitive
@@ -4778,6 +5394,7 @@ objects:
         .:
           type: STRING
           value: SpliceBossZ
+          expression: '''SpliceBossZ'
       group: Base
     B167:
       kind: Primitive
@@ -4785,6 +5402,7 @@ objects:
         .:
           type: QUANTITY
           value: 55.0 mm
+          expression: =55 mm
         Alias:
           type: STRING
           value: SpliceBossZ
@@ -4795,6 +5413,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D167:
       kind: Primitive
@@ -4802,6 +5421,7 @@ objects:
         .:
           type: STRING
           value: high-Y splice boss centre height
+          expression: '''high-Y splice boss centre height'
       group: Base
     A168:
       kind: Primitive
@@ -4809,6 +5429,7 @@ objects:
         .:
           type: STRING
           value: SpliceGusA
+          expression: '''SpliceGusA'
       group: Base
     B168:
       kind: Primitive
@@ -4816,6 +5437,7 @@ objects:
         .:
           type: QUANTITY
           value: 5.0 mm
+          expression: =5 mm
         Alias:
           type: STRING
           value: SpliceGusA
@@ -4826,6 +5448,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D168:
       kind: Primitive
@@ -4833,6 +5456,7 @@ objects:
         .:
           type: STRING
           value: floor splice gusset, 45 deg run
+          expression: '''floor splice gusset, 45 deg run'
       group: Base
     A169:
       kind: Primitive
@@ -4840,6 +5464,7 @@ objects:
         .:
           type: STRING
           value: SpliceGusB
+          expression: '''SpliceGusB'
       group: Base
     B169:
       kind: Primitive
@@ -4847,6 +5472,7 @@ objects:
         .:
           type: QUANTITY
           value: 8.0 mm
+          expression: =8 mm
         Alias:
           type: STRING
           value: SpliceGusB
@@ -4857,6 +5483,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D169:
       kind: Primitive
@@ -4864,6 +5491,7 @@ objects:
         .:
           type: STRING
           value: wall splice gusset, 45 deg run
+          expression: '''wall splice gusset, 45 deg run'
       group: Base
     A170:
       kind: Primitive
@@ -4871,6 +5499,7 @@ objects:
         .:
           type: STRING
           value: SpliceClearOver
+          expression: '''SpliceClearOver'
       group: Base
     B170:
       kind: Primitive
@@ -4878,6 +5507,7 @@ objects:
         .:
           type: QUANTITY
           value: 0.5 mm
+          expression: =0.5 mm
         Alias:
           type: STRING
           value: SpliceClearOver
@@ -4888,6 +5518,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D170:
       kind: Primitive
@@ -4895,6 +5526,7 @@ objects:
         .:
           type: STRING
           value: clearance hole over-depth past the cut plane
+          expression: '''clearance hole over-depth past the cut plane'
       group: Base
     A171:
       kind: Primitive
@@ -4902,6 +5534,7 @@ objects:
         .:
           type: STRING
           value: -- HEATSINK WINDOW --
+          expression: '''-- HEATSINK WINDOW --'
       group: Base
     A172:
       kind: Primitive
@@ -4909,6 +5542,7 @@ objects:
         .:
           type: STRING
           value: CutX1
+          expression: '''CutX1'
       group: Base
     B172:
       kind: Primitive
@@ -4916,6 +5550,7 @@ objects:
         .:
           type: QUANTITY
           value: 297.0 mm
+          expression: =297 mm
         Alias:
           type: STRING
           value: CutX1
@@ -4926,6 +5561,7 @@ objects:
         .:
           type: STRING
           value: mm
+          expression: '''mm'
       group: Base
     D172:
       kind: Primitive
@@ -4933,6 +5569,7 @@ objects:
         .:
           type: STRING
           value: single window, high-X (CutX0 is the low-X edge)
+          expression: '''single window, high-X (CutX0 is the low-X edge)'
       group: Base
     A173:
       kind: Primitive
@@ -4940,6 +5577,7 @@ objects:
         .:
           type: STRING
           value: -- Switch hole --
+          expression: '''-- Switch hole --'
       group: Base
     A174:
       kind: Primitive
@@ -4947,6 +5585,7 @@ objects:
         .:
           type: STRING
           value: SwitchDiameter
+          expression: '''SwitchDiameter'
       group: Base
     B174:
       kind: Primitive
@@ -4954,6 +5593,7 @@ objects:
         .:
           type: QUANTITY
           value: 12.0 mm
+          expression: =12 mm
         Alias:
           type: STRING
           value: SwitchDiameter
@@ -4964,6 +5604,7 @@ objects:
         .:
           type: STRING
           value: front panel switch diameter
+          expression: '''front panel switch diameter'
       group: Base
     A175:
       kind: Primitive
@@ -4971,6 +5612,7 @@ objects:
         .:
           type: STRING
           value: SwitchToBottom
+          expression: '''SwitchToBottom'
       group: Base
     B175:
       kind: Primitive
@@ -4978,6 +5620,7 @@ objects:
         .:
           type: QUANTITY
           value: 30.0 mm
+          expression: =30 mm
         Alias:
           type: STRING
           value: SwitchToBottom
@@ -4988,6 +5631,7 @@ objects:
         .:
           type: STRING
           value: switch to bottom of case
+          expression: '''switch to bottom of case'
       group: Base
     A176:
       kind: Primitive
@@ -4995,6 +5639,7 @@ objects:
         .:
           type: STRING
           value: -- PS SUPPORT --
+          expression: '''-- PS SUPPORT --'
       group: Base
     A177:
       kind: Primitive
@@ -5002,6 +5647,7 @@ objects:
         .:
           type: STRING
           value: PsSuppLenPadding
+          expression: '''PsSuppLenPadding'
       group: Base
     B177:
       kind: Primitive
@@ -5009,6 +5655,7 @@ objects:
         .:
           type: QUANTITY
           value: 10.0 mm
+          expression: =10 mm
         Alias:
           type: STRING
           value: PsSuppLenPadding
@@ -5019,6 +5666,7 @@ objects:
         .:
           type: STRING
           value: Extra width past the end of the power supply
+          expression: '''Extra width past the end of the power supply'
       group: Base
     A178:
       kind: Primitive
@@ -5026,6 +5674,7 @@ objects:
         .:
           type: STRING
           value: PsSuppWidth
+          expression: '''PsSuppWidth'
       group: Base
     B178:
       kind: Primitive
@@ -5033,6 +5682,7 @@ objects:
         .:
           type: QUANTITY
           value: 15.0 mm
+          expression: =15 mm
         Alias:
           type: STRING
           value: PsSuppWidth
@@ -5043,6 +5693,7 @@ objects:
         .:
           type: STRING
           value: PS Support width
+          expression: '''PS Support width'
       group: Base
     A179:
       kind: Primitive
@@ -5050,6 +5701,7 @@ objects:
         .:
           type: STRING
           value: PsSuppHeight
+          expression: '''PsSuppHeight'
       group: Base
     B179:
       kind: Primitive
@@ -5057,6 +5709,7 @@ objects:
         .:
           type: QUANTITY
           value: 3.0 mm
+          expression: =3 mm
         Alias:
           type: STRING
           value: PsSuppHeight
@@ -5067,6 +5720,7 @@ objects:
         .:
           type: STRING
           value: PS Support height
+          expression: '''PS Support height'
       group: Base
 - name: Tray
   id: 2133
@@ -47101,19 +47755,19 @@ objects:
       paths:
         Base.x:
           type: QUANTITY
-          value: 4.812000000004142e-14 mm
+          value: 4.8113112632056724e-14 mm
         Base.y:
           type: QUANTITY
-          value: 1.5000000000012912 mm
+          value: 1.5000000000012905 mm
         Base.z:
           type: QUANTITY
-          value: -1.1055000000009515e-14 mm
+          value: -1.1056260297769608e-14 mm
         Rotation.Angle:
           type: QUANTITY
           value: 179.9999999999987 deg
         Rotation.Axis.x:
           type: FLOAT
-          value: 1.134199277023218e-14
+          value: 1.1340369402030019e-14
         Rotation.Axis.y:
           type: FLOAT
           value: 0.7071067811865501
@@ -53735,6 +54389,1081 @@ objects:
           type: STRING
           value: External
       group: Base
+- name: Sketch
+  id: 2519
+  type_id: Sketcher::SketchObject
+  properties:
+    ArcFitTolerance:
+      kind: Primitive
+      paths:
+        .:
+          type: FLOAT
+          value: 1.0e-06
+      group: Sketch
+    AttacherEngine:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Engine 3D
+      group: Attachment
+    AttachmentOffset:
+      kind: Placement
+      paths:
+        Base.x:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.y:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.z:
+          type: QUANTITY
+          value: 0.0 mm
+        Rotation.Angle:
+          type: QUANTITY
+          value: 0.0 deg
+        Rotation.Axis.x:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.y:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.z:
+          type: FLOAT
+          value: 1.0
+      group: Attachment
+    Constraints:
+      kind: List
+      paths: {}
+      items:
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: Coincident
+          Value:
+            type: FLOAT
+            value: 0.0
+          First:
+            type: INT
+            value: 0
+          FirstPos:
+            type: INT
+            value: 2
+          Second:
+            type: INT
+            value: 1
+          SecondPos:
+            type: INT
+            value: 1
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: Coincident
+          Value:
+            type: FLOAT
+            value: 0.0
+          First:
+            type: INT
+            value: 1
+          FirstPos:
+            type: INT
+            value: 2
+          Second:
+            type: INT
+            value: 2
+          SecondPos:
+            type: INT
+            value: 1
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: Coincident
+          Value:
+            type: FLOAT
+            value: 0.0
+          First:
+            type: INT
+            value: 2
+          FirstPos:
+            type: INT
+            value: 2
+          Second:
+            type: INT
+            value: 3
+          SecondPos:
+            type: INT
+            value: 1
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: Coincident
+          Value:
+            type: FLOAT
+            value: 0.0
+          First:
+            type: INT
+            value: 3
+          FirstPos:
+            type: INT
+            value: 2
+          Second:
+            type: INT
+            value: 0
+          SecondPos:
+            type: INT
+            value: 1
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: Vertical
+          Value:
+            type: FLOAT
+            value: 0.0
+          First:
+            type: INT
+            value: 0
+          FirstPos:
+            type: INT
+            value: 0
+          Second:
+            type: INT
+            value: -2000
+          SecondPos:
+            type: INT
+            value: 0
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: Vertical
+          Value:
+            type: FLOAT
+            value: 0.0
+          First:
+            type: INT
+            value: 2
+          FirstPos:
+            type: INT
+            value: 0
+          Second:
+            type: INT
+            value: -2000
+          SecondPos:
+            type: INT
+            value: 0
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: Horizontal
+          Value:
+            type: FLOAT
+            value: 0.0
+          First:
+            type: INT
+            value: 1
+          FirstPos:
+            type: INT
+            value: 0
+          Second:
+            type: INT
+            value: -2000
+          SecondPos:
+            type: INT
+            value: 0
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: Horizontal
+          Value:
+            type: FLOAT
+            value: 0.0
+          First:
+            type: INT
+            value: 3
+          FirstPos:
+            type: INT
+            value: 0
+          Second:
+            type: INT
+            value: -2000
+          SecondPos:
+            type: INT
+            value: 0
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: DistanceY
+          Value:
+            type: FLOAT
+            value: 166.0
+          First:
+            type: INT
+            value: -1
+          FirstPos:
+            type: INT
+            value: 1
+          Second:
+            type: INT
+            value: 2
+          SecondPos:
+            type: INT
+            value: 2
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+          .:
+            type: 'NULL'
+            expression: Parameters.CutY1
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: DistanceX
+          Value:
+            type: FLOAT
+            value: 297.0
+          First:
+            type: INT
+            value: -1
+          FirstPos:
+            type: INT
+            value: 1
+          Second:
+            type: INT
+            value: 2
+          SecondPos:
+            type: INT
+            value: 2
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+          .:
+            type: 'NULL'
+            expression: Parameters.CutX1
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: DistanceX
+          Value:
+            type: FLOAT
+            value: 290.0
+          First:
+            type: INT
+            value: -1
+          FirstPos:
+            type: INT
+            value: 1
+          Second:
+            type: INT
+            value: 0
+          SecondPos:
+            type: INT
+            value: 1
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+          .:
+            type: 'NULL'
+            expression: Parameters.CutX1 - 7 mm
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: DistanceY
+          Value:
+            type: FLOAT
+            value: 136.0
+          First:
+            type: INT
+            value: -1
+          FirstPos:
+            type: INT
+            value: 1
+          Second:
+            type: INT
+            value: 1
+          SecondPos:
+            type: INT
+            value: 2
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+          .:
+            type: 'NULL'
+            expression: Parameters.CutY1 - 30 mm
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: Coincident
+          Value:
+            type: FLOAT
+            value: 0.0
+          First:
+            type: INT
+            value: 4
+          FirstPos:
+            type: INT
+            value: 2
+          Second:
+            type: INT
+            value: 5
+          SecondPos:
+            type: INT
+            value: 1
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: Coincident
+          Value:
+            type: FLOAT
+            value: 0.0
+          First:
+            type: INT
+            value: 5
+          FirstPos:
+            type: INT
+            value: 2
+          Second:
+            type: INT
+            value: 6
+          SecondPos:
+            type: INT
+            value: 1
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: Coincident
+          Value:
+            type: FLOAT
+            value: 0.0
+          First:
+            type: INT
+            value: 6
+          FirstPos:
+            type: INT
+            value: 2
+          Second:
+            type: INT
+            value: 7
+          SecondPos:
+            type: INT
+            value: 1
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: Coincident
+          Value:
+            type: FLOAT
+            value: 0.0
+          First:
+            type: INT
+            value: 7
+          FirstPos:
+            type: INT
+            value: 2
+          Second:
+            type: INT
+            value: 4
+          SecondPos:
+            type: INT
+            value: 1
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: Vertical
+          Value:
+            type: FLOAT
+            value: 0.0
+          First:
+            type: INT
+            value: 4
+          FirstPos:
+            type: INT
+            value: 0
+          Second:
+            type: INT
+            value: -2000
+          SecondPos:
+            type: INT
+            value: 0
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: Vertical
+          Value:
+            type: FLOAT
+            value: 0.0
+          First:
+            type: INT
+            value: 6
+          FirstPos:
+            type: INT
+            value: 0
+          Second:
+            type: INT
+            value: -2000
+          SecondPos:
+            type: INT
+            value: 0
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: Horizontal
+          Value:
+            type: FLOAT
+            value: 0.0
+          First:
+            type: INT
+            value: 5
+          FirstPos:
+            type: INT
+            value: 0
+          Second:
+            type: INT
+            value: -2000
+          SecondPos:
+            type: INT
+            value: 0
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: Horizontal
+          Value:
+            type: FLOAT
+            value: 0.0
+          First:
+            type: INT
+            value: 7
+          FirstPos:
+            type: INT
+            value: 0
+          Second:
+            type: INT
+            value: -2000
+          SecondPos:
+            type: INT
+            value: 0
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: DistanceX
+          Value:
+            type: FLOAT
+            value: 28.0
+          First:
+            type: INT
+            value: -1
+          FirstPos:
+            type: INT
+            value: 1
+          Second:
+            type: INT
+            value: 4
+          SecondPos:
+            type: INT
+            value: 2
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+          .:
+            type: 'NULL'
+            expression: Parameters.CutX0
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: DistanceY
+          Value:
+            type: FLOAT
+            value: 61.0
+          First:
+            type: INT
+            value: -1
+          FirstPos:
+            type: INT
+            value: 1
+          Second:
+            type: INT
+            value: 4
+          SecondPos:
+            type: INT
+            value: 2
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+          .:
+            type: 'NULL'
+            expression: Parameters.CutY0
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: DistanceY
+          Value:
+            type: FLOAT
+            value: 65.0
+          First:
+            type: INT
+            value: -1
+          FirstPos:
+            type: INT
+            value: 1
+          Second:
+            type: INT
+            value: 4
+          SecondPos:
+            type: INT
+            value: 1
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+          .:
+            type: 'NULL'
+            expression: Parameters.CutY0 + 4 mm
+      - kind: Constraint
+        paths:
+          Type:
+            type: STRING
+            value: DistanceX
+          Value:
+            type: FLOAT
+            value: 106.0
+          First:
+            type: INT
+            value: -1
+          FirstPos:
+            type: INT
+            value: 1
+          Second:
+            type: INT
+            value: 6
+          SecondPos:
+            type: INT
+            value: 2
+          Third:
+            type: INT
+            value: -2000
+          ThirdPos:
+            type: INT
+            value: 0
+          Driving:
+            type: BOOL
+            value: true
+          IsActive:
+            type: BOOL
+            value: true
+          .:
+            type: 'NULL'
+            expression: Parameters.CutY0 + 45 mm
+      group: Sketch
+    Label:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Sk_WindowSeals
+      group: Base
+    MakeInternals:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Internal Geometry
+    MapMode:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: FlatFace
+      group: Attachment
+    MapReversed:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Attachment
+    Placement:
+      kind: Placement
+      paths:
+        Base.x:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.y:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.z:
+          type: QUANTITY
+          value: 1.0 mm
+        Rotation.Angle:
+          type: QUANTITY
+          value: 0.0 deg
+        Rotation.Axis.x:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.y:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.z:
+          type: FLOAT
+          value: 1.0
+      group: Base
+- name: Pad
+  id: 2520
+  type_id: PartDesign::Pad
+  properties:
+    AllowMultiFace:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: true
+      group: SketchBased
+    AlongSketchNormal:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: true
+      group: Pad
+    FuzzyTolerance:
+      kind: Primitive
+      paths:
+        .:
+          type: FLOAT
+          value: -1.0
+      group: Part Design
+    Label:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: WindowSealPad
+      group: Base
+    Length:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 4.5 mm
+          expression: Parameters.HsUnder - Parameters.Floor
+      group: Side1
+    Length2:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 1.0 mm
+          expression: Parameters.Floor
+      group: Side2
+    Midplane:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: SketchBased
+    Offset:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 0.0 mm
+      group: Side1
+    Offset2:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 0.0 mm
+      group: Side2
+    Profile:
+      kind: List
+      paths: {}
+      items:
+      - kind: Unknown
+        paths:
+          .:
+            type: STRING
+            value: <Sketcher::SketchObject>
+            freecad_type: Sketcher.SketchObject
+      - kind: List
+        paths: {}
+        items:
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: ''
+      group: SketchBased
+    ReferenceAxis:
+      kind: List
+      paths: {}
+      items:
+      - kind: Unknown
+        paths:
+          .:
+            type: STRING
+            value: <Sketcher::SketchObject>
+            freecad_type: Sketcher.SketchObject
+      - kind: List
+        paths: {}
+        items:
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: N_Axis
+      group: Pad
+    Refine:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: true
+      group: Part Design
+    Reversed:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: SketchBased
+    SideType:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Two sides
+      group: Pad
+    Suppressed:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Base
+    TaperAngle:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 0.0 deg
+      group: Side1
+    TaperAngle2:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 0.0 deg
+      group: Side2
+    Type:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Length
+      group: Side1
+    Type2:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Length
+      group: Side2
+    UpToFace:
+      kind: Primitive
+      paths:
+        .:
+          type: 'NULL'
+      group: Side1
+    UpToFace2:
+      kind: Primitive
+      paths:
+        .:
+          type: 'NULL'
+      group: Side2
+    UseCustomVector:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Pad
 occurrences:
 - path: Assembly
   after: Parameters
@@ -53869,7 +55598,7 @@ occurrences:
 - path: Assembly/Tray/ClosureBosses/Sk_ClosureBosses
   after: null
 - path: Assembly/Tray/DP_BossBase
-  after: Assembly/Tray/HeatsinkFrame
+  after: Assembly/Tray/Pad
 - path: Assembly/Tray/DP_BossGusXlo
   after: Assembly/Tray/BossGusTrimXhi
 - path: Assembly/Tray/DP_BossTop
@@ -53942,6 +55671,10 @@ occurrences:
   after: Assembly/Tray/Origin/Y_Axis
 - path: Assembly/Tray/PSFanScrewFillet
   after: Assembly/Tray/PsuFaceOpenings
+- path: Assembly/Tray/Pad
+  after: Assembly/Tray/HeatsinkFrame
+- path: Assembly/Tray/Pad/Sketch
+  after: null
 - path: Assembly/Tray/Partition
   after: Assembly/Tray/TrayCavity
 - path: Assembly/Tray/Partition/Sk_Partition
