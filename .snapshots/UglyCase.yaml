@@ -1,6 +1,6 @@
 v: 2
-timestamp: '2026-10-26T17:21:16.919048'
-uid: ef6383d1-1587-481b-ae5b-6c2584703b6b
+timestamp: '2026-10-26T17:48:21.562826'
+uid: 65c63e1c-388f-449b-a65f-eddec0ba0577
 objects:
 - name: Parameters
   id: 2132
@@ -47755,19 +47755,19 @@ objects:
       paths:
         Base.x:
           type: QUANTITY
-          value: 4.8113112632056724e-14 mm
+          value: 4.8113112632056736e-14 mm
         Base.y:
           type: QUANTITY
           value: 1.5000000000012905 mm
         Base.z:
           type: QUANTITY
-          value: -1.1056260297769608e-14 mm
+          value: -1.1056260297769629e-14 mm
         Rotation.Angle:
           type: QUANTITY
           value: 179.9999999999987 deg
         Rotation.Axis.x:
           type: FLOAT
-          value: 1.1340369402030019e-14
+          value: 1.134036940203002e-14
         Rotation.Axis.y:
           type: FLOAT
           value: 0.7071067811865501
@@ -49905,7 +49905,7 @@ objects:
           value: 0.0 mm
         Base.y:
           type: QUANTITY
-          value: 178.99999999999977 mm
+          value: 179.0 mm
         Base.z:
           type: QUANTITY
           value: 0.0 mm
@@ -53275,42 +53275,42 @@ objects:
           paths:
             .:
               type: STRING
-              value: Edge366
+              value: Edge204
         - kind: Primitive
           paths:
             .:
               type: STRING
-              value: Edge553
+              value: Edge613
         - kind: Primitive
           paths:
             .:
               type: STRING
-              value: Edge361
+              value: Edge196
         - kind: Primitive
           paths:
             .:
               type: STRING
-              value: Edge554
+              value: Edge614
         - kind: Primitive
           paths:
             .:
               type: STRING
-              value: Edge362
+              value: Edge197
         - kind: Primitive
           paths:
             .:
               type: STRING
-              value: Edge363
+              value: Edge200
         - kind: Primitive
           paths:
             .:
               type: STRING
-              value: Edge364
+              value: Edge201
         - kind: Primitive
           paths:
             .:
               type: STRING
-              value: Edge365
+              value: Edge203
       group: Base
     FuzzyTolerance:
       kind: Primitive
@@ -55130,7 +55130,7 @@ objects:
             value: DistanceY
           Value:
             type: FLOAT
-            value: 61.0
+            value: 162.0
           First:
             type: INT
             value: -1
@@ -55157,7 +55157,7 @@ objects:
             value: true
           .:
             type: 'NULL'
-            expression: Parameters.CutY0
+            expression: Parameters.CutY1 - 4 mm
       - kind: Constraint
         paths:
           Type:
@@ -55165,7 +55165,7 @@ objects:
             value: DistanceY
           Value:
             type: FLOAT
-            value: 65.0
+            value: 166.0
           First:
             type: INT
             value: -1
@@ -55192,7 +55192,7 @@ objects:
             value: true
           .:
             type: 'NULL'
-            expression: Parameters.CutY0 + 4 mm
+            expression: Parameters.CutY1
       - kind: Constraint
         paths:
           Type:
@@ -55464,6 +55464,133 @@ objects:
           type: BOOL
           value: false
       group: Pad
+- name: Fillet
+  id: 2525
+  type_id: PartDesign::Fillet
+  properties:
+    Base:
+      kind: List
+      paths: {}
+      items:
+      - kind: Unknown
+        paths:
+          .:
+            type: STRING
+            value: <PartDesign::Pad>
+            freecad_type: PartDesign.Feature
+      - kind: List
+        paths: {}
+        items:
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Edge128
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Edge130
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Edge121
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Edge122
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Edge138
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Edge142
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Edge140
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Edge133
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Edge126
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Edge134
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Edge136
+        - kind: Primitive
+          paths:
+            .:
+              type: STRING
+              value: Edge124
+      group: Base
+    FuzzyTolerance:
+      kind: Primitive
+      paths:
+        .:
+          type: FLOAT
+          value: -1.0
+      group: Part Design
+    Label:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: HSWindowFillet
+      group: Base
+    Radius:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 1.75 mm
+      group: Fillet
+    Refine:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: true
+      group: Part Design
+    SupportTransform:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Base
+    Suppressed:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Base
+    UseAllEdges:
+      kind: Primitive
+      paths:
+        .:
+          type: BOOL
+          value: false
+      group: Fillet
 occurrences:
 - path: Assembly
   after: Parameters
@@ -55598,7 +55725,7 @@ occurrences:
 - path: Assembly/Tray/ClosureBosses/Sk_ClosureBosses
   after: null
 - path: Assembly/Tray/DP_BossBase
-  after: Assembly/Tray/Pad
+  after: Assembly/Tray/Fillet
 - path: Assembly/Tray/DP_BossGusXlo
   after: Assembly/Tray/BossGusTrimXhi
 - path: Assembly/Tray/DP_BossTop
@@ -55612,7 +55739,7 @@ occurrences:
 - path: Assembly/Tray/DP_SpliceGusBHi
   after: Assembly/Tray/SpliceBosses
 - path: Assembly/Tray/DP_SpliceStart
-  after: Assembly/Tray/SpliceBand
+  after: Assembly/Tray/BossGusTrimXlo
 - path: Assembly/Tray/DP_TrimXStart
   after: Assembly/Tray/BossGussets
 - path: Assembly/Tray/DP_TrimYStart
@@ -55629,6 +55756,8 @@ occurrences:
   after: Assembly/Tray/InsertPilots
 - path: Assembly/Tray/EndWallOpenings/Sk_EndWallOpenings
   after: null
+- path: Assembly/Tray/Fillet
+  after: Assembly/Tray/Pad
 - path: Assembly/Tray/HeatsinkFrame
   after: Assembly/Tray/HeatsinkWindows
 - path: Assembly/Tray/HeatsinkFrame/Sk_HeatsinkFrame
@@ -55672,7 +55801,7 @@ occurrences:
 - path: Assembly/Tray/PSFanScrewFillet
   after: Assembly/Tray/PsuFaceOpenings
 - path: Assembly/Tray/Pad
-  after: Assembly/Tray/HeatsinkFrame
+  after: Assembly/Tray/SpliceBand
 - path: Assembly/Tray/Pad/Sketch
   after: null
 - path: Assembly/Tray/Partition
@@ -55712,7 +55841,7 @@ occurrences:
 - path: Assembly/Tray/SpliceAttachFillet4
   after: Assembly/Tray/SpliceAttachFillet3
 - path: Assembly/Tray/SpliceBand
-  after: Assembly/Tray/BossGusTrimXlo
+  after: Assembly/Tray/HeatsinkFrame
 - path: Assembly/Tray/SpliceBand/Sk_SpliceBand
   after: null
 - path: Assembly/Tray/SpliceBosses
