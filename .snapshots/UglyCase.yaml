@@ -1,6 +1,6 @@
 v: 2
-timestamp: '2026-10-26T17:48:21.562826'
-uid: 65c63e1c-388f-449b-a65f-eddec0ba0577
+timestamp: '2026-10-26T21:05:30.081032'
+uid: e12e5a99-de47-4bf3-9e2c-6f990d2f03c1
 objects:
 - name: Parameters
   id: 2132
@@ -2222,8 +2222,8 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 116.0 mm
-          expression: =116 mm
+          value: 114.0 mm
+          expression: =114 mm
         Alias:
           type: STRING
           value: FanBore
@@ -2362,8 +2362,8 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 1.56 mm
-          expression: =1.56 mm
+          value: 3.0 mm
+          expression: =3 mm
         Alias:
           type: STRING
           value: FanScrewHeadDepth
@@ -51247,7 +51247,7 @@ objects:
             value: Diameter
           Value:
             type: FLOAT
-            value: 134.0
+            value: 132.0
           First:
             type: INT
             value: 0
@@ -52131,7 +52131,7 @@ objects:
             value: Diameter
           Value:
             type: FLOAT
-            value: 116.0
+            value: 114.0
           First:
             type: INT
             value: 0
@@ -52413,7 +52413,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 1.5621306548192453 mm
+          value: 3.0 mm
           expression: Parameters.FanScrewHeadDepth
       group: Hole
     HoleCutDiameter:
@@ -53224,7 +53224,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 0.75 mm
+          value: 2.0 mm
       group: Fillet
     Refine:
       kind: Primitive
