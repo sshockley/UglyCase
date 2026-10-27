@@ -1,6 +1,6 @@
 v: 2
-timestamp: '2026-10-26T21:05:30.081032'
-uid: e12e5a99-de47-4bf3-9e2c-6f990d2f03c1
+timestamp: '2026-10-26T21:27:56.930177'
+uid: c1ab9e7b-beea-4dde-a2bb-1c96a5e3956e
 objects:
 - name: Parameters
   id: 2132
@@ -2362,8 +2362,8 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 3.0 mm
-          expression: =3 mm
+          value: 1.5 mm
+          expression: =1.5 mm
         Alias:
           type: STRING
           value: FanScrewHeadDepth
@@ -6866,7 +6866,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 400.4073028714239 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -6919,7 +6919,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 258.9073028714239 mm
+          value: 60.0 mm
       group: Size
 - name: Sk_TrayCavity
   id: 2147
@@ -9360,7 +9360,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 400.4073028714239 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -9413,7 +9413,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 258.9073028714239 mm
+          value: 60.0 mm
       group: Size
 - name: Sk_BoardPilots
   id: 2156
@@ -10148,7 +10148,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 400.4073028714239 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -10201,7 +10201,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 258.9073028714239 mm
+          value: 60.0 mm
       group: Size
 - name: Sk_HeatsinkWindows
   id: 2159
@@ -11968,7 +11968,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 400.4073028714239 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -12021,7 +12021,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 258.9073028714239 mm
+          value: 60.0 mm
       group: Size
 - name: Sk_ClosureBosses
   id: 2167
@@ -25182,7 +25182,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 400.4073028714239 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -25235,7 +25235,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 258.9073028714239 mm
+          value: 60.0 mm
       group: Size
 - name: Sk_LidOuter
   id: 2188
@@ -26205,7 +26205,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 400.4073028714239 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -26258,7 +26258,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 258.9073028714239 mm
+          value: 60.0 mm
       group: Size
 - name: Sk_FanMount
   id: 2193
@@ -30488,7 +30488,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 167.06720429670463 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -30541,7 +30541,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 237.06720429670463 mm
+          value: 60.0 mm
       group: Size
 - name: Sk_DirectorRiser
   id: 2210
@@ -38498,7 +38498,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 236.51193318708138 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -38551,7 +38551,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 148.01193318708138 mm
+          value: 60.0 mm
       group: Size
 - name: DP_TrimYStart
   id: 2243
@@ -38603,7 +38603,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 387.29838706449675 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -38656,7 +38656,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 157.29838706449684 mm
+          value: 60.000000000000014 mm
       group: Size
 - name: Sk_BossGusTrimY
   id: 2244
@@ -40493,7 +40493,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 387.29838706449675 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -40546,7 +40546,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 157.29838706449684 mm
+          value: 60.000000000000014 mm
       group: Size
 - name: Sk_BossGusTrimXlo
   id: 2249
@@ -41942,7 +41942,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 236.51193318708138 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -41995,7 +41995,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 148.01193318708138 mm
+          value: 60.0 mm
       group: Size
 - name: DP_SpliceEnd
   id: 2258
@@ -42046,7 +42046,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 236.51193318708138 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -42099,7 +42099,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 148.01193318708138 mm
+          value: 60.0 mm
       group: Size
 - name: Sk_SpliceBosses
   id: 2260
@@ -43205,7 +43205,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 400.4073028714239 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -43258,7 +43258,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 258.9073028714239 mm
+          value: 60.0 mm
       group: Size
 - name: Sk_SpliceCbores
   id: 2271
@@ -47755,19 +47755,19 @@ objects:
       paths:
         Base.x:
           type: QUANTITY
-          value: 4.8113112632056736e-14 mm
+          value: 4.8113112632056724e-14 mm
         Base.y:
           type: QUANTITY
           value: 1.5000000000012905 mm
         Base.z:
           type: QUANTITY
-          value: -1.1056260297769629e-14 mm
+          value: -1.1056260297769608e-14 mm
         Rotation.Angle:
           type: QUANTITY
           value: 179.9999999999987 deg
         Rotation.Axis.x:
           type: FLOAT
-          value: 1.134036940203002e-14
+          value: 1.1340369402030019e-14
         Rotation.Axis.y:
           type: FLOAT
           value: 0.7071067811865501
@@ -49905,7 +49905,7 @@ objects:
           value: 0.0 mm
         Base.y:
           type: QUANTITY
-          value: 179.0 mm
+          value: 178.99999999999977 mm
         Base.z:
           type: QUANTITY
           value: 0.0 mm
@@ -52262,7 +52262,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 400.4073028714239 mm
+          value: 60.0 mm
       group: Size
     MapMode:
       kind: Primitive
@@ -52315,7 +52315,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 258.9073028714239 mm
+          value: 60.0 mm
       group: Size
 - name: FanScrewHoles
   id: 2404
@@ -52413,7 +52413,7 @@ objects:
       paths:
         .:
           type: QUANTITY
-          value: 3.0 mm
+          value: 1.5 mm
           expression: Parameters.FanScrewHeadDepth
       group: Hole
     HoleCutDiameter:
@@ -54405,7 +54405,7 @@ objects:
       paths:
         .:
           type: STRING
-          value: Engine 3D
+          value: Engine Plane
       group: Attachment
     AttachmentOffset:
       kind: Placement
